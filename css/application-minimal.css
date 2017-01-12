@@ -1,0 +1,158 @@
+/*
+ * Minimal Application level overrides
+ * (things that dont make sense in a toolkit :)
+ * copyright @colossal 2015
+ */
+
+#sponsors {
+  text-align: center;
+  padding: 35px 40px 45px;
+}
+#sponsors .inner {
+  max-width: 700px;
+  margin: 0px auto;
+}
+#sponsors a {
+  margin: 20px 15px 0;
+  position: relative;
+}
+#sponsors a,
+#sponsors img {
+  height: 25px !important;
+  display: inline-block;
+  vertical-align: middle;
+}
+#sponsors img {
+  transition: all 0.3s ease;
+  filter: contrast(0%);
+}
+#sponsors img:hover {
+  filter: none;
+}
+
+ul.navbar-nav li {
+  text-align: center !important;
+}
+
+.sp-amf {
+  margin-bottom: 0 !important;
+}
+
+.k {
+ overflow: hidden;
+}
+
+.ui-loader {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .carousel-indicators {
+    margin-bottom: -45px !important;
+  }
+  .screen {
+    padding-top: 25px !important;
+  }
+  .sp-img {
+    margin:  10px auto;
+    padding: 5px;
+  }
+}
+
+/* navbar */
+.app-navbar {
+  font-size: 13px;
+  letter-spacing: .15em;
+}
+.app-navbar .l {
+  font-size: 13px;
+}
+
+
+/* intro block */
+.m {
+  padding-top: 20px;
+}
+.m img {
+  width: 80%;
+  margin-bottom: -45%;
+}
+
+/* block img */
+.n img,
+.o img {
+  width: 100%;
+}
+@media (max-width: 480px) {
+  .p {
+    transform: scale(1) !important;
+  }
+}
+
+/* stats hr */
+.o hr {
+  width: calc(80% + 60px);
+}
+
+/* design block */
+.q > .e > .c {
+  z-index: 2;
+}
+
+.r {
+  margin-top: -60px;
+  margin-left: -450px;
+  float: left;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .r {
+    margin-top: -220px;
+    margin-left: 0;
+  }
+}
+
+/* footer block */
+.s {
+  background-color: rgb(27, 28, 29);
+  color: #444;
+  color: rgba(116, 119, 123, .5);
+}
+
+
+/* transforms */
+.t {
+  -webkit-transform: translateY(15px);
+      -ms-transform: translateY(15px);
+          transform: translateY(15px);
+}
+.u {
+  -webkit-transform: translateY(50px);
+      -ms-transform: translateY(50px);
+          transform: translateY(50px);
+}
+.v {
+  -webkit-transform: translateY(5%);
+      -ms-transform: translateY(5%);
+          transform: translateY(5%);
+}
+.w {
+  -webkit-transform: translateY(10%);
+      -ms-transform: translateY(10%);
+          transform: translateY(10%);
+}
+
+
+/* brand */
+
+@media (max-width: 400px) {
+  .x {
+    font-size: 46px !important;
+  }
+}
+@media (max-width: 350px) {
+  .x {
+    font-size: 42px !important;
+  }
+}
