@@ -1,1 +1,1 @@
-[![Canvas](img/readme/header.png)(http://canvas.toddaustin.io)]
+[![Canvas][img/readme/header.png]][http://canvas.toddaustin.io]
