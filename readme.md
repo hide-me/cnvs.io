@@ -1,1 +1,1 @@
-[![Canvas][img/readme/header.png]][http://canvas.toddaustin.io]
+<a href="http://canvas.toddaustin.io" target="_blank"><img src="img/readme/header.png" alt="Canvas"></a>
