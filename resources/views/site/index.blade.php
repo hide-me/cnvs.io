@@ -23,7 +23,7 @@
             </section>
 
             <section class="feature-presentation padding-bottom-100">
-                @include('site.partials.feature-presentation')
+                @include('site.partials.features')
             </section>
 
             <section class="extra-fearures-wrapper primary-bg">
@@ -55,7 +55,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="swiper-container tt-screenshot-wrap">
-                                @include('site.partials.screenshot-carousel')
+                                @include('site.partials.screenshots')
                             </div>
                         </div>
                     </div>
@@ -75,7 +75,7 @@
             </div>
 
             <section class="section-padding">
-                @include('site.partials.featured')
+                @include('site.partials.as-featured-on')
             </section>
         </div>
 

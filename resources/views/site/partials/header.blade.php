@@ -5,7 +5,7 @@
                 <h1 class="title wow fadeInUp">Simple, Powerful, Blog Publishing Platform</h1>
                 <p class="description wow fadeInUp" data-wow-delay=".2s">
                     Write with unparalleled speed and efficiency in a clutter-free
-                    writing environment. Share your stories with beautiful template that
+                    writing environment. Share your stories with a beautiful template that
                     didn't take 821 plugins to create. Oh, and did we mention it's free?
                 </p>
                 <br/>

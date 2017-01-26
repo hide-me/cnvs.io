@@ -9,7 +9,7 @@
                             <img src="assets/img/quote-dark.png" alt="Customer Thumb">
                         </div>
                         <div class="content">
-                            <p>For my first look at Canvas, I’m really impressed with the appearance of the admin. The installation is really straightforward, especially if you are comfortable with Laravel. Overall Canvas seems to be a great way of quickly creating a blog and a great starting point.</p>
+                            <p>For my first look at Canvas, I’m really impressed with the appearance of the admin. The installation is really straightforward, especially if you are comfortable with Laravel. If you are looking to start a blog this year, Canvas would be a good choice.</p>
 
                             <div class="testimonial-meta">
                                 Eric Barnes,
