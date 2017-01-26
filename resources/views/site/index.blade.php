@@ -75,10 +75,9 @@
             </div>
 
             <section class="section-padding">
-                @include('site.partials.sponsors')
+                @include('site.partials.featured')
             </section>
         </div>
-
 
         <footer class="footer">
             @include('site.partials.footer')
