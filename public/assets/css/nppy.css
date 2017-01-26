@@ -321,7 +321,7 @@ Video Presentaion
 .video-presentaion {
     padding-top: 200px;
     padding-bottom: 200px;
-    background: url("assets/img/video-banner.jpg");
+    background: url("../img/video-banner.jpg");
     background-size: cover !important;
 }
 .video-presentaion h2 {
@@ -688,7 +688,7 @@ Download Wrapper
 .download-wrapper {
 	padding-top: 130px;
 	padding-bottom: 130px;
-    background-image: url("assets/img/download-banner.jpg");
+    background-image: url("../img/download-banner.jpg");
     background-size: cover !important;
 
 }
@@ -721,6 +721,11 @@ Download Wrapper
 	width: 95%;
 	margin: 0 auto;
 }
+
+.clients-grid .col-sm-3 {
+    padding: 15px !important;
+}
+
 .clients-grid .border-box {
     border: 1px solid #eee;
     margin-left: -1px;

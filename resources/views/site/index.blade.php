@@ -66,10 +66,6 @@
                 @include('site.partials.testimonials')
             </section>
 
-            <section class="section-padding">
-                @include('site.partials.pricing')
-            </section>
-
             <section class="facts-wrapper light-grey-bg">
                 @include('site.partials.facts')
             </section>

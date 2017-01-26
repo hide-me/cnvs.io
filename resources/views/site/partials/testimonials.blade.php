@@ -1,66 +1,53 @@
 <div class="container">
-
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-
             <div class="thumb-carousel text-white text-center">
                 <ul class="slides">
-                    <li data-thumb="assets/img/client-thumb/1.png">
+
+                    <li data-thumb="{{ asset('assets/img/testimonials/ericbarnes.jpeg') }}">
                         <div class="icon">
                             <img src="assets/img/quote-dark.png" alt="Customer Thumb">
                         </div>
                         <div class="content">
-                            <p>Nappy app landing page is a perfect template for showcase your app or services in a smart way. Nappy built with Bootstrap which is perfect to promoting apps or web services.</p>
+                            <p>For my first look at Canvas, I’m really impressed with the appearance of the admin. The installation is really straightforward, especially if you are comfortable with Laravel. Overall Canvas seems to be a great way of quickly creating a blog and a great starting point.</p>
 
                             <div class="testimonial-meta">
-                                Jhon Doe,
-                                <span>User Interface Designer</span>
+                                Eric Barnes,
+                                <span>Laravel News</span>
                             </div>
                         </div>
                     </li>
-                    <li data-thumb="assets/img/client-thumb/2.png">
+
+                    <li data-thumb="{{ asset('assets/img/testimonials/brunoskvorc.jpeg') }}">
                         <div class="icon">
                             <img src="assets/img/quote-dark.png" alt="Customer Thumb">
                         </div>
                         <div class="content">
-                            <p>Quam adipiscing vestibulum feugiat lacus leo a eget leo convallis sagittis nisi varius eros a imperdiet.Dui elementum ut a vestibulum eu fames hendrerit class conubia consequat curae.</p>
+                            <p>Canvas is a new mini-CMS aimed at developers who need personal blogs. If you’re looking for an easy-to-use, easy-to-set-up, and easy-to-deploy CMS, give Canvas a go and submit extensions and pull requests to expand its already very vibrant community.</p>
 
                             <div class="testimonial-meta">
-                                Elita Karim,
-                                <span>User Interface Designer</span>
+                                Bruno Škvorc,
+                                <span>SitePoint PHP</span>
                             </div>
                         </div>
                     </li>
-                    <li data-thumb="assets/img/client-thumb/3.png">
+
+                    <li data-thumb="{{ asset('assets/img/testimonials/toddaustin.jpg') }}">
                         <div class="icon">
                             <img src="assets/img/quote-dark.png" alt="Customer Thumb">
                         </div>
                         <div class="content">
-                            <p>Nappy app landing page is a perfect template for showcase your app or services in a smart way. Nappy built with Bootstrap which is perfect to promoting apps or web services.</p>
+                            <p>Canvas is explicitly focused on doing one thing really well: Publishing. A simple, powerful interface allows you to get writing immediately and publish beautiful results. You don't need to install extra plugins, extensions, or write any extra code. It just works.</p>
 
                             <div class="testimonial-meta">
-                                Tomas Udoy,
-                                <span>User Interface Designer</span>
+                                Todd Austin,
+                                <span>Creator of Canvas</span>
                             </div>
                         </div>
                     </li>
-                    <li data-thumb="assets/img/client-thumb/4.png">
-                        <div class="icon">
-                            <img src="assets/img/quote-dark.png" alt="Customer Thumb">
-                        </div>
-                        <div class="content">
-                            <p>Quam adipiscing vestibulum feugiat lacus leo a eget leo convallis sagittis nisi varius eros a imperdiet.Dui elementum ut a vestibulum eu fames hendrerit class conubia consequat curae.</p>
 
-                            <div class="testimonial-meta">
-                                Jonathon Bin,
-                                <span>User Interface Designer</span>
-                            </div>
-                        </div>
-                    </li>
                 </ul>
             </div>
-
         </div>
-    </div><!-- /.row -->
-
-</div><!-- /.container -->
+    </div>
+</div>
