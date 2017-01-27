@@ -43,6 +43,36 @@
             </div>
         </div>
 
+        <div class="featured-item">
+            <div class="icon">
+                <i class="material-icons">system_update_alt</i>
+            </div>
+            <div class="desc">
+                <h3>Painless Upgrades</h3>
+                <p>For software that boasts about it's simplicity, you'd expect the upgrade path to follow suit. One Artisan command is all you'll need.</p>
+            </div>
+        </div>
+
+        <div class="featured-item">
+            <div class="icon">
+                <i class="material-icons">code</i>
+            </div>
+            <div class="desc">
+                <h3>Open Source</h3>
+                <p>Everything here is Open Source, so you can theme, extend and integrate to your heart’s content. Developers welcome.</p>
+            </div>
+        </div>
+
+        <div class="featured-item">
+            <div class="icon">
+                <i class="material-icons">help</i>
+            </div>
+            <div class="desc">
+                <h3>Support</h3>
+                <p>Have a question? Chat with any of the team members or the creator to see it resolved. We pride ourselves on responsiveness.</p>
+            </div>
+        </div>
+
     </div>
 
 </div>

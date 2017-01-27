@@ -4,7 +4,7 @@
 <link href="assets/fonts/iconfont/material-icons.css" rel="stylesheet">
 <link href="assets/css/animate.css" rel="stylesheet">
 <link href="assets/magnific-popup/magnific-popup.css" rel="stylesheet">
-<link href="assets/owl.carousel/assets/owl.carousel.css" rel="stylesheet"
+<link href="assets/owl.carousel/assets/owl.carousel.css" rel="stylesheet">
 <link href="assets/owl.carousel/assets/owl.theme.default.min.css" rel="stylesheet">
 <link href="assets/flexSlider/flexslider.css" rel="stylesheet">
 <link href="assets/css/swiper.css" rel="stylesheet" />

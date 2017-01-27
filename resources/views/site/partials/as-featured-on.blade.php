@@ -3,7 +3,9 @@
         <div class="col-md-8 col-md-offset-2">
             <h2 class="title">As Featured On</h2>
             <div class="section-divider"></div>
-            <p class="description">Nappy app landing page is a perfect template for showcase your app or services in a smart way. Nappy built with Bootstrap which is perfect to promoting apps or web services.</p>
+            <p class="description">
+                We've been lucky enough to be featured in some of the most popular web design & development publications available today.
+            </p>
         </div>
     </div>
 
