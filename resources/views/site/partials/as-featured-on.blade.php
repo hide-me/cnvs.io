@@ -9,18 +9,19 @@
 
     <div class="clients-grid">
         <div class="row">
+
             <div class="col-md-3 col-sm-6">
                 <div class="border-box">
-                    <a href="https://www.sitepoint.com/sourcehunt-august-2016-contribute-to-regression-regex-orms-etc/" target="_blank">
-                        <img src="{{ asset('assets/img/featured/sitepoint.png') }}" alt="clients">
+                    <a href="https://laravel-news.com/canvas-v3" target="_blank">
+                        <img src="{{ asset('assets/img/featured/laravelnews.png') }}" alt="As Featured On Laravel News" class="img-responsive">
                     </a>
                 </div>
             </div>
 
             <div class="col-md-3 col-sm-6">
                 <div class="border-box">
-                    <a href="https://laravel-news.com/canvas-v3" target="_blank">
-                        <img src="{{ asset('assets/img/featured/laravelnews.jpg') }}" alt="clients">
+                    <a href="https://www.sitepoint.com/sourcehunt-august-2016-contribute-to-regression-regex-orms-etc/" target="_blank">
+                        <img src="{{ asset('assets/img/featured/sitepoint.png') }}" alt="As Featured On SitePoint" class="img-responsive">
                     </a>
                 </div>
             </div>
@@ -28,7 +29,7 @@
             <div class="col-md-3 col-sm-6">
                 <div class="border-box">
                     <a href="http://packalyst.com/packages/package/cnvs/canvas" target="_blank">
-                        <img src="{{ asset('assets/img/featured/packalyst.png') }}" alt="clients">
+                        <img src="{{ asset('assets/img/featured/packalyst.png') }}" alt="As Featured On Packalyst" class="img-responsive">
                     </a>
                 </div>
             </div>
@@ -36,10 +37,11 @@
             <div class="col-md-3 col-sm-6">
                 <div class="border-box">
                     <a href="https://metricloop.com/blog/canvas-and-laravel-passport" target="_blank">
-                        <img src="{{ asset('assets/img/featured/metricloop.png') }}" alt="clients">
+                        <img src="{{ asset('assets/img/featured/metricloop.png') }}" alt="As Featured On Metric Loop" class="img-responsive">
                     </a>
                 </div>
             </div>
+
         </div>
     </div>
 
