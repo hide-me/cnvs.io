@@ -1,12 +1,12 @@
 <div class="container">
     <div class="col-md-6">
-        <h2 class="title">Unique App</h2>
+        <h2 class="title">It Takes A Team</h2>
         <div class="section-divider"></div>
-        <p>Progressively enable synergistic infrastructures through extensive innovation. Dynamically disseminate excellent collaboration without client-focused e-business. Collaboratively incubate end-to-end methodologies before client-centric e-tailers. Distinctively incentivize enabled solutions with market-driven information.</p>
+        <p>Canvas is developed by a group of contributors all over the world who donate their time and skills to create a unique blogging platform for everyone. We all come from a different background in development, but together form a well-rounded team that excels at working together.</p>
 
-        <p>"outside the box" thinking. Appropriately innovate corporate infomediaries without standardized supply chains. Dynamically reconceptualize end-to-end innovation without strategic interfaces.</p>
+        <p>Anyone is eligible to contribute to the project. In fact, we encourage young developers to jump in and cut their teeth on the many open source technologies implemented here.</p>
 
-        <p>Completely optimize inexpensive platforms without one-to-one deliverables.</p>
+        <p> We all started somewhere. Why not start here?</p>
     </div>
     <div class="col-md-6 text-right">
         <img class="img-responsive wow fadeInRight" src="assets/img/app-mockup-2.png" alt="">

@@ -4,10 +4,11 @@
             <a class="play-trigger popup-video wow fadeInUp" href="https://www.youtube.com/watch?v=_0qa4chrTAY">
                 <i class="material-icons">play_circle_filled</i>
             </a>
-            <h2 class="text-white">Watch Promo Video</h2>
-            <p class="description text-white no-margin">Appropriately drive reliable information via client-focused bandwidth. Efficiently integrate open-source models rather than</p>
+            <h2 class="text-white">Watch The Video</h2>
+            <p class="description text-white no-margin">
+                Check out some of the unique features Canvas has to offer. Get a glimpse at just how effortless blogging can be.
+            </p>
             <br />
-
-        </div><!-- /.col-md-6 -->
-    </div><!-- /.row -->
-</div><!-- /.container -->
+        </div>
+    </div>
+</div>

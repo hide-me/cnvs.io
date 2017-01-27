@@ -5,12 +5,12 @@
                 <h1 class="title wow fadeInUp">Simple, Powerful, Blog Publishing Platform</h1>
                 <p class="description wow fadeInUp" data-wow-delay=".2s">
                     Write with unparalleled speed and efficiency in a clutter-free
-                    writing environment. Share your stories with a beautiful template that
+                    environment. Share your stories with the world on a beautiful template that
                     didn't take 67 plugins to create. Oh, and did we mention it's free?
                 </p>
                 <br/>
                 <a href="https://www.youtube.com/watch?v=psu3pPdfYSM" class="popup-video btn btn-white btn-round btn-raised btn-lg wow fadeInUp" data-wow-delay=".4s">
-                    <i class="fa fa-play"></i>&nbsp;&nbsp;Watch video
+                    <i class="fa fa-play"></i>&nbsp;&nbsp;Watch the video
                 </a>
             </div>
             <div class="col-md-6 text-right">

@@ -6,7 +6,7 @@
             <div class="section-divider"></div>
 
             <p class="description">
-                Canvas comes packed with features, yet continues to remain simple, flexible and easy to use.
+                Canvas comes packed with features right out of the box, yet will always remain easy to setup, flexible to extend, and enjoyable to use.
             </p>
         </div>
     </div>
