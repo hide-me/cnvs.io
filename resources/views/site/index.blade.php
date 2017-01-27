@@ -48,7 +48,9 @@
                         <div class="col-md-8 col-md-offset-2">
                             <h2 class="title">Screenshots</h2>
                             <div class="section-divider"></div>
-                            <p class="description">Nappy app landing page is a perfect template for showcase your app or services in a smart way. Nappy built with Bootstrap which is perfect to promoting apps or web services.</p>
+                            <p class="description">
+                                Canvas looks great on any device. Check out why this platform stands out from the rest when it comes implementing some of the most popular design trends today.
+                            </p>
                         </div>
                     </div>
 

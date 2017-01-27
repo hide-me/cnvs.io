@@ -4,7 +4,7 @@
             <h2 class="title">As Featured On</h2>
             <div class="section-divider"></div>
             <p class="description">
-                We've been lucky enough to be featured in some of the most popular web design & development publications available today.
+                We've been lucky enough to be featured in some of the most popular web design and development publications available today.
             </p>
         </div>
     </div>
