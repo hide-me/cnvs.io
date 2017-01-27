@@ -45,31 +45,31 @@
 
         <div class="featured-item">
             <div class="icon">
-                <i class="material-icons">system_update_alt</i>
+                <i class="material-icons">account_circle</i>
             </div>
             <div class="desc">
-                <h3>Painless Upgrades</h3>
-                <p>For software that boasts about it's simplicity, you'd expect the upgrade path to follow suit. One Artisan command is all you'll need.</p>
+                <h3>Social Profiles</h3>
+                <p>Integrate with GitHub, Twitter, Facebook and more to take advantage of everything Canvas has to offer with its dynamic social profile features.</p>
             </div>
         </div>
 
         <div class="featured-item">
             <div class="icon">
-                <i class="material-icons">code</i>
+                <i class="material-icons">invert_colors</i>
             </div>
             <div class="desc">
-                <h3>Open Source</h3>
-                <p>Everything here is Open Source, so you can theme, extend and integrate to your heart’s content. Developers welcome.</p>
+                <h3>Theming</h3>
+                <p>Use one of the themes that Canvas ships with, or add your own styling and creativity to showcase your blog.</p>
             </div>
         </div>
 
         <div class="featured-item">
             <div class="icon">
-                <i class="material-icons">help</i>
+                <i class="material-icons">build</i>
             </div>
             <div class="desc">
-                <h3>Support</h3>
-                <p>Have a question? Chat with any of the team members or the creator to see it resolved. We pride ourselves on responsiveness.</p>
+                <h3>Powerful Tools</h3>
+                <p>You have all the tools, settings, and site configuration you need available to you from the moment you log in. </p>
             </div>
         </div>
 
