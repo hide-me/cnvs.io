@@ -1,7 +1,7 @@
 <div class="container text-center">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h2 class="text-white">Download this app now</h2>
+            <h2 class="text-white">Download Canvas Today</h2>
             <div class="section-divider"></div>
             <p class="description text-white">Appropriately drive reliable information via client-focused bandwidth. Efficiently integrate open-source models rather than</p>
 

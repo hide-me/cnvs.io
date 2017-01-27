@@ -6,7 +6,7 @@
                 <p class="description wow fadeInUp" data-wow-delay=".2s">
                     Write with unparalleled speed and efficiency in a clutter-free
                     writing environment. Share your stories with a beautiful template that
-                    didn't take 821 plugins to create. Oh, and did we mention it's free?
+                    didn't take 67 plugins to create. Oh, and did we mention it's free?
                 </p>
                 <br/>
                 <a href="https://www.youtube.com/watch?v=psu3pPdfYSM" class="popup-video btn btn-white btn-round btn-raised btn-lg wow fadeInUp" data-wow-delay=".4s">
