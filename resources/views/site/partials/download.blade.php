@@ -9,11 +9,11 @@
 
             <div class="download-btn-wrapper">
                 <a class="btn btn-primary btn-round btn-lg wow fadeInLeft" href="https://github.com/cnvs/canvas/blob/develop/backers.md" target="_blank">
-                    <i class="fa fa-android" aria-hidden="true"></i> Become a Backer
+                    <i class="fa fa-handshake-o" aria-hidden="true"></i> Become a Backer
                 </a>
 
                 <a class="btn btn-primary btn-round btn-lg wow fadeInRight" href="https://www.patreon.com/canvas" target="_blank">
-                    <i class="fa fa-apple" aria-hidden="true"></i> Patreon Campaign
+                    <img src="{{ asset('assets/img/patreon.png') }}" id="patreon-logo"> Patreon Campaign
                 </a>
             </div>
         </div>

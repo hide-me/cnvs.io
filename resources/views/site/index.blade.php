@@ -5,7 +5,7 @@
 
     <div class="wrapper">
 
-        @include('site.partials.header')
+        @include('site.partials.main-header')
 
         <div class="main main-raised">
 
@@ -18,7 +18,7 @@
             </section>
 
             <section class="section-padding">
-                @include('site.partials.unique')
+                @include('site.partials.teamwork')
                 <hr>
             </section>
 
@@ -69,7 +69,7 @@
             </section>
 
             <section class="facts-wrapper light-grey-bg">
-                @include('site.partials.facts')
+                @include('site.partials.stats')
             </section>
 
             <div class="download-wrapper filter dark-5 bg-fixed">
