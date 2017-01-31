@@ -2,93 +2,23 @@
 
 @section('content')
     @include('site.partials.navbar')
-
     <div class="wrapper">
-
         @include('site.partials.main-header')
-
         <div class="main main-raised">
-
-            <section class="presentation-wrapper">
-                @include('site.partials.presentation')
-            </section>
-
-            <section class="video-presentaion filter dark-7 parallax-bg bg-fixed" data-stellar-background-ratio="0.5">
-                @include('site.partials.presentation-video')
-            </section>
-
-            <section class="section-padding">
-                @include('site.partials.teamwork')
-                <hr>
-            </section>
-
-            <section class="feature-presentation padding-bottom-100">
-                @include('site.partials.features')
-            </section>
-
-            <section class="extra-fearures-wrapper primary-bg">
-                @include('site.partials.extra-features')
-
-                <div class="mocup-wrappper">
-                    <div class="mocup-holder">
-                        <img class="img-responsive third wow fadeInUp" data-wow-delay=".6s" src="assets/img/vert-screen3.png" alt="">
-                        <img class="img-responsive second wow fadeInUp" data-wow-delay=".3s" src="assets/img/vert-screen2.png" alt="">
-                        <img class="img-responsive first wow fadeInUp" src="assets/img/vert-screen1.png" alt="">
-                    </div>
-                </div>
-            </section>
-
-            <section class="best-solution-wrapper">
-                @include('site.partials.best-solution')
-            </section>
-
-            <section class="section-padding light-grey-bg">
-                <div class="container">
-                    <div class="row margin-bottom-80 text-center">
-                        <div class="col-md-8 col-md-offset-2">
-                            <h2 class="title">Screenshots</h2>
-                            <div class="section-divider"></div>
-                            <p class="description">
-                                Canvas looks great on any device. Check out why this platform stands out from the rest when it comes implementing some of the most popular design trends today.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="swiper-container tt-screenshot-wrap">
-                                @include('site.partials.screenshots')
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section-padding primary-bg">
-                @include('site.partials.testimonials')
-            </section>
-
-            <section class="facts-wrapper light-grey-bg">
-                @include('site.partials.stats')
-            </section>
-
-            <div class="download-wrapper filter dark-5 bg-fixed">
-                @include('site.partials.download')
-            </div>
-
-            <section class="section-padding">
-                @include('site.partials.as-featured-on')
-            </section>
+            @include('site.partials.not-just-another-blog')
+            @include('site.partials.presentation-video')
+            @include('site.partials.teamwork')
+            @include('site.partials.features')
+            @include('site.partials.extra-features')
+            @include('site.partials.best-solution')
+            @include('site.partials.screenshots')
+            @include('site.partials.testimonials')
+            @include('site.partials.stats')
+            @include('site.partials.download')
+            @include('site.partials.as-featured-on')
         </div>
-
-        <footer class="footer">
-            @include('site.partials.footer')
-        </footer>
-
+        @include('site.partials.footer')
         @include('site.partials.back-to-top')
-
     </div>
-
     @include('site.partials.preloader')
-
 @endsection
