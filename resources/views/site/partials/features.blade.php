@@ -16,8 +16,8 @@
                         <i class="material-icons">mode_edit</i>
                     </div>
                     <div class="desc">
-                        <h3>Markdown</h3>
-                        <p>Like writing with markdown shorthand syntax? You'll love the split-screen editor with built-in keyboard shortcuts.</p>
+                        <h3>Publisher</h3>
+                        <p>A Markdown based editing environment with a live side-by-side allows you to always see how the post will render.</p>
                     </div>
                 </div>
                 <div class="featured-item icon-right icon-border margin-top-80 wow fadeInLeft" data-wow-delay=".4s">
@@ -26,7 +26,7 @@
                     </div>
                     <div class="desc">
                         <h3>Analytics</h3>
-                        <p>Native Google Analytics integration support. Just drop in your tracking id and start building reports today.</p>
+                        <p>Canvas natively support Google Analytics. Just drop in your unique tracking ID to implement.</p>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                     </div>
                     <div class="desc">
                         <h3>Media Library</h3>
-                        <p>A picture says a thousand words, which is why it’s important for you to be able to quickly and easily upload images and media.</p>
+                        <p>A robust VueJS based media library makes uploading and organizing files into folders a breeze, kind of like Dropbox.</p>
                     </div>
                 </div>
                 <div class="featured-item icon-left icon-border margin-top-80 wow fadeInRight" data-wow-delay=".4s">
@@ -49,7 +49,7 @@
                     </div>
                     <div class="desc">
                         <h3>Comments</h3>
-                        <p>Disqus comments can easily be turned on or off. Engage your readers and followers with this powerful tool.</p>
+                        <p>Spark engagement and reader discussion on your blog with Disqus, the #1 way to build your audience.</p>
                     </div>
                 </div>
             </div>

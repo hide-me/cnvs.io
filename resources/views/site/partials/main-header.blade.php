@@ -14,7 +14,7 @@
                 </a>
             </div>
             <div class="col-md-6 text-right">
-                <img class="wow fadeInUp" data-wow-delay=".3s" src="assets/img/app-mocup.png" alt="">
+                <img class="wow fadeInUp" data-wow-delay=".3s" src="assets/img/app-mocup.png" alt="" style="max-width: 420px;">
             </div>
         </div>
     </div>

@@ -8,7 +8,9 @@
             <p> We all started somewhere. Why not start here?</p>
         </div>
         <div class="col-md-6 text-right">
-            <img class="img-responsive wow fadeInRight" src="assets/img/app-mockup-2.png" alt="">
+            <center>
+                <img class="img-responsive wow fadeInRight" src="assets/img/app-mockup-2.png" alt="">
+            </center>
         </div>
     </div>
     <hr>
