@@ -12,7 +12,7 @@
                 <span class="count-description">Contributors</span>
             </div>
             <div class="col-md-3 col-sm-6 counter-wrap">
-                <i class="material-icons">stars</i>
+                <i class="material-icons">star_rate</i>
                 <span class="timer" id="repo_stars"></span>
                 <span class="count-description">Stars</span>
             </div>

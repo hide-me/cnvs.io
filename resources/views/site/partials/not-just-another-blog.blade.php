@@ -12,9 +12,9 @@
         </div>
         <div class="row">
             <div class="col-md-12 presentation">
-                <img class="img-responsive first wow fadeInLeft" data-wow-delay=".3s" src="assets/img/screen-left.png" alt="">
-                <img class="img-responsive second wow fadeInUp" src="assets/img/screen-mid.png" alt="">
-                <img class="img-responsive third wow fadeInRight" data-wow-delay=".3s" src="assets/img/screen-right.png" alt="">
+                <img class="img-responsive first wow fadeInLeft" width="373px" data-wow-delay=".3s" src="assets/img/screen-left.png" alt="">
+                <img class="img-responsive second wow fadeInUp" width="459px" src="assets/img/screen-mid.png" alt="">
+                <img class="img-responsive third wow fadeInRight" width="373px" data-wow-delay=".3s" src="assets/img/screen-right.png" alt="">
             </div>
         </div>
     </div>
