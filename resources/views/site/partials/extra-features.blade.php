@@ -25,7 +25,7 @@
                 </div>
                 <div class="desc">
                     <h3>Open Source</h3>
-                    <p>Everything here is Open Source, so you can theme, extend and integrate to your heart’s content. Developers welcome.</p>
+                    <p>Everything here is open source, so you can theme, extend and integrate to your heart’s content. Developers welcome.</p>
                 </div>
             </div>
             <div class="featured-item">
