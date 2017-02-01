@@ -26,7 +26,7 @@
                     </div>
                     <div class="desc">
                         <h3>Analytics</h3>
-                        <p>Canvas natively support Google Analytics. Just drop in your unique tracking ID to implement.</p>
+                        <p>Canvas provides native support for Google Analytics by injecting the code with just a couple of clicks.</p>
                     </div>
                 </div>
             </div>
