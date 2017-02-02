@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="col-md-4 hidden-sm hidden-xs wow fadeInUp">
-                <img class="img-responsive" src="assets/img/app-mockup-3.png" alt="">
+                <img class="img-responsive" src="{{ asset('assets/img/features/new-post.png') }}" alt="Create new post page">
             </div>
             <div class="col-md-4">
                 <div class="featured-item icon-left icon-border margin-top-80 wow fadeInRight" data-wow-delay=".2s">

@@ -9,7 +9,7 @@
         </div>
         <div class="col-md-6 text-right">
             <center>
-                <img class="img-responsive wow fadeInRight" src="{{ asset('assets/img/app-mockup-2.png') }}" alt="">
+                <img class="img-responsive wow fadeInRight" src="{{ asset('assets/img/teamwork/github-repo.png') }}" alt="Github repository">
             </center>
         </div>
     </div>

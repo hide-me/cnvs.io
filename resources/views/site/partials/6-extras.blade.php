@@ -68,9 +68,9 @@
     </div>
     <div class="mocup-wrappper">
         <div class="mocup-holder">
-            <img class="img-responsive third wow fadeInUp" data-wow-delay=".6s" src="assets/img/vert-screen3.png" alt="">
-            <img class="img-responsive second wow fadeInUp" data-wow-delay=".3s" src="assets/img/vert-screen2.png" alt="">
-            <img class="img-responsive first wow fadeInUp" src="assets/img/vert-screen1.png" alt="">
+            <img class="img-responsive third wow fadeInUp" data-wow-delay=".6s" src="{{ asset('assets/img/extras/vert-screen3.png') }}" alt="">
+            <img class="img-responsive second wow fadeInUp" data-wow-delay=".3s" src="{{ asset('assets/img/extras/vert-screen2.png') }}" alt="">
+            <img class="img-responsive first wow fadeInUp" src="{{ asset('assets/img/extras/vert-screen1.png') }}" alt="">
         </div>
     </div>
 </section>

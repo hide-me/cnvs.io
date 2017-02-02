@@ -203,7 +203,7 @@ h2.title {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(38, 35, 34, 0.2);; /*fallback overlay*/
+    background: rgba(38, 35, 34, 0.2); /*fallback overlay*/
 }
 
 /* dark overlay */
@@ -321,7 +321,7 @@ Video Presentaion
 .video-presentaion {
     padding-top: 200px;
     padding-bottom: 200px;
-    background: url("../img/video-banner.jpg");
+    background: url("../img/presentation-video/banner.jpg");
     background-size: cover !important;
 }
 .video-presentaion h2 {
@@ -688,7 +688,7 @@ Download Wrapper
 .download-wrapper {
 	padding-top: 130px;
 	padding-bottom: 130px;
-    background-image: url("../img/download-banner.jpg");
+    background-image: url("../img/support/banner.jpg");
     background-size: cover !important;
 
 }
