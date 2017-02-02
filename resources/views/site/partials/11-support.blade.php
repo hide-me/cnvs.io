@@ -12,7 +12,7 @@
                         <i class="fa fa-handshake-o" aria-hidden="true"></i> Become a Backer
                     </a>
                     <a class="btn btn-primary btn-round btn-lg wow fadeInRight" href="https://www.patreon.com/canvas" target="_blank">
-                        <img src="{{ asset('assets/img/patreon.png') }}" id="patreon-logo" alt="Patreon logo"> Patreon Campaign
+                        <img src="{{ asset('assets/img/support/patreon.png') }}" id="patreon-logo" alt="Patreon logo"> Patreon Campaign
                     </a>
                 </div>
             </div>
