@@ -6,8 +6,8 @@
         <div class="col-md-6 best-solution-intro">
             <h2 class="title">An Alternative Solution</h2>
             <div class="section-divider"></div>
-            <p>If you’re sick of wading through menus and navigating complex options that you never use, we’ve got news for you: So were we. All you wanted was a platform where you could express yourself through your content, but most of the time you're given much more than you care to handle.</p>
-            <p>Considering making the jump from WordPress, Medium, or Tumblr over to Canvas? It's an important decision. But it's one we promise you won't regret.</p>
+            <p>If you’re sick of wading through menus and navigating complex options that you never use, we’ve got news for you: So were we. WordPress, Medium, and Tumblr have their niche market, but fall short when it comes to providing a simple, extensible, feature-rich blogging experience out of the box.</p>
+            <p>Considering switching to Canvas? It's an important decision. But it's one we promise you won't regret.</p>
         </div>
     </div>
 </section>
