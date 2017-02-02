@@ -8,8 +8,8 @@
 <meta name="twitter:site" content="https://canvas.toddaustin.io"/>
 <meta name="twitter:title" content="Canvas"/>
 <meta name="twitter:description" content="Simple, Powerful Blog Publishing Platform"/>
-<meta name="twitter:image" content="https://canvas.toddaustin.io/img/twitter-card.png"/>
+<meta name="twitter:image" content="https://canvas.toddaustin.io/assets/img/twitter-card.png"/>
 <meta property="og:title" content="Canvas"/>
 <meta property="og:description" content="Simple, Powerful Blog Publishing Platform"/>
 <meta property="og:url" content="https://canvas.toddaustin.io"/>
-<meta property="og:image" content="https://canvas.toddaustin.io/img/twitter-card.png"/>
+<meta property="og:image" content="https://canvas.toddaustin.io/assets/img/twitter-card.png"/>
