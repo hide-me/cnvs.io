@@ -5,40 +5,53 @@
                 <h2 class="title">Screenshots</h2>
                 <div class="section-divider"></div>
                 <p class="description">
-                    Canvas looks great on any device. Check out why this platform stands out from the rest when it comes implementing some of the most popular design trends today.
+                    Canvas looks great on any device. Check out why this platform stands out from the rest when it comes to implementing some of the most popular design trends today.
                 </p>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <div class="swiper-container tt-screenshot-wrap">
-                    <!-- Arrows -->
-                    <a class="arrow-left" href="#" title=""><i class="fa fa-angle-left"></i></a>
-                    <a class="arrow-right" href="#" title=""><i class="fa fa-angle-right"></i></a>
-                    <!-- Arrows End -->
-                    <div class="swiper-wrapper">
-                        <!-- First Slide -->
-                        <div class="swiper-slide">
-                            <img class="img-responsive" src="assets/img/screenshots/screen-1.png" alt="">
+            <div class="col-md-8 col-md-offset-2">
+                <!-- Carousel Card -->
+                <div class="card card-raised card-carousel">
+                    <div id="screenshots" class="carousel slide" data-ride="carousel">
+                        <div class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#screenshots" data-slide-to="0" class="active"></li>
+                                <li data-target="#screenshots" data-slide-to="1"></li>
+                                <li data-target="#screenshots" data-slide-to="2"></li>
+                                <li data-target="#screenshots" data-slide-to="3"></li>
+                                <li data-target="#screenshots" data-slide-to="4"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="{{ asset('assets/img/screenshots/admin.png') }}" alt="Sign in page">
+                                </div>
+                                <div class="item">
+                                    <img src="{{ asset('assets/img/screenshots/edit-post.png') }}" alt="Edit post page">
+                                </div>
+                                <div class="item">
+                                    <img src="{{ asset('assets/img/screenshots/media.png') }}" alt="Media library page">
+                                </div>
+                                <div class="item">
+                                    <img src="{{ asset('assets/img/screenshots/profile.png') }}" alt="Profile page">
+                                </div>
+                                <div class="item">
+                                    <img src="{{ asset('assets/img/screenshots/post.png') }}" alt="Hello world blog post">
+                                </div>
+                            </div>
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#screenshots" data-slide="prev">
+                                <i class="material-icons">keyboard_arrow_left</i>
+                            </a>
+                            <a class="right carousel-control" href="#screenshots" data-slide="next">
+                                <i class="material-icons">keyboard_arrow_right</i>
+                            </a>
                         </div>
-                        <!-- Second Slide -->
-                        <div class="swiper-slide">
-                            <img class="img-responsive" src="assets/img/screenshots/screen-2.png" alt="">
-                        </div>
-                        <!-- Thrid Slide -->
-                        <div class="swiper-slide">
-                            <img class="img-responsive" src="assets/img/screenshots/screen-3.png" alt="">
-                        </div>
-                        <!-- Fourth Slide -->
-                        <div class="swiper-slide">
-                            <img class="img-responsive" src="assets/img/screenshots/screen-4.png" alt="">
-                        </div>
-                        <!-- Fifth Slide -->
-                        <div class="swiper-slide">
-                            <img class="img-responsive" src="assets/img/screenshots/screen-5.png" alt="">
-                        </div>
-                    </div><!-- /.swiper-wrapper -->
+                    </div>
                 </div>
+                <!-- End Carousel Card -->
             </div>
         </div>
     </div>
