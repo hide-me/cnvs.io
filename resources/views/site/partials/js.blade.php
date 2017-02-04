@@ -2,7 +2,6 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/material.min.js"></script>
 <script src="assets/js/jquery.easing.min.js"></script>
-<script src="assets/js/smoothscroll.min.js"></script>
 <script src="assets/js/jquery.stellar.min.js"></script>
 <script src="assets/js/imagesloaded.js"></script>
 <script src="assets/js/jquery.countTo.min.js"></script>
