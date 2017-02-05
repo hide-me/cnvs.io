@@ -1,4 +1,5 @@
 <section class="section-padding">
+    <hr>
     <div class="container">
         <div class="col-md-6">
             <h2 class="title">It Takes A Team</h2>

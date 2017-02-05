@@ -6,7 +6,6 @@
         @include('site.partials.1-header')
         <div class="main main-raised">
             @include('site.partials.2-presentation')
-            @include('site.partials.3-presentation-video')
             @include('site.partials.4-teamwork')
             @include('site.partials.5-features')
             @include('site.partials.6-extras')
@@ -14,7 +13,6 @@
             @include('site.partials.8-screenshots')
             @include('site.partials.9-testimonials')
             @include('site.partials.10-stats')
-            @include('site.partials.11-support')
             @include('site.partials.12-as-featured-on')
         </div>
         @include('site.partials.13-footer')
