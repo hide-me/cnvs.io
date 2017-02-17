@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         @include('site.partials.meta')
-        <title>Canvas - Simple, Powerful Blog Publishing Platform</title>
+        <title>{{ config('app.name') }}</title>
 
         <link rel="shortcut icon" href="{{ asset('assets/img/ico/favicon.png') }}">
 

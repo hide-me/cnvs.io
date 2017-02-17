@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row margin-bottom-80 text-center">
             <div class="col-md-8 col-md-offset-2">
-                <h2 class="title">Built-in Features</h2>
+                <h2 class="title">Built-In Features</h2>
                 <div class="section-divider"></div>
                 <p class="description">
                     Canvas comes packed with features right out of the box, yet will always remain easy to setup, flexible to extend, and enjoyable to use.
@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="col-md-4 hidden-sm hidden-xs wow fadeInUp">
-                <img class="img-responsive" src="{{ asset('assets/img/features/new-post.png') }}" alt="Create new post page">
+                <img class="img-responsive" src="{{ asset('assets/img/features/new-post.png') }}" alt="Create New Post Page">
             </div>
             <div class="col-md-4">
                 <div class="featured-item icon-left icon-border margin-top-80 wow fadeInRight" data-wow-delay=".2s">

@@ -1,7 +1,7 @@
 <section class="best-solution-wrapper">
     <div class="container">
         <div class="col-md-6">
-            <img src="{{ asset('assets/img/alternative-solutions/welcome.png') }}" alt="Installation welcome page" class="img-responsive wow fadeInUp">
+            <img src="{{ asset('assets/img/alternative-solutions/welcome.png') }}" alt="Installation Welcome Page" class="img-responsive wow fadeInUp">
         </div>
         <div class="col-md-6 best-solution-intro">
             <h2 class="title">An Alternative Solution</h2>
