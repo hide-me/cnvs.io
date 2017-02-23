@@ -2,9 +2,9 @@
 
 @section('title', ' - Simple, Powerful Blog Publishing Platform')
 @section('description', 'Simple, Powerful Blog Publishing Platform')
-@section('og-title', '{{ config("app.name") }}')
+@section('og-title', 'Canvas')
 @section('og-description', 'Simple, Powerful Blog Publishing Platform')
-@section('twitter-title', '{{ config("app.name") }}')
+@section('twitter-title', 'Canvas')
 @section('twitter-description', 'Simple, Powerful Blog Publishing Platform')
 
 @section('content')
