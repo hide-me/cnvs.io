@@ -16,8 +16,8 @@
                     <i class="fa fa-fw fa-rocket"></i>&nbsp;&nbsp;Get started
                 </a>
                 &nbsp;
-                <a href="http://www.patreon.com/canvas" id="patreon-btn" target="_blank" class="btn btn-round btn-raised wow fadeInUp">
-                    <img src="{{ asset('assets/img/patreon.png') }}" id="patreon">&nbsp;&nbsp;Become a backer
+                <a href="http://www.patreon.com/canvas" target="_blank" class="patreon-btn btn btn-round btn-raised wow fadeInUp" style="background-color: transparent; border: 1px solid white; color: white; font-weight: bold">
+                    <img src="{{ asset('assets/img/patreon.png') }}" id="patreon" style="width: 17px">&nbsp;&nbsp;Become a backer
                 </a>
             </div>
             <div class="col-md-6 text-right" id="header-image-container">
