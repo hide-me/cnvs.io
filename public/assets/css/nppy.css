@@ -38,7 +38,7 @@
 
 
 
-body{
+body {
     font-family: 'Raleway', sans-serif !important;
     font-size: 15px;
     line-height: 29px;
@@ -248,23 +248,22 @@ h2.title {
     background-color: rgba(38, 35, 34, 1);
 }
 
-
-
 /*
 Hero Section
 ------------------------------------------------------*/
-.header img #header-image {
-	max-width: 100%;
-}
+/*.header img #header-image {*/
+	/*max-width: 100%;*/
+/*}*/
 
 @media screen and (max-width: 991px) {
     #header-image-container {
         text-align: center !important;
     }
-	.header img #header-image {
+    img {
+        max-width: 100% !important;
 		display: block;
 		margin: 20px auto -50px;
-	}	
+	}
 }
 
 /*
