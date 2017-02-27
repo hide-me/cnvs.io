@@ -15,6 +15,8 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="https://canvas.toddaustin.io"/>
 <meta name="twitter:image" content="{{ asset('assets/img/preview.png') }}"/>
+<meta name="twitter:url" content="https://canvas.toddaustin.io"/>
+<meta name="twitter:creator" content="@austintoddj">
 
 <meta property="og:title" content="@yield('og-title')"/>
 <meta property="og:description" content="@yield('og-description')"/>
