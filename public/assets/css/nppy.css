@@ -99,6 +99,13 @@ h1, h2, h3, h4, h5, h6{
     color: #fff;
 }
 
+@media screen and (max-width: 991px) {
+    #main-header-content {
+        text-align: center !important;
+        margin: -70px 0 50px 0 !important;
+    }
+}
+
 /*Page Header*/
 .tt-page-header {
     height: 400px;
@@ -246,12 +253,12 @@ h2.title {
 /*
 Hero Section
 ------------------------------------------------------*/
-.header img {
+.header img #header-image {
 	max-width: 100%;
 }
 
 @media screen and (max-width: 991px) {
-	.header img {
+	.header img #header-image {
 		display: block;
 		margin: 20px auto -50px;
 	}	
@@ -431,12 +438,10 @@ Featured-item
     background: #fff;
 }
 
-
-
 /*
-Mockup Presentaion
+Mockup Presentation
 ------------------------------------------------------*/
-.extra-fearures-wrapper {
+.extra-features-wrapper {
 	padding-top: 100px;
 }
 .mocup-wrappper {
@@ -476,7 +481,7 @@ Mockup Presentaion
 	.mocup-wrappper {
 		display: none;
 	}
-	.extra-fearures-wrapper {
+	.extra-features-wrapper {
 		padding-bottom: 100px;
 	}
 }

@@ -1,4 +1,4 @@
-<section class="extra-fearures-wrapper primary-bg">
+<section class="extra-features-wrapper primary-bg">
     <div class="container">
         <div class="row margin-bottom-80 text-center">
             <div class="col-md-8 col-md-offset-2">
