@@ -38,7 +38,7 @@
 
 
 
-body{
+body {
     font-family: 'Raleway', sans-serif !important;
     font-size: 15px;
     line-height: 29px;
@@ -248,23 +248,22 @@ h2.title {
     background-color: rgba(38, 35, 34, 1);
 }
 
-
-
 /*
 Hero Section
 ------------------------------------------------------*/
-.header img #header-image {
-	max-width: 100%;
-}
+/*.header img #header-image {*/
+	/*max-width: 100%;*/
+/*}*/
 
 @media screen and (max-width: 991px) {
     #header-image-container {
         text-align: center !important;
     }
-	.header img #header-image {
+    #header-image {
+        max-width: 100% !important;
 		display: block;
 		margin: 20px auto -50px;
-	}	
+	}
 }
 
 /*
@@ -654,14 +653,13 @@ Pricing Table
     box-shadow: 0 18px 38px 0 rgb(218, 218, 218), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
-
-
 /*
 Fun Facts
 --------------------------------------------------*/
 .facts-wrapper {
 	padding-top: 130px;
 	padding-bottom: 130px;
+    overflow: hidden !important;
 }
 .facts-wrapper .counter-wrap i {
     font-size: 45px;
@@ -678,6 +676,7 @@ Fun Facts
 .facts-wrapper .count-description {
     color: #8f8f8f;
     text-transform: uppercase;
+    font-size: 18px;
 }
 
 @media screen and (max-width: 991px) {

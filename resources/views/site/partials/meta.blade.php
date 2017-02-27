@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="shortcut icon" href="{{ asset('assets/img/ico/favicon.png') }}">
 
@@ -15,6 +15,8 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="https://canvas.toddaustin.io"/>
 <meta name="twitter:image" content="{{ asset('assets/img/preview.png') }}"/>
+<meta name="twitter:url" content="https://canvas.toddaustin.io"/>
+<meta name="twitter:creator" content="@austintoddj">
 
 <meta property="og:title" content="@yield('og-title')"/>
 <meta property="og:description" content="@yield('og-description')"/>
