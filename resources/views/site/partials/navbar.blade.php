@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('assets/img/logo.png') }}" alt="Appy Logo" id="navbar-logo"></a>
+            <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('assets/img/logo.png') }}" alt="Canvas Logo" id="navbar-logo"></a>
         </div>
 
         <div class="collapse navbar-collapse" id="tt-navigation">
