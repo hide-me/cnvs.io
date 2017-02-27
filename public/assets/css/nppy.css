@@ -258,6 +258,9 @@ Hero Section
 }
 
 @media screen and (max-width: 991px) {
+    #header-image-container {
+        text-align: center !important;
+    }
 	.header img #header-image {
 		display: block;
 		margin: 20px auto -50px;

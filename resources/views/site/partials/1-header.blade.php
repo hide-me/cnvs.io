@@ -20,7 +20,7 @@
                     <img src="{{ asset('assets/img/patreon.png') }}" style="width: 17px">&nbsp;&nbsp;Become a backer
                 </a>
             </div>
-            <div class="col-md-6 text-center">
+            <div class="col-md-6 text-right" id="header-image-container">
                 <img class="wow fadeInUp" id="header-image" data-wow-delay=".3s" src="{{ asset('assets/img/header/blog-home.png') }}" alt="Hello World Blog Post" style="max-width: 420px;">
             </div>
         </div>
