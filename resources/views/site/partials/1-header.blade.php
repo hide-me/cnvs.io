@@ -15,8 +15,7 @@
                 <a href="http://cnvs.readme.io/docs" target="_blank" class="btn btn-white btn-round btn-raised wow fadeInUp" style=" font-weight: bold">
                     <i class="fa fa-fw fa-rocket"></i>&nbsp;&nbsp;Get started
                 </a>
-                &nbsp;
-                <a href="http://www.patreon.com/canvas" target="_blank" class="patreon-btn btn btn-round btn-raised wow fadeInUp" style="background-color: transparent; border: 1px solid white; color: white; font-weight: bold">
+                <a href="http://www.patreon.com/canvas" target="_blank" class="patreon-btn btn btn-round btn-raised wow fadeInUp" style="background-color: transparent; border: 1px solid white; color: white; font-weight: bold; margin: 0 15px 0 15px">
                     <img src="{{ asset('assets/img/patreon.png') }}" id="patreon" style="width: 17px">&nbsp;&nbsp;Become a backer
                 </a>
             </div>
