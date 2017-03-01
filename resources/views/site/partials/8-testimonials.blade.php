@@ -28,15 +28,15 @@
                                 </div>
                             </div>
                         </li>
-                        <li data-thumb="{{ asset('assets/img/testimonials/toddaustin.jpg') }}">
+                        <li data-thumb="{{ asset('assets/img/testimonials/nickbasile.jpg') }}">
                             <div class="icon">
                                 <i class="material-icons" style="font-size: 64px">format_quote</i>
                             </div>
                             <div class="content">
-                                <p>Canvas is explicitly focused on doing one thing really well: Publishing. A simple, powerful interface allows you to get writing immediately and publish beautiful results. You don't need to install extra plugins, extensions, or write any extra code. It just works.</p>
+                                <p>Canvas rocks! I’ve tried building blogs from scratch and with other plug and play CMS’s, but nothing comes close to Canvas. Instead of worrying about grinding out the features a blog needs, you can focus on crafting a blog that tells your story. I now use Canvas exclusively for my blog development and I’ve never been happier.</p>
                                 <div class="testimonial-meta">
-                                    Todd Austin,
-                                    <span>Creator of Canvas</span>
+                                    Nick Basile,
+                                    <span>Metric Loop</span>
                                 </div>
                             </div>
                         </li>
