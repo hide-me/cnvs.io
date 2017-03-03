@@ -14,4 +14,3 @@
 <script src="assets/js/material-kit.js"></script>
 <script src="assets/js/nppy.js"></script>
 <script src="assets/js/stats.js"></script>
-<script src="assets/js/analytics.js"></script>
