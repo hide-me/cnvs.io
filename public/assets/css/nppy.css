@@ -330,7 +330,7 @@ Video Presentaion
 .video-presentaion {
     padding-top: 200px;
     padding-bottom: 200px;
-    background: url("../img/presentation-video/banner.jpg");
+    background: url("https://canvas-47a7.kxcdn.com/assets/img/presentation-video/banner.jpg");
     background-size: cover !important;
 }
 .video-presentaion h2 {
@@ -693,7 +693,7 @@ Download Wrapper
 .download-wrapper {
 	padding-top: 130px;
 	padding-bottom: 130px;
-    background-image: url("../img/support/banner.jpg");
+    background-image: url("https://canvas-47a7.kxcdn.com/assets/img/support/banner.jpg");
     background-size: cover !important;
 
 }

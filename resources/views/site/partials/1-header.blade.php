@@ -16,11 +16,11 @@
                     <i class="fa fa-fw fa-rocket"></i>&nbsp;&nbsp;Get started
                 </a>
                 <a href="http://www.patreon.com/canvas" target="_blank" class="patreon-btn btn btn-round btn-raised wow fadeInUp" style="background-color: transparent; border: 1px solid white; color: white; font-weight: bold; margin: 0 15px 0 15px">
-                    <img src="{{ asset('assets/img/patreon.png') }}" id="patreon" style="width: 17px">&nbsp;&nbsp;Become a backer
+                    <img src="https://canvas-47a7.kxcdn.com/assets/img/patreon.png" id="patreon" style="width: 17px">&nbsp;&nbsp;Become a backer
                 </a>
             </div>
             <div class="col-md-6 text-right" id="header-image-container">
-                <img class="wow fadeInUp" id="header-image" data-wow-delay=".3s" src="{{ asset('assets/img/header/blog-home.png') }}" alt="Hello World Blog Post" style="max-width: 420px;">
+                <img src="https://canvas-47a7.kxcdn.com/assets/img/header/blog-home.png" class="wow fadeInUp" id="header-image" data-wow-delay=".3s" alt="Hello World Blog Post" style="max-width: 420px;">
             </div>
         </div>
     </div>

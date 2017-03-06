@@ -4,7 +4,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="thumb-carousel text-white text-center">
                     <ul class="slides">
-                        <li data-thumb="{{ asset('assets/img/testimonials/ericbarnes.jpeg') }}">
+                        <li data-thumb="https://canvas-47a7.kxcdn.com/assets/img/testimonials/ericbarnes.jpeg">
                             <div class="icon">
                                 <i class="material-icons" style="font-size: 64px">format_quote</i>
                             </div>
@@ -16,7 +16,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li data-thumb="{{ asset('assets/img/testimonials/brunoskvorc.jpeg') }}">
+                        <li data-thumb="https://canvas-47a7.kxcdn.com/assets/img/testimonials/brunoskvorc.jpeg">
                             <div class="icon">
                                 <i class="material-icons" style="font-size: 64px">format_quote</i>
                             </div>
@@ -28,7 +28,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li data-thumb="{{ asset('assets/img/testimonials/nickbasile.jpg') }}">
+                        <li data-thumb="https://canvas-47a7.kxcdn.com/assets/img/testimonials/nickbasile.jpg">
                             <div class="icon">
                                 <i class="material-icons" style="font-size: 64px">format_quote</i>
                             </div>
