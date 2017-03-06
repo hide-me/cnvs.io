@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="col-md-4 hidden-sm hidden-xs">
-                <img class="img-responsive" src="{{ asset('assets/img/features/new-post.png') }}" alt="Create New Post Page">
+                <img class="img-responsive" src="https://canvas-47a7.kxcdn.com/assets/img/features/new-post.png" alt="Create New Post Page">
             </div>
             <div class="col-md-4">
                 <div class="featured-item icon-left icon-border margin-top-80">
