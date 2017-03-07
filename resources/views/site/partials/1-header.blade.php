@@ -9,9 +9,6 @@
                     67 plugins to create. Oh, and did we mention it's free?
                 </p>
                 <br/>
-                {{--<a href="https://www.youtube.com/watch?v=psu3pPdfYSM" class="popup-video btn btn-white btn-round btn-raised btn-lg wow fadeInUp" data-wow-delay=".4s">--}}
-                    {{--<i class="fa fa-play"></i>&nbsp;&nbsp;Watch the video--}}
-                {{--</a>--}}
                 <a href="http://cnvs.readme.io/docs" target="_blank" class="btn btn-white btn-round btn-raised wow" style=" font-weight: bold">
                     <i class="fa fa-fw fa-rocket"></i>&nbsp;&nbsp;Get started
                 </a>
