@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6" id="main-header-content">
-                <h1 class="title wow">Simple, Powerful, Blog Publishing Platform</h1>
+                <h1 class="title wow">Simple, Powerful Blog Publishing Platform</h1>
                 <p class="description wow">
                     Create your own blog with unparalleled speed and efficiency and share
                     your stories with the world on a beautiful template that didn't take
