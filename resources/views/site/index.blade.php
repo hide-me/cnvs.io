@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('site.layout')
 
 @section('title', ' - Simple, Powerful Blog Publishing Platform')
 @section('description', 'Simple, Powerful Blog Publishing Platform')
