@@ -1,5 +1,5 @@
 <section class="extra-features-wrapper light-grey-bg">
-    <div class="container">
+    <div class="container-fluid" id="screenshots-container">
         <div class="row margin-bottom-80 text-center">
             <div class="col-md-8 col-md-offset-2">
                 <h2 class="title">Screenshots</h2>
@@ -9,21 +9,21 @@
                 </p>
             </div>
         </div>
-        <div class="featured-carousel text-center">
+        <div class="screenshot-carousel text-center">
             <div class="featured-item">
-                <img src="https://canvas-47a7.kxcdn.com/assets/img/screenshots/admin.png" alt="Sign In Page" style="width: 100%; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);">
+                <img src="https://canvas-47a7.kxcdn.com/assets/img/screenshots/admin.png" alt="Sign In Page" class="screenshot-img">
             </div>
             <div class="featured-item">
-                <img src="https://canvas-47a7.kxcdn.com/assets/img/screenshots/edit-post.png" alt="Edit Post Page" style="width: 100%; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);">
+                <img src="https://canvas-47a7.kxcdn.com/assets/img/screenshots/edit-post.png" alt="Edit Post Page" class="screenshot-img">
             </div>
             <div class="featured-item">
-                <img src="https://canvas-47a7.kxcdn.com/assets/img/screenshots/media.png" alt="Media Library Page" style="width: 100%; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);">
+                <img src="https://canvas-47a7.kxcdn.com/assets/img/screenshots/media.png" alt="Media Library Page" class="screenshot-img">
             </div>
             <div class="featured-item">
-                <img src="https://canvas-47a7.kxcdn.com/assets/img/screenshots/profile.png" alt="Profile Page" style="width: 100%; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);">
+                <img src="https://canvas-47a7.kxcdn.com/assets/img/screenshots/profile.png" alt="Profile Page" class="screenshot-img">
             </div>
             <div class="featured-item">
-                <img src="https://canvas-47a7.kxcdn.com/assets/img/screenshots/post.png" alt="Hello World Blog Post" style="width: 100%; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);">
+                <img src="https://canvas-47a7.kxcdn.com/assets/img/screenshots/post.png" alt="Hello World Blog Post" class="screenshot-img">
             </div>
         </div>
     </div>

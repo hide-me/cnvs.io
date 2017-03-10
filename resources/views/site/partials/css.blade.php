@@ -16,7 +16,7 @@
 <link href="https://canvas-47a7.kxcdn.com/assets/css/swiper.css" rel="stylesheet" />
 <link href="https://canvas-47a7.kxcdn.com/assets/css/bootstrap.min.css" rel="stylesheet" />
 <link href="https://canvas-47a7.kxcdn.com/assets/css/material-kit.css" rel="stylesheet"/>
-<link href="https://canvas-47a7.kxcdn.com/assets/css/nppy.css" rel="stylesheet"/>
+<link href="{{ asset('assets/css/nppy.css') }}" rel="stylesheet"/>
 <link rel="stylesheet" href="https://canvas-47a7.kxcdn.com/assets/css/colors/color.css">
 <link href="https://canvas-47a7.kxcdn.com/assets/css/overrides.css" rel="stylesheet"/>
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

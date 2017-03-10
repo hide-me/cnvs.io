@@ -154,23 +154,16 @@
             }
         });
 
-        // /* === Screenshot carousel === */
-        // $('.screenshot-carousel').owlCarousel({
-        //     loop:true,
-        //     // margin:30,
-        //
-        //     responsive:{
-        //         0:{
-        //             items:1
-        //         },
-        //         600:{
-        //             items:1
-        //         },
-        //         1000:{
-        //             items:2
-        //         }
-        //     }
-        // });
+        /* === Screenshots carousel === */
+        $('.screenshot-carousel').owlCarousel({
+            loop: true,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1
+                }
+            }
+        });
 
         /* === Counter === */
         $('.facts-wrapper').on('inview', function(event, visible, visiblePartX, visiblePartY) {
