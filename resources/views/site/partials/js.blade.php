@@ -12,5 +12,5 @@
 <script src="https://canvas-47a7.kxcdn.com/assets/js/wow.min.js"></script>
 <script src="https://canvas-47a7.kxcdn.com/assets/magnific-popup/jquery.magnific-popup.min.js"></script>
 <script src="https://canvas-47a7.kxcdn.com/assets/js/material-kit.js"></script>
-<script src="{{ asset('assets/js/nppy.js') }}"></script>
+<script src="https://canvas-47a7.kxcdn.com/assets/js/nppy.js"></script>
 <script src="https://canvas-47a7.kxcdn.com/assets/js/stats.js"></script>
