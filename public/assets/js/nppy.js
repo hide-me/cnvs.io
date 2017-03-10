@@ -154,6 +154,24 @@
             }
         });
 
+        // /* === Screenshot carousel === */
+        // $('.screenshot-carousel').owlCarousel({
+        //     loop:true,
+        //     // margin:30,
+        //
+        //     responsive:{
+        //         0:{
+        //             items:1
+        //         },
+        //         600:{
+        //             items:1
+        //         },
+        //         1000:{
+        //             items:2
+        //         }
+        //     }
+        // });
+
         /* === Counter === */
         $('.facts-wrapper').on('inview', function(event, visible, visiblePartX, visiblePartY) {
             if (visible) {
