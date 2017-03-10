@@ -12,9 +12,9 @@
         </div>
         <div class="row">
             <div class="col-md-12 presentation">
-                <img class="img-responsive first" width="372px" src="https://canvas-47a7.kxcdn.com/assets/img/presentation/admin-tools.png" alt="Tools Page">
-                <img class="img-responsive second wow" width="459px" src="https://canvas-47a7.kxcdn.com/assets/img/presentation/admin-nav.png" alt="Home Page Navigation">
-                <img class="img-responsive third" width="372px" src="https://canvas-47a7.kxcdn.com/assets/img/presentation/admin-post.png" alt="Post Editing Page">
+                <img class="img-responsive first card-raised" width="372" src="{{ asset('assets/img/presentation/admin-tools.png') }}" alt="Tools Page">
+                <img class="img-responsive second card-raised" width="459" src="{{ asset('assets/img/presentation/admin-nav.png') }}" alt="Home Page Navigation">
+                <img class="img-responsive third card-raised" width="372" src="{{ asset('assets/img/presentation/admin-post.png') }}" alt="Post Editing Page">
             </div>
         </div>
     </div>
