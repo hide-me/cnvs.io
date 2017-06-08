@@ -6,7 +6,7 @@ if (jQuery) {
         });
         function main() {
             $(document).ready(function () {
-                $.get('https://packagist.org/packages/austintoddj/canvas/downloads.json', function (res) {
+                $.get('https://packagist.org/packages/cnvs/easel/downloads.json', function (res) {
                     var downloads_total = res.package.downloads.total.total;
                     $('#repo_downloads_count').html(downloads_total);
                 });
