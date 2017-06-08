@@ -13,12 +13,12 @@
 <meta name="twitter:title" content="@yield('twitter-title')"/>
 <meta name="twitter:description" content="@yield('twitter-description')"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:site" content="https://canvas.toddaustin.io"/>
+<meta name="twitter:site" content="https://cnvs.io"/>
 <meta name="twitter:image" content="https://canvas-47a7.kxcdn.com/assets/img/preview.png"/>
-<meta name="twitter:url" content="https://canvas.toddaustin.io"/>
+<meta name="twitter:url" content="https://cnvs.io"/>
 <meta name="twitter:creator" content="@austintoddj">
 
 <meta property="og:title" content="@yield('og-title')"/>
 <meta property="og:description" content="@yield('og-description')"/>
-<meta property="og:url" content="https://canvas.toddaustin.io"/>
+<meta property="og:url" content="https://cnvs.io"/>
 <meta property="og:image" content="https://canvas-47a7.kxcdn.com/assets/img/preview.png"/>
