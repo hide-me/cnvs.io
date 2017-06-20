@@ -1,1 +1,0 @@
-![Canvas](public/assets/img/readme.png)
