@@ -10,7 +10,7 @@
         </div>
         <div class="col-md-6 text-right">
             <center>
-                <img class="img-responsive" src="https://canvas-47a7.kxcdn.com/assets/img/teamwork/github-repo.png" alt="Github Repository">
+                <img class="img-responsive" src="https://cdn.cnvs.io/assets/img/teamwork/github-repo.png" alt="Github Repository">
             </center>
         </div>
     </div>
