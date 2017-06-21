@@ -140,7 +140,10 @@ return [
 
         'script-src' => [
             'allow' => [
-                //
+                'https://cdn.cnvs.io',
+                'https://use.fontawesome.com',
+                'https://cdn.fontawesome.com',
+                'https://www.google-analytics.com',
             ],
 
             'hashes' => [
@@ -151,33 +154,36 @@ return [
                 //
             ],
 
-            'self' => false,
+            'self' => true,
 
-            'unsafe-inline' => false,
+            'unsafe-inline' => true,
 
             'unsafe-eval' => false,
         ],
 
         'style-src' => [
             'allow' => [
-                //
+                'https://cdn.cnvs.io',
+                'https://fonts.googleapis.com',
+                'https://use.fontawesome.com',
             ],
 
-            'self' => false,
+            'self' => true,
 
-            'unsafe-inline' => false,
+            'unsafe-inline' => true,
         ],
 
         'img-src' => [
             'allow' => [
-                //
+                'https://cdn.cnvs.io',
+                'https://www.google-analytics.com',
             ],
 
             'types' => [
                 //
             ],
 
-            'self' => false,
+            'self' => true,
 
             'data' => false,
         ],
@@ -189,11 +195,18 @@ return [
          */
 
         'font-src' => [
-            //
+            'allow' => [
+                'https://cdn.cnvs.io',
+                'https://fonts.gstatic.com',
+                'https://use.fontawesome.com',
+            ],
         ],
 
         'connect-src' => [
-            //
+            'allow' => [
+                'https://packagist.org',
+                'https://api.github.com',
+            ],
         ],
 
         'form-action' => [
