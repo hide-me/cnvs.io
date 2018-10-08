@@ -396,7 +396,7 @@ return [
 
         'style-src' => [
             'allow' => [
-                //
+                'https://fonts.googleapis.com',
             ],
 
             'hashes' => [
@@ -437,7 +437,9 @@ return [
         ],
 
         'font-src' => [
-            //
+            'allow' => [
+                'https://fonts.gstatic.com',
+            ],
         ],
 
         'form-action' => [
