@@ -417,7 +417,7 @@ return [
 
             'unsafe-inline' => true,
 
-            'add-generated-nonce' => false,
+            'add-generated-nonce' => false
         ],
 
         'img-src' => [
@@ -438,7 +438,7 @@ return [
 
         'font-src' => [
             'allow' => [
-                'https://fonts.gstatic.com',
+                'https://fonts.gstatic.com'
             ],
         ],
 
