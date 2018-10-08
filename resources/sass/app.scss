@@ -1,10 +1,4 @@
 
-// Fonts
-//@import url('https://fonts.googleapis.com/css?family=Nunito');
-
-// Variables
-//@import 'variables';
-
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
@@ -12,27 +6,21 @@
   max-width: 960px;
 }
 
-/*
- * Custom translucent site header
- */
-
 .site-header {
   background-color: rgba(0, 0, 0, .85);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
+
 .site-header a {
   color: #999;
   transition: ease-in-out color .15s;
 }
+
 .site-header a:hover {
   color: #fff;
   text-decoration: none;
 }
-
-/*
- * Dummy devices (replace them with your own or something else entirely!)
- */
 
 .product-device {
   position: absolute;
@@ -65,11 +53,6 @@
   background-color: #e5e5e5;
 }
 
-
-/*
- * Extra utilities
- */
-
 .border-top { border-top: 1px solid #e5e5e5; }
 .border-bottom { border-bottom: 1px solid #e5e5e5; }
 
@@ -80,6 +63,7 @@
   -webkit-box-flex: 1;
   flex: 1;
 }
+
 @media (min-width: 768px) {
   .flex-md-equal > * {
     -ms-flex: 1;
@@ -89,4 +73,3 @@
 }
 
 .overflow-hidden { overflow: hidden; }
-
