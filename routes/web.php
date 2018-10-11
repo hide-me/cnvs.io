@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('docs', function () {
-   return view('docs.index');
+    return view('docs.index');
 })->name('docs');
 
 Route::get('blog', function () {
