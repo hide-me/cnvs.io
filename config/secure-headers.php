@@ -3,6 +3,16 @@
 return [
 
     /*
+     * Server
+     *
+     * Reference: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Server
+     *
+     * Note: when server is empty string, it will not add to response header
+     */
+
+    'server' => '',
+
+    /*
      * X-Content-Type-Options
      *
      * Reference: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options
@@ -64,6 +74,26 @@ return [
     'referrer-policy' => 'no-referrer',
 
     /*
+     * Clear-Site-Data
+     *
+     * Reference: https://w3c.github.io/webappsec-clear-site-data/
+     */
+
+    'clear-site-data' => [
+        'enable' => false,
+
+        'all' => false,
+
+        'cache' => true,
+
+        'cookies' => true,
+
+        'storage' => true,
+
+        'executionContexts' => true,
+    ],
+
+    /*
      * HTTP Strict Transport Security
      *
      * Reference: https://developer.mozilla.org/en-US/docs/Web/Security/HTTP_strict_transport_security
@@ -72,11 +102,27 @@ return [
      */
 
     'hsts' => [
-        'enable' => true,
+        'enable' => false,
 
-        'max-age' => 31536000,
+        'max-age' => 15552000,
 
         'include-sub-domains' => false,
+    ],
+
+    /*
+     * Expect-CT
+     *
+     * Reference: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect-CT
+     */
+
+    'expect-ct' => [
+        'enable' => false,
+
+        'max-age' => 2147483648,
+
+        'enforce' => false,
+
+        'report-uri' => null,
     ],
 
     /*
@@ -89,10 +135,7 @@ return [
 
     'hpkp' => [
         'hashes' => [
-            // [
-            //     'algo' => 'sha256',
-            //     'hash' => 'hash-value',
-            // ],
+            // 'sha256-hash-value',
         ],
 
         'include-sub-domains' => false,
@@ -102,6 +145,193 @@ return [
         'report-only' => false,
 
         'report-uri' => null,
+    ],
+
+    /*
+     * Feature Policy
+     *
+     * Reference: https://wicg.github.io/feature-policy/
+     */
+
+    'feature-policy' => [
+        'enable' => true,
+
+        /*
+         * Each directive details can be found on:
+         *
+         * https://github.com/WICG/feature-policy/blob/master/features.md
+         *
+         * 'none', '*' and 'self allow' are mutually exclusive,
+         * the priority is 'none' > '*' > 'self allow'.
+         */
+
+        'camera' => [
+            'none' => false,
+
+            '*' => false,
+
+            'self' => true,
+
+            'allow' => [
+                // 'url',
+            ],
+        ],
+
+        'fullscreen' => [
+            'none' => false,
+
+            '*' => false,
+
+            'self' => true,
+
+            'allow' => [
+                // 'url',
+            ],
+        ],
+
+        'geolocation' => [
+            'none' => false,
+
+            '*' => false,
+
+            'self' => true,
+
+            'allow' => [
+                // 'url',
+            ],
+        ],
+
+        'microphone' => [
+            'none' => false,
+
+            '*' => false,
+
+            'self' => true,
+
+            'allow' => [
+                // 'url',
+            ],
+        ],
+
+        'midi' => [
+            'none' => false,
+
+            '*' => false,
+
+            'self' => true,
+
+            'allow' => [
+                // 'url',
+            ],
+        ],
+
+        'payment' => [
+            'none' => false,
+
+            '*' => false,
+
+            'self' => true,
+
+            'allow' => [
+                // 'url',
+            ],
+        ],
+
+        'picture-in-picture' => [
+            'none' => false,
+
+            '*' => true,
+
+            'self' => false,
+
+            'allow' => [
+                // 'url',
+            ],
+        ],
+
+        'accelerometer' => [
+            'none' => false,
+
+            '*' => false,
+
+            'self' => true,
+
+            'allow' => [
+                // 'url',
+            ],
+        ],
+
+        'ambient-light-sensor' => [
+            'none' => false,
+
+            '*' => false,
+
+            'self' => true,
+
+            'allow' => [
+                // 'url',
+            ],
+        ],
+
+        'gyroscope' => [
+            'none' => false,
+
+            '*' => false,
+
+            'self' => true,
+
+            'allow' => [
+                // 'url',
+            ],
+        ],
+
+        'magnetometer' => [
+            'none' => false,
+
+            '*' => false,
+
+            'self' => true,
+
+            'allow' => [
+                // 'url',
+            ],
+        ],
+
+        'speaker' => [
+            'none' => false,
+
+            '*' => false,
+
+            'self' => true,
+
+            'allow' => [
+                // 'url',
+            ],
+        ],
+
+        'usb' => [
+            'none' => false,
+
+            '*' => false,
+
+            'self' => true,
+
+            'allow' => [
+                // 'url',
+            ],
+        ],
+
+        'vr' => [
+            'none' => false,
+
+            '*' => false,
+
+            'self' => true,
+
+            'allow' => [
+                // 'url',
+            ],
+        ],
     ],
 
     /*
@@ -121,91 +351,94 @@ return [
 
         'report-uri' => null,
 
+        'block-all-mixed-content' => false,
+
         'upgrade-insecure-requests' => false,
 
-        // enable or disable the automatic conversion of sources to https
-        'https-transform-on-https-connections' => true,
-
-        'base-uri' => [
-            //
-        ],
-
-        'default-src' => [
-            //
-        ],
-
-        'child-src' => [
-            //
-        ],
+        /*
+         * Please references script-src directive for available values, only `script-src` and `style-src`
+         * supports `add-generated-nonce`.
+         *
+         * Note: when directive value is empty, it will use `none` for that directive.
+         */
 
         'script-src' => [
             'allow' => [
-                'https://cdn.cnvs.io',
                 'https://use.fontawesome.com',
-                'https://cdn.fontawesome.com',
-                'https://www.google-analytics.com',
             ],
 
             'hashes' => [
-                // ['sha256' => 'hash-value'],
+                // 'sha256' => [
+                //     'hash-value',
+                // ],
+            ],
+
+            'nonces' => [
+                // 'base64-encoded',
+            ],
+
+            'schemes' => [
+                // 'https:',
+            ],
+
+            'self' => true,
+
+            'unsafe-inline' => false,
+
+            'unsafe-eval' => false,
+
+            'strict-dynamic' => false,
+
+            'unsafe-hashed-attributes' => false,
+
+            'add-generated-nonce' => false,
+        ],
+
+        'style-src' => [
+            'allow' => [
+                'https://fonts.googleapis.com',
+            ],
+
+            'hashes' => [
+                // 'sha256' => [
+                //     'hash-value',
+                // ],
             ],
 
             'nonces' => [
                 //
             ],
 
-            'self' => true,
-
-            'unsafe-inline' => true,
-
-            'unsafe-eval' => false,
-        ],
-
-        'style-src' => [
-            'allow' => [
-                'https://cdn.cnvs.io',
-                'https://fonts.googleapis.com',
-                'https://use.fontawesome.com',
+            'schemes' => [
+                // 'https:',
             ],
 
             'self' => true,
 
             'unsafe-inline' => true,
+
+            'add-generated-nonce' => false,
         ],
 
         'img-src' => [
-            'allow' => [
-                'https://cdn.cnvs.io',
-                'https://www.google-analytics.com',
-            ],
-
-            'types' => [
-                //
-            ],
-
             'self' => true,
-
-            'data' => false,
         ],
 
-        /*
-         * The following directives are all use 'allow' and 'self' flag.
-         *
-         * Note: default value of 'self' flag is false.
-         */
+        'default-src' => [
+            //
+        ],
 
-        'font-src' => [
-            'allow' => [
-                'https://cdn.cnvs.io',
-                'https://fonts.gstatic.com',
-                'https://use.fontawesome.com',
-            ],
+        'base-uri' => [
+            //
         ],
 
         'connect-src' => [
+            //
+        ],
+
+        'font-src' => [
             'allow' => [
-                'https://packagist.org',
-                'https://api.github.com',
+                'https://fonts.gstatic.com',
             ],
         ],
 
@@ -217,6 +450,14 @@ return [
             //
         ],
 
+        'frame-src' => [
+            //
+        ],
+
+        'manifest-src' => [
+            //
+        ],
+
         'media-src' => [
             //
         ],
@@ -225,13 +466,18 @@ return [
             //
         ],
 
-        /*
-         * plugin-types only support 'allow'.
-         */
-
-        'plugin-types' => [
+        'worker-src' => [
             //
         ],
+
+        'plugin-types' => [
+            // 'application/x-shockwave-flash',
+        ],
+
+        'require-sri-for' => '',
+
+        'sandbox' => '',
+
     ],
 
 ];
