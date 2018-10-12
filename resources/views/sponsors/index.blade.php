@@ -3,7 +3,7 @@
 @section('title', 'Sponsors')
 
 @section('content')
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
         <div class="col-md-5 p-lg-5 mx-auto my-5">
             <h1>Featured Sponsor</h1>
             <p class="lead font-weight-normal">Digital Ocean provides developers and businesses a reliable, easy-to-use cloud computing platform of virtual servers, object storage, and more.</p>

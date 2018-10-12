@@ -34,32 +34,20 @@
             <small class="d-block mb-3 text-muted">&copy; {{ date('Y') }}</small>
         </div>
         <div class="col-6 col-md">
-            <h5>Features</h5>
+            <h5>GitHub</h5>
             <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="#">Cool stuff</a></li>
-                <li><a class="text-muted" href="#">Random feature</a></li>
-                <li><a class="text-muted" href="#">Team feature</a></li>
-                <li><a class="text-muted" href="#">Stuff for developers</a></li>
-                <li><a class="text-muted" href="#">Another one</a></li>
-                <li><a class="text-muted" href="#">Last time</a></li>
+                <li><a class="text-muted" href="{{ url('https://github.com/cnvs/canvas/issues') }}">Issues</a></li>
+                <li><a class="text-muted" href="{{ url('https://github.com/cnvs/canvas/releases') }}">Releases</a></li>
+                <li><a class="text-muted" href="{{ url('https://github.com/cnvs/canvas/pulls') }}">Pull Requests</a></li>
+                <li><a class="text-muted" href="{{ url('https://github.com/cnvs/canvas/blob/master/license') }}">License</a></li>
             </ul>
         </div>
         <div class="col-6 col-md">
-            <h5>Resources</h5>
+            <h5>Community</h5>
             <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="#">Resource</a></li>
-                <li><a class="text-muted" href="#">Resource name</a></li>
-                <li><a class="text-muted" href="#">Another resource</a></li>
-                <li><a class="text-muted" href="#">Final resource</a></li>
-            </ul>
-        </div>
-        <div class="col-6 col-md">
-            <h5>Resources</h5>
-            <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="#">Business</a></li>
-                <li><a class="text-muted" href="#">Education</a></li>
-                <li><a class="text-muted" href="#">Government</a></li>
-                <li><a class="text-muted" href="#">Gaming</a></li>
+                <li><a class="text-muted" href="{{ route('blog') }}">Blog</a></li>
+                <li><a class="text-muted" href="{{ url('https://cnvs-io.slack.com') }}">Slack <span class="badge badge-success">New</span></a></li>
+                <li><a class="text-muted" href="{{ url('https://twitter.com/cnvs_io') }}">Twitter</a></li>
             </ul>
         </div>
         <div class="col-6 col-md">
