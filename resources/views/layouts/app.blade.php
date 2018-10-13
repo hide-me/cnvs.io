@@ -63,6 +63,7 @@
     </div>
 </footer>
 
+@include('components.analytics.tracking')
 <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>

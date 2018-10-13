@@ -365,6 +365,8 @@ return [
         'script-src' => [
             'allow' => [
                 'https://use.fontawesome.com',
+                'https://www.googletagmanager.com',
+                'https://www.google-analytics.com',
             ],
 
             'hashes' => [
@@ -383,7 +385,7 @@ return [
 
             'self' => true,
 
-            'unsafe-inline' => false,
+            'unsafe-inline' => true,
 
             'unsafe-eval' => false,
 
@@ -421,6 +423,10 @@ return [
         ],
 
         'img-src' => [
+            'allow' => [
+                'https://www.google-analytics.com',
+            ],
+
             'self' => true,
         ],
 
