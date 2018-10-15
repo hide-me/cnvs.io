@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Sponsors')
+@section('title', sprintf('%s - %s', config('app.name'), 'Sponsors'))
 
 @section('content')
     <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
