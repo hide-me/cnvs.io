@@ -43,14 +43,6 @@
             </ul>
         </div>
         <div class="col-6 col-md">
-            <h5>Community</h5>
-            <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="{{ route('blog') }}">Blog</a></li>
-                <li><a class="text-muted" href="{{ url('https://cnvs-io.slack.com') }}">Slack <span class="badge badge-success">New</span></a></li>
-                <li><a class="text-muted" href="{{ url('https://twitter.com/cnvs_io') }}">Twitter</a></li>
-            </ul>
-        </div>
-        <div class="col-6 col-md">
             <h5>Sponsors</h5>
             <ul class="list-unstyled text-small">
                 <li><a class="text-muted" href="{{ url('https://www.araxis.com/') }}">Araxis</a></li>
@@ -58,6 +50,14 @@
                 <li><a class="text-muted" href="{{ url('https://www.jetbrains.com/') }}">JetBrains</a></li>
                 <li><a class="text-muted" href="{{ url('https://www.keycdn.com/') }}">KeyCDN</a></li>
                 <li><a class="text-muted" href="{{ url('https://www.navicat.com/') }}">Navicat</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <h5>Community</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="{{ route('blog') }}">Blog</a></li>
+                <li><a class="text-muted" href="{{ url('https://cnvs-io.slack.com') }}">Slack <span class="badge badge-success">New</span></a></li>
+                <li><a class="text-muted" href="{{ url('https://twitter.com/cnvs_io') }}">Twitter</a></li>
             </ul>
         </div>
     </div>
