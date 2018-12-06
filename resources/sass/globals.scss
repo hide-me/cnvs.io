@@ -1,0 +1,33 @@
+
+// Globals
+.welcome {
+  font-family: $font-family-serif;
+  span {
+    color: #9ba3aa;
+  }
+}
+
+.serif {
+  font-family: $font-family-serif;
+}
+
+.logo {
+  font-family: $font-family-serif;
+  font-size: 24px;
+  span {
+    color: #9ba3aa;
+  }
+}
+
+.content-title {
+  color: #444;
+  a {
+    color: #444;
+  }
+}
+
+.content-body {
+  color: #444;
+  font-size: 1.1rem;
+  line-height: 2;
+}
