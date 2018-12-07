@@ -9,9 +9,9 @@
                 </a>
 
                 <!-- Right Side Of Navbar -->
-                <a href="#" class="btn btn-sm btn-outline-primary my-auto">
-                    <i class="fab fa-fw fa-github"></i> View on Github
-                </a>
+                <a href="{{ url('https://github.com/cnvs/canvas/releases') }}" class="text-muted ml-auto mr-3">v4.0.0</a>
+                <a href="{{ url('https://github.com/cnvs/canvas') }}" target="_blank"><i
+                            class="fab fa-fw fa-github fa-2x text-dark"></i></a>
             </nav>
         </div>
     </div>
