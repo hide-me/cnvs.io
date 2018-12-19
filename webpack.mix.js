@@ -22,9 +22,9 @@ mix
         }
     })
     .setPublicPath('public')
-    .mix.setResourceRoot('../')
+    .setResourceRoot('../')
     .js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
-    .copy('resources/images', 'public/images')
+    .copy('resources/img', 'public/img')
     .sourceMaps()
     .version();

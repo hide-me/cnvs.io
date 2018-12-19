@@ -6,6 +6,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title')</title>
     <link rel="stylesheet" type="text/css" href="{{ mix('css/app.css') }}">
+    <link rel="icon" type="image/png" href="{{ asset('img/favicon.png') }}">
 </head>
 <body>
     @include('components.nav.navbar')

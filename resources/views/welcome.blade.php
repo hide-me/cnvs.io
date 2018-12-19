@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', config('app.name'))
+@section('title', sprintf('%s — %s', config("app.name"), 'A Laravel publishing platform' ))
 
 @section('content')
     <main class="py-4">
@@ -30,7 +30,7 @@
                     <div class="card-deck mt-5">
                         <div class="card">
                             <div class="card-body">
-                                <img src="{{ asset('images/ericbarnes.jpeg') }}" class="rounded-circle mb-3"
+                                <img src="{{ asset('img/ericbarnes.jpeg') }}" class="rounded-circle mb-3"
                                      style="width: 86px;" alt="">
                                 <h5 class="card-title text-muted small text-uppercase font-weight-bold">Eric Barnes</h5>
                                 <p class="card-text text-left"><i
@@ -43,7 +43,7 @@
                         </div>
                         <div class="card">
                             <div class="card-body">
-                                <img src="{{ asset('images/nickbasile.jpeg') }}" class="rounded-circle mb-3"
+                                <img src="{{ asset('img/nickbasile.jpeg') }}" class="rounded-circle mb-3"
                                      style="width: 86px;" alt="">
                                 <h5 class="card-title text-muted small text-uppercase font-weight-bold">Nick Basile</h5>
                                 <p class="card-text text-left"><i
@@ -56,7 +56,7 @@
                         </div>
                         <div class="card">
                             <div class="card-body">
-                                <img src="{{ asset('images/brunoskvorc.jpeg') }}" class="rounded-circle mb-3"
+                                <img src="{{ asset('img/brunoskvorc.jpeg') }}" class="rounded-circle mb-3"
                                      style="width: 86px;" alt="">
                                 <h5 class="card-title text-muted small text-uppercase font-weight-bold">Bruno
                                     Škvorc</h5>
