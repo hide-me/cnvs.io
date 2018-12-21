@@ -75,7 +75,7 @@
 
     <div class="card bg-light rounded-0 w-100 border-0 mb-5 mt-4">
         <div class="text-center my-5">
-            <a href="{{ url('https://github.com/cnvs/canvas/tree/master#installation') }}" target="_blank"
+            <a href="{{ url('https://github.com/cnvs/canvas/tree/master#installation') }}"
                class="btn btn-secondary text-uppercase font-weight-bold">Download</a>
             <p class="mt-4 mb-0 text-muted serif px-4">Easily install into an existing Laravel app or a brand new
                 project.</p>
@@ -88,7 +88,7 @@
                 href="{{ url('https://github.com/cnvs/canvas') }}" class="font-weight-bold">View source</a>.
         </p>
         <p>
-            Proudly hosted by <a href="{{ url('https://digitalocean.com') }}" class="font-weight-bold" target="_blank">DigitalOcean</a>.
+            Proudly hosted by <a href="{{ url('https://digitalocean.com/?refcode=41cb45b3c7db') }}" class="font-weight-bold">DigitalOcean</a>.
         </p>
     </div>
 @endsection

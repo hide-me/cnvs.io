@@ -10,8 +10,7 @@
 
                 <!-- Right Side Of Navbar -->
                 <a href="{{ url('https://github.com/cnvs/canvas/releases') }}" class="text-muted ml-auto mr-3">v4.0.0</a>
-                <a href="{{ url('https://github.com/cnvs/canvas') }}" target="_blank"><i
-                            class="fab fa-fw fa-github fa-2x text-dark"></i></a>
+                <a href="{{ url('https://github.com/cnvs/canvas') }}"><i class="fab fa-fw fa-github fa-2x text-dark"></i></a>
             </nav>
         </div>
     </div>
