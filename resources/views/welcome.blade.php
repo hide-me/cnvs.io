@@ -13,9 +13,10 @@
 
                 <div class="col-md-10">
                     <p class="content-body serif">
-                       Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit. Assumenda commodi dicta dolor earum eveniet expedita fugit iste, maxime nulla
-                        optio quam recusandae saepe, sed unde ut velit, vitae voluptatem voluptatibus.
+                        Some things are easier said than done. With Canvas, <em>it's just easier</em>. Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit. Assumenda commodi dicta dolor earum eveniet expedita fugit
+                        iste, maxime nulla optio quam recusandae saepe, sed unde ut velit, vitae voluptatem
+                        voluptatibus.
                     </p>
                     <p class="content-body serif">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda commodi dicta dolor earum
@@ -83,12 +84,10 @@
     </div>
 
     <div class="container text-center mt-4 mb-5">
-        <p>
-            Released under the <a href="{{ url('https://github.com/cnvs/canvas/blob/master/license') }}" class="font-weight-bold">MIT</a> license. <a
-                href="{{ url('https://github.com/cnvs/canvas') }}" class="font-weight-bold">View source</a>.
-        </p>
-        <p>
-            Proudly hosted by <a href="{{ url('https://digitalocean.com/?refcode=41cb45b3c7db') }}" class="font-weight-bold">DigitalOcean</a>.
-        </p>
+        <p>Released under the <a href="{{ url('https://github.com/cnvs/canvas/blob/master/license') }}"
+                                  class="font-weight-bold">MIT</a> license. <a
+                    href="{{ url('https://github.com/cnvs/canvas') }}" class="font-weight-bold">View source</a>.</p>
+        <p>Proudly hosted by <a href="{{ url('https://digitalocean.com/?refcode=41cb45b3c7db') }}"
+                                 class="font-weight-bold">DigitalOcean</a>.</p>
     </div>
 @endsection
