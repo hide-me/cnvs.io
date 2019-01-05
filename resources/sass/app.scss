@@ -13,11 +13,15 @@
 // Bootstrap
 @import "~bootstrap/scss/bootstrap";
 
+a {
+  text-decoration: none !important;
+}
+
 .welcome {
   font-family: $font-family-serif;
   font-size: 45px;
   span {
-    color: #9ba3aa;
+    color: $light-grey;
   }
 }
 
@@ -29,19 +33,19 @@
   font-family: $font-family-serif;
   font-size: 24px;
   span {
-    color: #9ba3aa;
+    color: $light-grey;
   }
 }
 
 .content-title {
-  color: #444;
+  color: $dark-grey;
   a {
-    color: #444;
+    color: $dark-grey;
   }
 }
 
 .content-body {
-  color: #444;
+  color: $dark-grey;
   font-size: 1.1rem;
   line-height: 2;
 }

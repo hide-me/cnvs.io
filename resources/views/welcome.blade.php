@@ -6,23 +6,21 @@
     <main class="py-4">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-10 mb-5 text-center text-md-left">
+                <div class="col-md-10 mb-5 text-md-left">
+                    <p class="text-muted text-uppercase mb-0 font-weight-bold">A Laravel publishing platform</p>
                     <h1 class="welcome font-weight-bold">Welcome to <span>C</span>anvas.</h1>
-                    <p class="lead text-muted">A Laravel publishing platform.</p>
                 </div>
 
                 <div class="col-md-10">
                     <p class="content-body serif">
-                        Some things are easier said than done. With Canvas, <em>it's just easier</em>. Lorem ipsum dolor sit
-                        amet, consectetur adipisicing elit. Assumenda commodi dicta dolor earum eveniet expedita fugit
-                        iste, maxime nulla optio quam recusandae saepe, sed unde ut velit, vitae voluptatem
-                        voluptatibus.
+                        <span class="font-weight-bold">Some things are easier</span> said than done. With Canvas, <span
+                                class="font-italic">it's just easier</span>. Take complete control of your own content
+                        and how it's displayed on a hosting platform of your choice.
                     </p>
                     <p class="content-body serif">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda commodi dicta dolor earum
-                        eveniet expedita fugit iste, maxime nulla optio quam recusandae saepe, sed unde ut velit, vitae
-                        voluptatem voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
-                        commodi dicta dolor earum eveniet expedita fugit iste.
+                        Publishing your own content is great, but how much better would it be to see your impact? Canvas
+                        provides beautiful graphs so you can quickly see monthly trends. Want to get more specific? Dive
+                        into any post to see insights on traffic and where your readers are coming from.
                     </p>
                 </div>
 
@@ -85,9 +83,9 @@
 
     <div class="container text-center mt-4 mb-5">
         <p>Released under the <a href="{{ url('https://github.com/cnvs/canvas/blob/master/license') }}"
-                                  class="font-weight-bold">MIT</a> license. <a
+                                 class="font-weight-bold">MIT</a> license. <a
                     href="{{ url('https://github.com/cnvs/canvas') }}" class="font-weight-bold">View source</a>.</p>
         <p>Proudly hosted by <a href="{{ url('https://digitalocean.com/?refcode=41cb45b3c7db') }}"
-                                 class="font-weight-bold">DigitalOcean</a>.</p>
+                                class="font-weight-bold">DigitalOcean</a>.</p>
     </div>
 @endsection
