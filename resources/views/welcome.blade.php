@@ -24,9 +24,15 @@
                     </p>
                 </div>
 
-                <div class="col-md-10 text-center">
-                    <h2 class="font-weight-bold serif my-5">From the Community</h2>
-                    <div class="card-deck mt-5">
+                <div class="col-md-10 py-4">
+                    <img src="{{ asset('img/placeholder.png') }}" class="shadow"
+                         style="width: 100%; -webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px;"
+                         alt="Screenshot of Canvas">
+                </div>
+
+                <div class="col-md-10 text-center pt-5">
+                    <h2 class="font-weight-bold serif pb-4">From the Community</h2>
+                    <div class="card-deck">
                         <div class="card">
                             <div class="card-body">
                                 <img src="{{ asset('img/ericbarnes.jpeg') }}" class="rounded-circle mb-3"
