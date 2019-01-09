@@ -18,15 +18,15 @@
                         and how it's displayed on a hosting platform of your choice.
                     </p>
                     <p class="content-body serif">
-                        Publishing your own content is great, but how much better would it be to see your impact? Canvas
-                        provides beautiful graphs so you can quickly see monthly trends. Want to get more specific? Dive
-                        into any post to see insights on traffic and where your readers are coming from.
+                        Publishing your own content is one thing, but how much better would it be to see your impact?
+                        Canvas provides beautiful graphs so you can visualize monthly trends. And that's just the
+                        beginning. You can even get traffic insights on your readers and where they're coming from.
                     </p>
                 </div>
 
                 <div class="col-md-10 py-4">
-                    <img src="{{ asset('img/placeholder.png') }}" class="shadow"
-                         style="width: 100%; -webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px;"
+                    <img src="{{ asset('img/placeholder.png') }}" class="shadow w-100"
+                         style="-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px;"
                          alt="Screenshot of Canvas">
                 </div>
 
