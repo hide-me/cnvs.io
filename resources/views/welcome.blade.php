@@ -25,12 +25,12 @@
                 </div>
 
                 <div class="col-md-10 my-4" style="-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px;">
-                    <div class="container bg-dark py-3 shadow" style="border-top-right-radius: 25px; border-top-left-radius: 25px;">
+                    <div class="container bg-dark py-2 shadow" style="border-top-right-radius: 25px; border-top-left-radius: 25px;">
                         <i class="fas fa-fw fa-circle text-muted"></i>
                         <i class="fas fa-fw fa-circle text-muted"></i>
                         <i class="fas fa-fw fa-circle text-muted"></i>
                     </div>
-                    <img src="{{ asset('img/placeholder.png') }}" class="w-100 shadow" style="border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;" alt="Screenshot of Canvas">
+                    <img src="{{ asset('img/screen.png') }}" class="w-100 shadow" style="border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;" alt="Screenshot of Canvas">
                 </div>
 
                 <div class="col-md-10 text-center pt-5">
