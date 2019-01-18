@@ -42,7 +42,7 @@
                                      style="width: 86px;" alt="">
                                 <h5 class="card-title text-muted small text-uppercase font-weight-bold">Eric Barnes</h5>
                                 <p class="card-text text-left"><i
-                                            class="fa fa-fw fa-quote-left fa-2x text-secondary" style="opacity: .2"></i>
+                                            class="fas fa-fw fa-quote-left fa-2x text-secondary" style="opacity: .2"></i>
                                     For my first look
                                     at Canvas, I’m really impressed with the appearance of the admin. The installation
                                     is really straightforward, especially if you are comfortable with Laravel. If you
@@ -55,7 +55,7 @@
                                      style="width: 86px;" alt="">
                                 <h5 class="card-title text-muted small text-uppercase font-weight-bold">Nick Basile</h5>
                                 <p class="card-text text-left"><i
-                                            class="fa fa-fw fa-quote-left fa-2x text-secondary" style="opacity: .2"></i>
+                                            class="fas fa-fw fa-quote-left fa-2x text-secondary" style="opacity: .2"></i>
                                     Canvas rocks! I’ve
                                     tried building blogs from scratch and with other plug and play CMS’s, but nothing
                                     comes close to Canvas. I now use Canvas
@@ -69,7 +69,7 @@
                                 <h5 class="card-title text-muted small text-uppercase font-weight-bold">Bruno
                                     Škvorc</h5>
                                 <p class="card-text text-left"><i
-                                            class="fa fa-fw fa-quote-left fa-2x text-secondary" style="opacity: .2"></i>
+                                            class="fas fa-fw fa-quote-left fa-2x text-secondary" style="opacity: .2"></i>
                                     If you’re looking
                                     for an easy-to-use, easy-to-set-up blog, give Canvas a go and submit extensions and
                                     pull requests to expand its already very vibrant community.</p>
