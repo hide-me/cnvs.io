@@ -7,12 +7,12 @@
     <meta name="description" content="">
     <meta name="og:type" content="website">
     <meta name="og:title" content="{{ sprintf('%s — %s', config("app.name"), 'A Laravel publishing platform' ) }}">
-    <meta name="og:image" content="">
+    <meta name="og:image" content="{{ asset('img/0R02D9s508082js9x8OBWEmxrAQyaO5F2nqVccOt.png') }}">
     <meta name="og:site_name" content="{{ config("app.name") }}">
     <meta name="og:description" content="">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{{ sprintf('%s — %s', config("app.name"), 'A Laravel publishing platform' ) }}">
-    <meta name="twitter:image" content="">
+    <meta name="twitter:image" content="{{ asset('img/0R02D9s508082js9x8OBWEmxrAQyaO5F2nqVccOt.png') }}">
     <meta name="twitter:site" content="@cnvs">
     <meta name="twitter:description" content="">
     <title>@yield('title')</title>
