@@ -13,24 +13,28 @@
 
                 <div class="col-md-10">
                     <p class="content-body serif">
-                        <span class="font-weight-bold">Some things are easier</span> said than done. With Canvas, <span
-                                class="font-italic">it's just easier</span>. Take complete control of your own content
+                        <span class="font-weight-bold">Some things are easier</span> said than done. With
+                        <span class="font-italic">Canvas</span>, it's just easier. Take complete control of your own content
                         and how it's displayed on a hosting platform of your choice.
                     </p>
                     <p class="content-body serif">
                         Publishing your own content is one thing, but how much better would it be to see your impact?
-                        Canvas provides beautiful graphs so you can visualize monthly trends. And that's just the
-                        beginning. You can even get traffic insights on your readers and where they're coming from.
+                        <span class="font-italic">Canvas</span> provides beautiful graphs so you can visualize monthly
+                        trends. And that's just the beginning. You can even get traffic insights on your readers and
+                        where they're coming from.
                     </p>
                 </div>
 
-                <div class="col-md-10 my-4" style="-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px;">
-                    <div class="container bg-dark py-2 shadow" style="border-top-right-radius: 25px; border-top-left-radius: 25px;">
+                <div class="col-md-10 my-4"
+                     style="-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px;">
+                    <div class="container bg-dark py-2 shadow"
+                         style="border-top-right-radius: 25px; border-top-left-radius: 25px;">
                         <i class="fas fa-fw fa-circle text-muted"></i>
                         <i class="fas fa-fw fa-circle text-muted"></i>
                         <i class="fas fa-fw fa-circle text-muted"></i>
                     </div>
-                    <img src="{{ asset('img/zDTOCfMeOf2pr1sHax9KqNzWsnF8KOa55CPPyppc.png') }}" class="w-100 shadow" style="border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;">
+                    <img src="{{ asset('img/zDTOCfMeOf2pr1sHax9KqNzWsnF8KOa55CPPyppc.png') }}" class="w-100 shadow"
+                         style="border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;">
                 </div>
 
                 <div class="col-md-10 text-center pt-5">
@@ -38,11 +42,13 @@
                     <div class="card-deck">
                         <div class="card">
                             <div class="card-body">
-                                <img src="{{ asset('img/yO7YJ2iggWxwpk6PGkR7lgAJWECEI4JVAN3ys5MK.jpeg') }}" class="rounded-circle mb-3"
+                                <img src="{{ asset('img/yO7YJ2iggWxwpk6PGkR7lgAJWECEI4JVAN3ys5MK.jpeg') }}"
+                                     class="rounded-circle mb-3"
                                      style="width: 86px;">
                                 <h5 class="card-title text-muted small text-uppercase font-weight-bold">Eric Barnes</h5>
                                 <p class="card-text text-left"><i
-                                            class="fas fa-fw fa-quote-left fa-2x text-secondary" style="opacity: .2"></i>
+                                            class="fas fa-fw fa-quote-left fa-2x text-secondary"
+                                            style="opacity: .2"></i>
                                     For my first look
                                     at Canvas, I’m really impressed with the appearance of the admin. The installation
                                     is really straightforward, especially if you are comfortable with Laravel. If you
@@ -51,28 +57,31 @@
                         </div>
                         <div class="card">
                             <div class="card-body">
-                                <img src="{{ asset('img/un0I4Mn9bAsOJjO4bJEiMw5GChp8WIbshZOQtdkC.jpeg') }}" class="rounded-circle mb-3"
+                                <img src="{{ asset('img/un0I4Mn9bAsOJjO4bJEiMw5GChp8WIbshZOQtdkC.jpeg') }}"
+                                     class="rounded-circle mb-3"
                                      style="width: 86px;">
                                 <h5 class="card-title text-muted small text-uppercase font-weight-bold">Nick Basile</h5>
                                 <p class="card-text text-left"><i
-                                            class="fas fa-fw fa-quote-left fa-2x text-secondary" style="opacity: .2"></i>
-                                    Canvas rocks! I’ve
-                                    tried building blogs from scratch and with other plug and play CMS’s, but nothing
-                                    comes close to Canvas. I now use Canvas
-                                    exclusively for my blog development and I’ve never been happier.</p>
+                                            class="fas fa-fw fa-quote-left fa-2x text-secondary"
+                                            style="opacity: .2"></i>
+                                    Canvas rocks! I’ve tried building blogs from scratch and with other plug and
+                                    play CMS’s, but nothing comes close to Canvas. I now use Canvas exclusively for
+                                    my blog development and I’ve never been happier.</p>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-body">
-                                <img src="{{ asset('img/to51Tc1HAMjO7Se3xoXqaEcvzfM3TOkI9KW33Z0f.jpeg') }}" class="rounded-circle mb-3"
+                                <img src="{{ asset('img/to51Tc1HAMjO7Se3xoXqaEcvzfM3TOkI9KW33Z0f.jpeg') }}"
+                                     class="rounded-circle mb-3"
                                      style="width: 86px;">
                                 <h5 class="card-title text-muted small text-uppercase font-weight-bold">Bruno
                                     Škvorc</h5>
                                 <p class="card-text text-left"><i
-                                            class="fas fa-fw fa-quote-left fa-2x text-secondary" style="opacity: .2"></i>
-                                    If you’re looking
-                                    for an easy-to-use, easy-to-set-up blog, give Canvas a go and submit extensions and
-                                    pull requests to expand its already very vibrant community.</p>
+                                            class="fas fa-fw fa-quote-left fa-2x text-secondary"
+                                            style="opacity: .2"></i>
+                                    If you’re looking for an easy-to-use, easy-to-set-up blog, give Canvas a go and
+                                    submit extensions and pull requests to expand its already very vibrant
+                                    community.</p>
                             </div>
                         </div>
                     </div>
