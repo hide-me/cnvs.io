@@ -30,7 +30,7 @@
                         <i class="fas fa-fw fa-circle text-muted"></i>
                         <i class="fas fa-fw fa-circle text-muted"></i>
                     </div>
-                    <img src="{{ asset('img/screen.png') }}" class="w-100 shadow" style="border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;" alt="Screenshot of Canvas">
+                    <img src="{{ asset('img/zDTOCfMeOf2pr1sHax9KqNzWsnF8KOa55CPPyppc.png') }}" class="w-100 shadow" style="border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;">
                 </div>
 
                 <div class="col-md-10 text-center pt-5">
@@ -38,8 +38,8 @@
                     <div class="card-deck">
                         <div class="card">
                             <div class="card-body">
-                                <img src="{{ asset('img/ericbarnes.jpeg') }}" class="rounded-circle mb-3"
-                                     style="width: 86px;" alt="">
+                                <img src="{{ asset('img/yO7YJ2iggWxwpk6PGkR7lgAJWECEI4JVAN3ys5MK.jpeg') }}" class="rounded-circle mb-3"
+                                     style="width: 86px;">
                                 <h5 class="card-title text-muted small text-uppercase font-weight-bold">Eric Barnes</h5>
                                 <p class="card-text text-left"><i
                                             class="fas fa-fw fa-quote-left fa-2x text-secondary" style="opacity: .2"></i>
@@ -51,8 +51,8 @@
                         </div>
                         <div class="card">
                             <div class="card-body">
-                                <img src="{{ asset('img/nickbasile.jpeg') }}" class="rounded-circle mb-3"
-                                     style="width: 86px;" alt="">
+                                <img src="{{ asset('img/un0I4Mn9bAsOJjO4bJEiMw5GChp8WIbshZOQtdkC.jpeg') }}" class="rounded-circle mb-3"
+                                     style="width: 86px;">
                                 <h5 class="card-title text-muted small text-uppercase font-weight-bold">Nick Basile</h5>
                                 <p class="card-text text-left"><i
                                             class="fas fa-fw fa-quote-left fa-2x text-secondary" style="opacity: .2"></i>
@@ -64,8 +64,8 @@
                         </div>
                         <div class="card">
                             <div class="card-body">
-                                <img src="{{ asset('img/brunoskvorc.jpeg') }}" class="rounded-circle mb-3"
-                                     style="width: 86px;" alt="">
+                                <img src="{{ asset('img/to51Tc1HAMjO7Se3xoXqaEcvzfM3TOkI9KW33Z0f.jpeg') }}" class="rounded-circle mb-3"
+                                     style="width: 86px;">
                                 <h5 class="card-title text-muted small text-uppercase font-weight-bold">Bruno
                                     Škvorc</h5>
                                 <p class="card-text text-left"><i
