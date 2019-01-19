@@ -17,7 +17,7 @@
     <meta name="twitter:description" content="">
     <title>@yield('title')</title>
     <link rel="stylesheet" type="text/css" href="{{ mix('css/app.css') }}">
-    <link rel="icon" type="image/png" href="{{ asset('img/favicon.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('img/BgPrQ9dMfg5zLKskTSVWpHVUmMJNfgAXLhKNtZuN.png') }}">
 </head>
 <body>
     @include('components.nav.navbar')
