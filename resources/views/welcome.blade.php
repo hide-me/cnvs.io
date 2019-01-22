@@ -43,8 +43,8 @@
                         <div class="card">
                             <div class="card-body">
                                 <img src="{{ asset('img/yO7YJ2iggWxwpk6PGkR7lgAJWECEI4JVAN3ys5MK.jpeg') }}"
-                                     class="rounded-circle mb-3"
-                                     style="width: 86px;" alt="">
+                                     class="rounded-circle mb-3 shadow-sm"
+                                     style="width: 86px;" title="@ericlbarnes" alt="">
                                 <h5 class="card-title text-muted small text-uppercase font-weight-bold">Eric Barnes</h5>
                                 <p class="card-text text-left"><i
                                             class="fas fa-fw fa-quote-left fa-2x text-secondary"
@@ -58,8 +58,8 @@
                         <div class="card">
                             <div class="card-body">
                                 <img src="{{ asset('img/un0I4Mn9bAsOJjO4bJEiMw5GChp8WIbshZOQtdkC.jpeg') }}"
-                                     class="rounded-circle mb-3"
-                                     style="width: 86px;" alt="">
+                                     class="rounded-circle mb-3 shadow-sm"
+                                     style="width: 86px;" title="@nickbasile" alt="">
                                 <h5 class="card-title text-muted small text-uppercase font-weight-bold">Nick Basile</h5>
                                 <p class="card-text text-left"><i
                                             class="fas fa-fw fa-quote-left fa-2x text-secondary"
@@ -72,8 +72,8 @@
                         <div class="card">
                             <div class="card-body">
                                 <img src="{{ asset('img/to51Tc1HAMjO7Se3xoXqaEcvzfM3TOkI9KW33Z0f.jpeg') }}"
-                                     class="rounded-circle mb-3"
-                                     style="width: 86px;" alt="">
+                                     class="rounded-circle mb-3 shadow-sm"
+                                     style="width: 86px;" title="@bitfalls" alt="">
                                 <h5 class="card-title text-muted small text-uppercase font-weight-bold">Bruno
                                     Škvorc</h5>
                                 <p class="card-text text-left"><i
