@@ -14,14 +14,15 @@
                 <div class="col-md-10">
                     <p class="content-body serif">
                         <span class="font-weight-bold">Some things are easier</span> said than done. With
-                        <span class="font-italic">Canvas</span>, it's just easier. Take complete control of your own content
-                        and how it's displayed on a hosting platform of your choice.
+                        <span class="font-italic">Canvas</span>, it's just easier. Simple installation, freedom to
+                        display content as you see fit, and a familiar editing environment will keep you and your
+                        clients focused on what <span class="font-italic">Canvas</span> is really good at: Publishing.
                     </p>
                     <p class="content-body serif">
-                        Publishing your own content is one thing, but how much better would it be to see your impact?
-                        <span class="font-italic">Canvas</span> provides beautiful graphs so you can visualize monthly
-                        trends. And that's just the beginning. You can even get traffic insights on your readers and
-                        where they're coming from.
+                        Controlling your own content is one thing, but how much better if you could see your
+                        impact? <span class="font-italic">Canvas</span> lets you visualize monthly trends, see where
+                        your readers are coming from and even when they like to read your content. Think of it as a
+                        lightweight version of Google Analytics, straight out of the box.
                     </p>
                 </div>
 
@@ -35,6 +36,9 @@
                     </div>
                     <img src="{{ asset('img/zDTOCfMeOf2pr1sHax9KqNzWsnF8KOa55CPPyppc.png') }}" class="w-100 shadow"
                          style="border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;" alt="">
+                    <p class="text-muted text-center pt-3">
+                        <span class="font-weight-bold">Web native:</span> Fully mobile and desktop ready on any device
+                    </p>
                 </div>
 
                 <div class="col-md-10 text-center pt-5">
