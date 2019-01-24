@@ -96,7 +96,7 @@
 
     <div class="card bg-light rounded-0 w-100 border-0 mb-5 mt-4">
         <div class="text-center my-5">
-            <a href="{{ url('https://github.com/cnvs/canvas/tree/master#installation') }}"
+            <a href="{{ url('https://github.com/cnvs/canvas#installation') }}"
                class="btn btn-secondary text-uppercase font-weight-bold">Download</a>
             <p class="mt-4 mb-0 text-muted serif px-4">Easily install into an existing Laravel app or a brand new
                 project.</p>
