@@ -1,4 +1,4 @@
-<div class="mb-5">
+<div class="mb-4 mt-2">
     <div class="container d-flex justify-content-center px-0">
         <div class="col-md-10 px-0">
             <nav class="navbar navbar-light justify-content-between flex-nowrap flex-row">

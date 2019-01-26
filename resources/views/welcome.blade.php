@@ -19,23 +19,22 @@
                         clients focused on what <span class="font-italic">Canvas</span> is really good at: Publishing.
                     </p>
                     <p class="content-body serif">
-                        Controlling your own content is one thing, but how much better if you could see your
-                        impact? <span class="font-italic">Canvas</span> lets you visualize monthly trends, see where
-                        your readers are coming from and even when they like to read your content. Think of it as a
-                        lightweight version of Google Analytics, straight out of the box.
+                        Want a little more out of your blog than just posts and tags?
+                        <span class="font-italic">Canvas</span> lets you visualize monthly trends, see where your
+                        readers are coming from and even what time of day they prefer to read your content. Think of it
+                        as a lightweight version of Google Analytics, straight out of the box.
                     </p>
                 </div>
 
-                <div class="col-md-10 my-4"
-                     style="-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px;">
-                    <div class="container bg-dark py-2 shadow"
-                         style="border-top-right-radius: 25px; border-top-left-radius: 25px;">
+                <div class="col-md-10 my-4 rounded">
+                    <div class="container py-2 shadow"
+                         style="border-top-right-radius: 8px; border-top-left-radius: 8px; background-color: rgb(38, 41, 43)">
                         <i class="fas fa-fw fa-circle text-muted"></i>
                         <i class="fas fa-fw fa-circle text-muted"></i>
                         <i class="fas fa-fw fa-circle text-muted"></i>
                     </div>
                     <img src="{{ asset('img/zDTOCfMeOf2pr1sHax9KqNzWsnF8KOa55CPPyppc.png') }}" class="w-100 shadow"
-                         style="border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;" alt="">
+                         style="border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;" alt="">
                     <p class="text-muted text-center pt-3">
                         <span class="font-weight-bold">Web native:</span> Fully mobile and desktop ready on any device
                     </p>
