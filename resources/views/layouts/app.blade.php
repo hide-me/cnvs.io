@@ -14,7 +14,7 @@
     <meta property="og:site_name" content="{{ config('app.name') }}">
 
     <!-- Twitter meta tags -->
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ sprintf('%s — %s', config("app.name"), 'A Laravel publishing platform' ) }}">
     <meta name="twitter:image" content="{{ asset('img/0R02D9s508082js9x8OBWEmxrAQyaO5F2nqVccOt.png') }}">
     <meta name="twitter:site" content="@cnvs">
