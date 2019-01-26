@@ -438,7 +438,9 @@ return [
         ],
 
         'connect-src' => [
-            //
+            'allow' => [
+                'https://www.google-analytics.com',
+            ],
         ],
 
         'font-src' => [

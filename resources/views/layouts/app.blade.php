@@ -4,21 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta name="description" content="">
+    <meta name="description" content="Welcome to Canvas. A Laravel publishing platform.">
 
     <!-- Facebook meta tags -->
-    <meta name="og:type" content="website">
-    <meta name="og:title" content="{{ sprintf('%s — %s', config("app.name"), 'A Laravel publishing platform' ) }}">
-    <meta name="og:image" content="{{ asset('img/0R02D9s508082js9x8OBWEmxrAQyaO5F2nqVccOt.png') }}">
-    <meta name="og:site_name" content="{{ config("app.name") }}">
-    <meta name="og:description" content="">
+    <meta property="og:url" content="{{ config('app.url') }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ sprintf('%s ― %s', config("app.name"), 'A Laravel publishing platform' ) }}">
+    <meta property="og:image" content="{{ asset('img/0R02D9s508082js9x8OBWEmxrAQyaO5F2nqVccOt.png') }}">
+    <meta property="og:site_name" content="{{ config('app.name') }}">
 
     <!-- Twitter meta tags -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{{ sprintf('%s — %s', config("app.name"), 'A Laravel publishing platform' ) }}">
     <meta name="twitter:image" content="{{ asset('img/0R02D9s508082js9x8OBWEmxrAQyaO5F2nqVccOt.png') }}">
     <meta name="twitter:site" content="@cnvs">
-    <meta name="twitter:description" content="">
+    <meta name="twitter:description" content="Welcome to Canvas. A Laravel publishing platform.">
 
     <!-- Title -->
     <title>@yield('title')</title>
