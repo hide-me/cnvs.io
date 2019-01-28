@@ -16,7 +16,7 @@ class HomeController extends Controller
     {
         $client = new Client();
         $request = $client->get('https://api.github.com/repos/cnvs/canvas/releases/latest');
-        $response = json_decode($request->getBody()->getContents());
+        $response = $request->getStatusCode() == 200 ? json_decode($request->getBody()->getContents()) : null;
 
         $data = [
             'release' => $response->tag_name,
