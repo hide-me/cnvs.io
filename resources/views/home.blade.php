@@ -40,7 +40,7 @@
                     </p>
                 </div>
 
-                <div class="col-md-10 text-center pt-5">
+                <div class="col-md-10 text-center pt-4">
                     <h2 class="font-weight-bold serif pb-4">From the Community</h2>
                     <div class="card-deck">
                         <div class="card">
