@@ -46,9 +46,8 @@
                         <div class="col-lg-4 text-left my-auto">
                             <p class="text-muted text-uppercase font-weight-bold">Publication statistics</p>
                             <p class="spacing-normal">See realtime insights and trends on your content. Not everyone
-                                needs the headache of
-                                setting up Google Analytics, so we built-in only the best parts, and added a couple new
-                                ones.</p>
+                                needs the headache of setting up Google Analytics, so we built-in only the best parts,
+                                and added a couple new ones.</p>
                         </div>
                         <div class="col-lg-6 my-auto">
                             <img src="{{ asset('img/rVcZaX5KTmLiDxX6vcK5cgvSVbwtprUxEB1PMfOi.png') }}"
@@ -79,9 +78,8 @@
                         <div class="col-lg-4 text-left my-auto">
                             <p class="text-muted text-uppercase font-weight-bold">Simple media integration</p>
                             <p class="spacing-normal">Leverage the power of Laravel's built-in filesystem or use your
-                                own, it's up to you.
-                                After that, you can add images, videos, links, or whatever media you'd like to your
-                                content. The sky is the limit here.</p>
+                                own, it's up to you. After that, you can add images, videos, links, or whatever
+                                media you'd like to your content. The sky is the limit here.</p>
                         </div>
                         <div class="col-lg-6 my-auto">
                             <img src="{{ asset('img/J8N7RpXEbNAI4vXMx7GAvEPDfzMTtuUiStsjXUAV.png') }}"
@@ -96,8 +94,8 @@
                         <div class="col-lg-4 text-left my-auto">
                             <p class="text-muted text-uppercase font-weight-bold">Custom social data</p>
                             <p class="spacing-normal">Ensure your content is optimized with fully customizable meta data
-                                for Facebook and
-                                Twitter sharing cards, as well as tag categories to group your posts by.</p>
+                                for Facebook and Twitter sharing cards, as well as tag categories to group your
+                                posts by.</p>
                         </div>
                         <div class="col-lg-6 my-auto order-lg-first">
                             <img src="{{ asset('img/G2TGXLNurlCULphxC0YvLvTV4BsrKiokVOC7aFsI.png') }}"
@@ -119,10 +117,10 @@
                                 <p class="card-text text-left spacing-normal"><i
                                             class="fas fa-fw fa-quote-left fa-2x text-secondary"
                                             style="opacity: .2"></i>
-                                    For my first look
-                                    at Canvas, I’m really impressed with the appearance of the admin. The installation
-                                    is really straightforward, especially if you are comfortable with Laravel. If you
-                                    are looking to start a blog this year, Canvas would be a good choice.</p>
+                                    For my first look at Canvas, I’m really impressed with the appearance of the admin.
+                                    The installation is really straightforward, especially if you are comfortable
+                                    with Laravel. If you are looking to start a blog this year, Canvas would be a
+                                    good choice.</p>
                             </div>
                         </div>
                         <div class="card">
