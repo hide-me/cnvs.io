@@ -4,13 +4,15 @@
             <nav class="navbar navbar-light justify-content-between flex-nowrap flex-row">
                 <!-- Left Side Of Navbar -->
                 <a class="navbar-brand logo font-weight-bold py-0"
-                   href="{{ url('/') }}">
+                   href="{{ route('home') }}">
                     <span>C</span>anvas
                 </a>
 
                 <!-- Right Side Of Navbar -->
-                <a href="{{ url('https://github.com/cnvs/canvas/releases') }}" class="text-muted ml-auto mr-3">v4.0.0</a>
-                <a href="{{ url('https://github.com/cnvs/canvas') }}"><i class="fab fa-fw fa-github fa-2x text-dark"></i></a>
+                <a href="{{ url(sprintf('%s/%s', 'https://github.com/cnvs/canvas/releases/tag', $data['release'])) }}"
+                   class="text-muted ml-auto mr-3">{{ $data['release'] }}</a>
+                <a href="{{ url('https://github.com/cnvs/canvas') }}"><i
+                            class="fab fa-fw fa-github fa-2x text-dark"></i></a>
             </nav>
         </div>
     </div>
