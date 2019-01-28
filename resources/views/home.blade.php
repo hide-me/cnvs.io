@@ -36,7 +36,8 @@
                     <img src="{{ asset('img/zDTOCfMeOf2pr1sHax9KqNzWsnF8KOa55CPPyppc.png') }}" class="w-100 shadow"
                          style="border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;" alt="">
                     <p class="text-muted text-center pt-3">
-                        <span class="font-weight-bold">Web native:</span> Fully mobile and desktop ready on any device
+                        <span class="font-weight-bold spacing-normal">Web native:</span> Fully mobile and desktop ready
+                        on any device
                     </p>
                 </div>
 
@@ -44,7 +45,8 @@
                     <div class="row justify-content-around py-5 border-bottom">
                         <div class="col-lg-4 text-left my-auto">
                             <p class="text-muted text-uppercase font-weight-bold">Publication statistics</p>
-                            <p>See realtime insights and trends on your content. Not everyone needs the headache of
+                            <p class="spacing-normal">See realtime insights and trends on your content. Not everyone
+                                needs the headache of
                                 setting up Google Analytics, so we built-in only the best parts, and added a couple new
                                 ones.</p>
                         </div>
@@ -60,7 +62,9 @@
                     <div class="row justify-content-around py-5 border-bottom">
                         <div class="col-lg-4 text-left my-auto">
                             <p class="text-muted text-uppercase font-weight-bold">A new editing experience</p>
-                            <p>Enjoy a distraction-free writing experience in this Medium-inspired editor. More than just a formatting toolbar, you'll find out it has some tricks up its sleeve.</p>
+                            <p class="spacing-normal">Enjoy a distraction-free writing experience in this
+                                Medium-inspired editor. More than just a formatting toolbar, you'll find out it has some
+                                tricks up its sleeve.</p>
                         </div>
                         <div class="col-lg-6 my-auto order-lg-first">
                             <img src="{{ asset('img/5778T1Ba1mD1sxPDBkyuRqKEjhBPVVY375tgxV3R.png') }}"
@@ -73,8 +77,9 @@
                 <div class="col-lg-10 text-center">
                     <div class="row justify-content-around py-5 border-bottom">
                         <div class="col-lg-4 text-left my-auto">
-                            <p class="text-muted text-uppercase font-weight-bold">Integrated media</p>
-                            <p>Leverage the power of Laravel's built-in filesystem or use your own, it's up to you.
+                            <p class="text-muted text-uppercase font-weight-bold">Simple media integration</p>
+                            <p class="spacing-normal">Leverage the power of Laravel's built-in filesystem or use your
+                                own, it's up to you.
                                 After that, you can add images, videos, links, or whatever media you'd like to your
                                 content. The sky is the limit here.</p>
                         </div>
@@ -90,7 +95,8 @@
                     <div class="row justify-content-around py-5">
                         <div class="col-lg-4 text-left my-auto">
                             <p class="text-muted text-uppercase font-weight-bold">Custom social data</p>
-                            <p>Ensure your content is optimized with fully customizable meta data for Facebook and
+                            <p class="spacing-normal">Ensure your content is optimized with fully customizable meta data
+                                for Facebook and
                                 Twitter sharing cards, as well as tag categories to group your posts by.</p>
                         </div>
                         <div class="col-lg-6 my-auto order-lg-first">
@@ -110,7 +116,7 @@
                                      class="rounded-circle mb-3 shadow-sm"
                                      style="width: 86px;" title="@ericlbarnes" alt="">
                                 <h5 class="card-title text-muted small text-uppercase font-weight-bold">Eric Barnes</h5>
-                                <p class="card-text text-left"><i
+                                <p class="card-text text-left spacing-normal"><i
                                             class="fas fa-fw fa-quote-left fa-2x text-secondary"
                                             style="opacity: .2"></i>
                                     For my first look
@@ -125,7 +131,7 @@
                                      class="rounded-circle mb-3 shadow-sm"
                                      style="width: 86px;" title="@nickbasile" alt="">
                                 <h5 class="card-title text-muted small text-uppercase font-weight-bold">Nick Basile</h5>
-                                <p class="card-text text-left"><i
+                                <p class="card-text text-left spacing-normal"><i
                                             class="fas fa-fw fa-quote-left fa-2x text-secondary"
                                             style="opacity: .2"></i>
                                     Canvas rocks! I’ve tried building blogs from scratch and with other plug and
@@ -140,7 +146,7 @@
                                      style="width: 86px;" title="@bitfalls" alt="">
                                 <h5 class="card-title text-muted small text-uppercase font-weight-bold">Bruno
                                     Škvorc</h5>
-                                <p class="card-text text-left"><i
+                                <p class="card-text text-left spacing-normal"><i
                                             class="fas fa-fw fa-quote-left fa-2x text-secondary"
                                             style="opacity: .2"></i>
                                     If you’re looking for an easy-to-use, easy-to-set-up blog, give Canvas a go and
@@ -158,16 +164,18 @@
         <div class="text-center my-5">
             <a href="{{ url('https://github.com/cnvs/canvas#installation') }}"
                class="btn btn-secondary text-uppercase font-weight-bold">Download</a>
-            <p class="mt-4 mb-0 text-muted serif px-4">Easily install into an existing Laravel app or a brand new
+            <p class="mt-4 mb-0 text-muted serif px-4 spacing-normal">Easily install into an existing Laravel app or a
+                brand new
                 project.</p>
         </div>
     </div>
 
     <div class="container text-center mt-4 mb-5">
-        <p>Released under the <a href="{{ url('https://opensource.org/licenses/MIT') }}"
-                                 class="font-weight-bold">MIT</a> license. <a
+        <p class="spacing-normal">Released under the <a href="{{ url('https://opensource.org/licenses/MIT') }}"
+                                                        class="font-weight-bold">MIT</a> license. <a
                     href="{{ url('https://github.com/cnvs/canvas') }}" class="font-weight-bold">View source</a>.</p>
-        <p>Proudly hosted by <a href="{{ url('https://digitalocean.com/?refcode=41cb45b3c7db') }}"
-                                class="font-weight-bold">DigitalOcean</a>.</p>
+        <p class="spacing-normal">Proudly hosted by <a
+                    href="{{ url('https://digitalocean.com/?refcode=41cb45b3c7db') }}"
+                    class="font-weight-bold">DigitalOcean</a>.</p>
     </div>
 @endsection

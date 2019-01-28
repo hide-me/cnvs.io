@@ -11,6 +11,10 @@
 // Bootstrap
 @import "~bootstrap/scss/bootstrap";
 
+.spacing-normal {
+  letter-spacing: .25px;
+}
+
 a {
   text-decoration: none !important;
 }
