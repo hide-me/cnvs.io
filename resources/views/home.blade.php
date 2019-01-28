@@ -26,7 +26,7 @@
                     </p>
                 </div>
 
-                <div class="col-md-10 my-4 rounded">
+                <div class="col-md-10 mt-4 rounded">
                     <div class="container py-2 shadow"
                          style="border-top-right-radius: 8px; border-top-left-radius: 8px; background-color: rgb(38, 41, 43)">
                         <i class="fas fa-fw fa-circle text-muted"></i>
@@ -40,8 +40,69 @@
                     </p>
                 </div>
 
-                <div class="col-md-10 text-center pt-4">
-                    <h2 class="font-weight-bold serif pb-4">From the Community</h2>
+                <div class="col-lg-10 text-center">
+                    <div class="row justify-content-around py-5 border-bottom">
+                        <div class="col-lg-4 text-left my-auto">
+                            <p class="text-muted text-uppercase font-weight-bold">Publication statistics</p>
+                            <p>See realtime insights and trends on your content. Not everyone needs the headache of
+                                setting up Google Analytics, so we built-in only the best parts, and added a couple new
+                                ones.</p>
+                        </div>
+                        <div class="col-lg-6 my-auto">
+                            <img src="{{ asset('img/rVcZaX5KTmLiDxX6vcK5cgvSVbwtprUxEB1PMfOi.png') }}"
+                                 class="img-fluid shadow p-3"
+                                 style="-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-10 text-center">
+                    <div class="row justify-content-around py-5 border-bottom">
+                        <div class="col-lg-4 text-left my-auto">
+                            <p class="text-muted text-uppercase font-weight-bold">A new editing experience</p>
+                            <p>Enjoy a distraction-free writing experience in this Medium-inspired editor. More than just a formatting toolbar, you'll find out it has some tricks up its sleeve.</p>
+                        </div>
+                        <div class="col-lg-6 my-auto order-lg-first">
+                            <img src="{{ asset('img/5778T1Ba1mD1sxPDBkyuRqKEjhBPVVY375tgxV3R.png') }}"
+                                 class="img-fluid w-100 shadow p-3"
+                                 style="-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-10 text-center">
+                    <div class="row justify-content-around py-5 border-bottom">
+                        <div class="col-lg-4 text-left my-auto">
+                            <p class="text-muted text-uppercase font-weight-bold">Integrated media</p>
+                            <p>Leverage the power of Laravel's built-in filesystem or use your own, it's up to you.
+                                After that, you can add images, videos, links, or whatever media you'd like to your
+                                content. The sky is the limit here.</p>
+                        </div>
+                        <div class="col-lg-6 my-auto">
+                            <img src="{{ asset('img/J8N7RpXEbNAI4vXMx7GAvEPDfzMTtuUiStsjXUAV.png') }}"
+                                 class="img-fluid w-100 shadow p-3"
+                                 style="-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-10 text-center">
+                    <div class="row justify-content-around py-5">
+                        <div class="col-lg-4 text-left my-auto">
+                            <p class="text-muted text-uppercase font-weight-bold">Custom social data</p>
+                            <p>Ensure your content is optimized with fully customizable meta data for Facebook and
+                                Twitter sharing cards, as well as tag categories to group your posts by.</p>
+                        </div>
+                        <div class="col-lg-6 my-auto order-lg-first">
+                            <img src="{{ asset('img/G2TGXLNurlCULphxC0YvLvTV4BsrKiokVOC7aFsI.png') }}"
+                                 class="img-fluid w-100 shadow p-3"
+                                 style="-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-10 text-center pt-5">
+                    <h2 class="font-weight-bold serif pb-4">From the community</h2>
                     <div class="card-deck">
                         <div class="card">
                             <div class="card-body">
@@ -93,7 +154,7 @@
         </div>
     </main>
 
-    <div class="card bg-light rounded-0 w-100 border-0 mb-5 mt-4">
+    <div class="card bg-light rounded-0 w-100 border-0 my-5">
         <div class="text-center my-5">
             <a href="{{ url('https://github.com/cnvs/canvas#installation') }}"
                class="btn btn-secondary text-uppercase font-weight-bold">Download</a>
