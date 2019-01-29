@@ -45,8 +45,8 @@
                     <div class="row justify-content-around py-5 border-bottom">
                         <div class="col-lg-4 text-left my-auto">
                             <p class="text-muted text-uppercase font-weight-bold">Publication statistics</p>
-                            <p class="spacing-normal">See realtime insights and trends on your content. Not everyone
-                                needs the headache of setting up Google Analytics, so we built-in only the best parts,
+                            <p class="spacing-normal">Measure the impact of your posts with realtime data. Not everyone
+                                needs the headache of setting up Google Analytics, so we built-in just the best parts,
                                 and added a couple new ones.</p>
                         </div>
                         <div class="col-lg-6 my-auto">
