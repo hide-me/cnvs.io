@@ -364,7 +364,6 @@ return [
 
         'script-src' => [
             'allow' => [
-                'https://use.fontawesome.com',
                 'https://www.googletagmanager.com',
                 'https://www.google-analytics.com',
             ],
@@ -387,7 +386,7 @@ return [
 
             'unsafe-inline' => true,
 
-            'unsafe-eval' => false,
+            'unsafe-eval' => true,
 
             'strict-dynamic' => false,
 
@@ -439,13 +438,17 @@ return [
         ],
 
         'connect-src' => [
-            //
+            'allow' => [
+                'https://www.google-analytics.com',
+            ],
         ],
 
         'font-src' => [
             'allow' => [
                 'https://fonts.gstatic.com',
             ],
+
+            'self' => true,
         ],
 
         'form-action' => [

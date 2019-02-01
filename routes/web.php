@@ -11,18 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('docs', function () {
-    return view('docs.index');
-})->name('docs');
-
-Route::get('blog', function () {
-    return view('blog.index');
-})->name('blog');
-
-Route::get('sponsors', function () {
-    return view('sponsors.index');
-})->name('sponsors');
+Route::get('/', 'HomeController')->name('home');
