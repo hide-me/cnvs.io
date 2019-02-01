@@ -132,9 +132,9 @@
                                 <p class="card-text text-left spacing-normal"><i
                                             class="fas fa-fw fa-quote-left fa-2x text-secondary"
                                             style="opacity: .2"></i>
-                                    Canvas rocks! I’ve tried building blogs from scratch and with other plug and
-                                    play CMS’s, but nothing comes close to Canvas. I now use Canvas exclusively for
-                                    my blog development and I’ve never been happier.</p>
+                                    Canavs rocks! With its great writing experience, well-considered functionality,
+                                    and awesome analytics, it’s one of the best blogging options around for anyone who
+                                    values their own platform.</p>
                             </div>
                         </div>
                         <div class="card">
