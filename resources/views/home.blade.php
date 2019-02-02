@@ -105,55 +105,55 @@
                     </div>
                 </div>
 
-                <div class="col-md-10 text-center pt-5">
-                    <h2 class="font-weight-bold serif pb-4">From the community</h2>
-                    <div class="card-deck">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="{{ asset('img/yO7YJ2iggWxwpk6PGkR7lgAJWECEI4JVAN3ys5MK.jpeg') }}"
-                                     class="rounded-circle mb-3 shadow-sm"
-                                     style="width: 86px;" title="@ericlbarnes" alt="">
-                                <h5 class="card-title text-muted small text-uppercase font-weight-bold">Eric Barnes</h5>
-                                <p class="card-text text-left spacing-normal"><i
-                                            class="fas fa-fw fa-quote-left fa-2x text-secondary"
-                                            style="opacity: .2"></i>
-                                    For my first look at Canvas, I’m really impressed with the appearance of the admin.
-                                    The installation is really straightforward, especially if you are comfortable
-                                    with Laravel. If you are looking to start a blog this year, Canvas would be a
-                                    good choice.</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="{{ asset('img/un0I4Mn9bAsOJjO4bJEiMw5GChp8WIbshZOQtdkC.jpeg') }}"
-                                     class="rounded-circle mb-3 shadow-sm"
-                                     style="width: 86px;" title="@nickbasile" alt="">
-                                <h5 class="card-title text-muted small text-uppercase font-weight-bold">Nick Basile</h5>
-                                <p class="card-text text-left spacing-normal"><i
-                                            class="fas fa-fw fa-quote-left fa-2x text-secondary"
-                                            style="opacity: .2"></i>
-                                    Canavs rocks! With its great writing experience, well-considered functionality,
-                                    and awesome analytics, it’s one of the best blogging options around for anyone who
-                                    values their own platform.</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="{{ asset('img/to51Tc1HAMjO7Se3xoXqaEcvzfM3TOkI9KW33Z0f.jpeg') }}"
-                                     class="rounded-circle mb-3 shadow-sm"
-                                     style="width: 86px;" title="@bitfalls" alt="">
-                                <h5 class="card-title text-muted small text-uppercase font-weight-bold">Bruno
-                                    Škvorc</h5>
-                                <p class="card-text text-left spacing-normal"><i
-                                            class="fas fa-fw fa-quote-left fa-2x text-secondary"
-                                            style="opacity: .2"></i>
-                                    If you’re looking for an easy-to-use, easy-to-set-up blog, give Canvas a go and
-                                    submit extensions and pull requests to expand its already very vibrant
-                                    community.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                {{--<div class="col-md-10 text-center pt-5">--}}
+                    {{--<h2 class="font-weight-bold serif pb-4">From the community</h2>--}}
+                    {{--<div class="card-deck">--}}
+                        {{--<div class="card">--}}
+                            {{--<div class="card-body">--}}
+                                {{--<img src="{{ asset('img/yO7YJ2iggWxwpk6PGkR7lgAJWECEI4JVAN3ys5MK.jpeg') }}"--}}
+                                     {{--class="rounded-circle mb-3 shadow-sm"--}}
+                                     {{--style="width: 86px;" title="@ericlbarnes" alt="">--}}
+                                {{--<h5 class="card-title text-muted small text-uppercase font-weight-bold">Eric Barnes</h5>--}}
+                                {{--<p class="card-text text-left spacing-normal"><i--}}
+                                            {{--class="fas fa-fw fa-quote-left fa-2x text-secondary"--}}
+                                            {{--style="opacity: .2"></i>--}}
+                                    {{--For my first look at Canvas, I’m really impressed with the appearance of the admin.--}}
+                                    {{--The installation is really straightforward, especially if you are comfortable--}}
+                                    {{--with Laravel. If you are looking to start a blog this year, Canvas would be a--}}
+                                    {{--good choice.</p>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="card">--}}
+                            {{--<div class="card-body">--}}
+                                {{--<img src="{{ asset('img/un0I4Mn9bAsOJjO4bJEiMw5GChp8WIbshZOQtdkC.jpeg') }}"--}}
+                                     {{--class="rounded-circle mb-3 shadow-sm"--}}
+                                     {{--style="width: 86px;" title="@nickbasile" alt="">--}}
+                                {{--<h5 class="card-title text-muted small text-uppercase font-weight-bold">Nick Basile</h5>--}}
+                                {{--<p class="card-text text-left spacing-normal"><i--}}
+                                            {{--class="fas fa-fw fa-quote-left fa-2x text-secondary"--}}
+                                            {{--style="opacity: .2"></i>--}}
+                                    {{--Canavs rocks! With its great writing experience, well-considered functionality,--}}
+                                    {{--and awesome analytics, it’s one of the best blogging options around for anyone who--}}
+                                    {{--values their own platform.</p>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="card">--}}
+                            {{--<div class="card-body">--}}
+                                {{--<img src="{{ asset('img/to51Tc1HAMjO7Se3xoXqaEcvzfM3TOkI9KW33Z0f.jpeg') }}"--}}
+                                     {{--class="rounded-circle mb-3 shadow-sm"--}}
+                                     {{--style="width: 86px;" title="@bitfalls" alt="">--}}
+                                {{--<h5 class="card-title text-muted small text-uppercase font-weight-bold">Bruno--}}
+                                    {{--Škvorc</h5>--}}
+                                {{--<p class="card-text text-left spacing-normal"><i--}}
+                                            {{--class="fas fa-fw fa-quote-left fa-2x text-secondary"--}}
+                                            {{--style="opacity: .2"></i>--}}
+                                    {{--If you’re looking for an easy-to-use, easy-to-set-up blog, give Canvas a go and--}}
+                                    {{--submit extensions and pull requests to expand its already very vibrant--}}
+                                    {{--community.</p>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
             </div>
         </div>
     </main>
