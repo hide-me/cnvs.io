@@ -18,7 +18,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ sprintf('%s — %s', config("app.name"), 'A Laravel publishing platform' ) }}">
     <meta name="twitter:image" content="{{ asset('img/0R02D9s508082js9x8OBWEmxrAQyaO5F2nqVccOt.png') }}">
-    <meta name="twitter:site" content="@cnvs">
+    <meta name="twitter:site" content="@cnvs_io">
     <meta name="twitter:description" content="Sometimes creating a blog is easier said than done. With Canvas, it's just easier.">
 
     <!-- Title -->
