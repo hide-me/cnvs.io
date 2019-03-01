@@ -67,7 +67,7 @@
                         </div>
                         <div class="col-lg-6 my-auto order-lg-first">
                             <img src="{{ asset('img/5778T1Ba1mD1sxPDBkyuRqKEjhBPVVY375tgxV3R.png') }}"
-                                 class="img-fluid w-100 shadow p-3"
+                                 class="img-fluid w-100 shadow px-1 py-3"
                                  style="-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;">
                         </div>
                     </div>
