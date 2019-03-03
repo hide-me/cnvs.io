@@ -20,7 +20,7 @@
                     </p>
                     <p class="content-body serif">
                         Want to find out how big of an impact you're actually making?
-                        <span class="font-italic">Canvas</span> lets you visualize monthly trends, see where your
+                        <span class="font-italic">Canvas</span> helps you visualize monthly trends, see where your
                         readers are coming from and even what time of day they prefer to read your content. Think of it
                         as a lightweight version of Google Analytics, straight out of the box.
                     </p>
