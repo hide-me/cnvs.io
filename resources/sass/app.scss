@@ -31,12 +31,8 @@ a {
   font-family: $font-family-serif;
 }
 
-.logo {
-  font-family: $font-family-serif;
-  font-size: 24px;
-  span {
-    color: $light-grey;
-  }
+.navbar-brand {
+  font-size: 1.75em;
 }
 
 .content-title {

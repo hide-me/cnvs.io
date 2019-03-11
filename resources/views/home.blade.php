@@ -8,7 +8,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-10 mb-5 text-md-left">
                     <p class="text-muted text-uppercase mb-0 font-weight-bold">A Laravel publishing platform</p>
-                    <h1 class="welcome font-weight-bold">Welcome to <span>C</span>anvas.</h1>
+                    <h1 class="welcome">Welcome to Canvas.</h1>
                 </div>
 
                 <div class="col-md-10">

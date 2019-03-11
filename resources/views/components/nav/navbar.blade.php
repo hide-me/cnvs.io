@@ -3,9 +3,9 @@
         <div class="col-md-10 px-0">
             <nav class="navbar navbar-light justify-content-between flex-nowrap flex-row">
                 <!-- Left Side Of Navbar -->
-                <a class="navbar-brand logo font-weight-bold py-0"
+                <a class="navbar-brand font-weight-bold py-0"
                    href="{{ route('home') }}">
-                    <span>C</span>anvas
+                    <i class="fas fa-align-left"></i>
                 </a>
 
                 <!-- Right Side Of Navbar -->
