@@ -11,6 +11,10 @@
 // Bootstrap
 @import "~bootstrap/scss/bootstrap";
 
+body {
+  color: rgba(0, 0, 0, 0.8);
+}
+
 .spacing-normal {
   letter-spacing: .25px;
 }
@@ -44,7 +48,6 @@ a {
 
 .content-body {
   font-weight: 300;
-  color: hsla(0,0%,0%,0.9);
   font-size: 1.1rem;
   line-height: 2;
 }
