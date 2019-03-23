@@ -26,18 +26,16 @@
                     </p>
                 </div>
 
-                <div class="col-md-10 mt-4 rounded">
-                    <div class="container py-2 shadow"
-                         style="border-top-right-radius: 8px; border-top-left-radius: 8px; background-color: rgb(38, 41, 43)">
-                        <i class="fas fa-fw fa-circle text-muted"></i>
-                        <i class="fas fa-fw fa-circle text-muted"></i>
-                        <i class="fas fa-fw fa-circle text-muted"></i>
+                <div class="col-md-10 mt-4">
+                    <div id="slider" class="beer-slider shadow rounded">
+                        <img src="{{ asset('img/C4Tdtco4KGRrV4UHKdKwo8BYRQ8Gc6rjOFqFdL5V.png') }}" alt="Light Mode">
+                        <div class="beer-reveal">
+                            <img src="{{ asset('img/Z3Sa2JdsXO8pFXPXHJAPzSZnYTF8uuAzFuuvXTyg.png') }}" alt="Dark Mode">
+                        </div>
                     </div>
-                    <img src="{{ asset('img/zDTOCfMeOf2pr1sHax9KqNzWsnF8KOa55CPPyppc.png') }}" class="w-100 shadow"
-                         style="border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;" alt="">
                     <p class="text-muted text-center pt-3">
-                        <span class="font-weight-bold spacing-normal">Web native:</span> Fully mobile and desktop ready
-                        on any device
+                        <span class="font-weight-bold spacing-normal">Web native:</span>
+                        Fully mobile and desktop ready on any device
                     </p>
                 </div>
 
@@ -51,7 +49,7 @@
                         </div>
                         <div class="col-lg-6 my-auto">
                             <img src="{{ asset('img/rVcZaX5KTmLiDxX6vcK5cgvSVbwtprUxEB1PMfOi.png') }}"
-                                 class="img-fluid shadow p-3"
+                                 class="img-fluid shadow p-3" alt="Statistics"
                                  style="-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;">
                         </div>
                     </div>
@@ -68,7 +66,7 @@
                         <div class="col-lg-6 my-auto order-lg-first">
                             <img src="{{ asset('img/5778T1Ba1mD1sxPDBkyuRqKEjhBPVVY375tgxV3R.png') }}"
                                  class="img-fluid w-100 shadow px-1 py-3"
-                                 style="-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;">
+                                 style="-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;" alt="Editor">
                         </div>
                     </div>
                 </div>
@@ -86,7 +84,7 @@
                         <div class="col-lg-6 my-auto">
                             <img src="{{ asset('img/J8N7RpXEbNAI4vXMx7GAvEPDfzMTtuUiStsjXUAV.png') }}"
                                  class="img-fluid w-100 shadow p-3"
-                                 style="-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;">
+                                 style="-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;" alt="Unsplash Integration">
                         </div>
                     </div>
                 </div>
@@ -102,7 +100,7 @@
                         <div class="col-lg-6 my-auto order-lg-first">
                             <img src="{{ asset('img/G2TGXLNurlCULphxC0YvLvTV4BsrKiokVOC7aFsI.png') }}"
                                  class="img-fluid w-100 shadow p-3"
-                                 style="-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;">
+                                 style="-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;" alt="Social Data">
                         </div>
                     </div>
                 </div>

@@ -22,5 +22,8 @@
         "sass": "^1.15.2",
         "sass-loader": "7.*",
         "vue-template-compiler": "^2.5.21"
+    },
+    "dependencies": {
+        "beerslider": "^1.0.3"
     }
 }
