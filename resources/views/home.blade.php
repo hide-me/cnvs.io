@@ -27,7 +27,7 @@
                 </div>
 
                 <div class="col-md-10 mt-4">
-                    <div id="slider" class="beer-slider shadow rounded">
+                    <div id="slider" class="beer-slider shadow" style="-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;">
                         <img src="{{ asset('img/C4Tdtco4KGRrV4UHKdKwo8BYRQ8Gc6rjOFqFdL5V.png') }}" alt="Light Mode">
                         <div class="beer-reveal">
                             <img src="{{ asset('img/Z3Sa2JdsXO8pFXPXHJAPzSZnYTF8uuAzFuuvXTyg.png') }}" alt="Dark Mode">
