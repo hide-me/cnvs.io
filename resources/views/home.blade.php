@@ -122,7 +122,7 @@
         <p class="spacing-normal">Released under the <a href="{{ url('https://opensource.org/licenses/MIT') }}"
                                                         class="font-weight-bold">MIT</a> license. <a
                     href="{{ url('https://github.com/cnvs/canvas') }}" class="font-weight-bold">View source</a>.</p>
-        <p class="spacing-normal">Proudly hosted by <a
+        <p class="spacing-normal">Proudly hosted and sponsored by <a
                     href="{{ url('https://digitalocean.com/?refcode=41cb45b3c7db') }}"
                     class="font-weight-bold">DigitalOcean</a>.</p>
     </div>
