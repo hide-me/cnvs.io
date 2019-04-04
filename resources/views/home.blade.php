@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', sprintf('%s — %s', config("app.name"), 'A Laravel publishing platform' ))
+@section('title', sprintf('%s — %s', config('app.name'), 'A Laravel publishing platform' ))
 
 @section('content')
     <main class="py-4">

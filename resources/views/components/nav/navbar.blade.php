@@ -9,9 +9,9 @@
 
                 <!-- Right Side Of Navbar -->
                 <a href="{{ url(sprintf('https://github.com/cnvs/canvas/releases/tag/%s', $data['release'])) }}"
-                   class="text-muted ml-auto mr-3">{{ $data['release'] }}</a>
+                   class="ml-auto mr-3" style="color: rgba(0,0,0,.8)">{{ $data['release'] }}</a>
                 <a href="{{ url('https://github.com/cnvs/canvas') }}">
-                    <i class="fab fa-fw fa-github fa-2x text-muted"></i>
+                    <i class="fab fa-fw fa-github fa-2x" style="color: rgba(0,0,0,.8)"></i>
                 </a>
             </nav>
         </div>
