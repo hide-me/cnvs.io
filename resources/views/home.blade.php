@@ -124,6 +124,6 @@
                     href="{{ url('https://github.com/cnvs/canvas') }}" class="font-weight-bold">View source</a>.</p>
         <p class="spacing-normal">Proudly hosted and sponsored by <a
                     href="{{ url('https://digitalocean.com/?refcode=41cb45b3c7db') }}"
-                    class="font-weight-bold">DigitalOcean</a>.</p>
+                    class="font-weight-bold"><i class="fab fa-fw fa-digital-ocean"></i> DigitalOcean</a></p>
     </div>
 @endsection
