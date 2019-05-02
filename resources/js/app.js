@@ -15,7 +15,6 @@ try {
     new BeerSlider(document.getElementById("slider"), { start: 50 });
 
     require('bootstrap');
-    require('@fortawesome/fontawesome-free');
 } catch (e) {}
 
 /**
