@@ -9,10 +9,12 @@ window._ = require('lodash');
 
 try {
     window.Popper = require('popper.js').default;
+
     window.$ = window.jQuery = require('jquery');
+
     window.BeerSlider = require('beerslider');
 
-    new BeerSlider(document.getElementById("slider"), { start: 50 });
+    new BeerSlider(document.getElementById('slider'), { start: 50 });
 
     require('bootstrap');
 } catch (e) {}
