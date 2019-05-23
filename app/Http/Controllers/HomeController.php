@@ -9,29 +9,49 @@ use Illuminate\View\View;
 class HomeController extends Controller
 {
     /**
-     * Get the home page.
+     * View the latest published full release for the repository.
      *
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @const string
      */
-    public function __invoke(): View
+    const CANVAS_RELEASES = 'https://api.github.com/repos/cnvs/canvas/releases/latest';
+
+    /**
+     * Return the landing page.
+     *
+     * @param null $latest_release
+     * @return View
+     */
+    public function __invoke($latest_release = null): View
     {
-        $client = new Client();
-
         try {
-            $request = $client->get('https://api.github.com/repos/cnvs/canvas/releases/latest');
-            $response = json_decode($request->getBody()->getContents());
+            if ($this->isInProduction()) {
 
-            $release = $response->tag_name;
+                // Create a new Client instance
+                $client = new Client();
+
+                // Make a GET request to the Github API
+                $request = $client->get(self::CANVAS_RELEASES);
+
+                // Decode the response and get the contents
+                $response = json_decode($request->getBody()->getContents());
+
+                $latest_release = $response->tag_name;
+            }
         } catch (Exception $e) {
             logger()->error($e->getMessage());
-
-            $release = null;
         }
 
-        $data = [
-            'release' => $release,
-        ];
+        return view('welcome', compact('latest_release'));
+    }
 
-        return view('home', compact('data'));
+    /**
+     * Check if the application is in production.
+     *
+     * @param string $environment
+     * @return bool
+     */
+    private function isInProduction(string $environment = 'production'): bool
+    {
+        return app()->environment() == $environment;
     }
 }
