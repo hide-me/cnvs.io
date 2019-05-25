@@ -113,7 +113,7 @@
                                     <span class="font-weight-bolder">A writing summary</span> e-mail delivered weekly that provides quick stats on trending content <span class="badge badge-primary small">NEW</span>
                                 </li>
                                 <li class="spacing-normal pb-3">
-                                    <span class="font-weight-bolder">Localized translations</span> that support over 4 different languages
+                                    <span class="font-weight-bolder">Localized translations</span> that support over 7 different languages
                                 </li>
                                 <li class="spacing-normal pb-3">
                                     <span class="font-weight-bolder">Customizable and secure</span> routing options that keep your data safe in a production environment
