@@ -161,7 +161,7 @@
             <a href="{{ url('https://github.com/cnvs/canvas') }}" class="font-weight-bold text-decoration-none">View source</a>.
         </p>
         <p class="spacing-normal">
-            Proudly hosted and sponsored by<a href="{{ url('https://digitalocean.com/?refcode=41cb45b3c7db') }}" class="font-weight-bold text-decoration-none"><i class="fab fa-fw fa-digital-ocean"></i> DigitalOcean</a>
+            Proudly hosted and sponsored by<a href="{{ url('https://digitalocean.com/?refcode=41cb45b3c7db') }}" class="font-weight-bold text-decoration-none"> <i class="fab fa-fw fa-digital-ocean"></i>DigitalOcean</a>
         </p>
     </div>
 @endsection
