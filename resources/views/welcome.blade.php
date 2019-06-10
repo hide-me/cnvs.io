@@ -92,7 +92,7 @@
                             </p>
                             <p class="spacing-normal">
                                 Ensure your content is optimized with fully customizable meta data for Facebook and
-                                Twitter sharing cards, as well as tag categories to group your posts by.
+                                Twitter sharing cards, as well as tags and topics to group your posts by.
                             </p>
                         </div>
                         <div class="col-lg-6 my-auto order-lg-first">
@@ -113,10 +113,10 @@
                                     <span class="font-weight-bolder">A writing summary</span> e-mail delivered weekly that provides quick stats on trending content <span class="badge badge-primary small">NEW</span>
                                 </li>
                                 <li class="spacing-normal pb-3">
-                                    <span class="font-weight-bolder">Localized translations</span> that support over 7 different languages
+                                    <span class="font-weight-bolder">Localized content</span> to provide accessibility in over 8 different languages
                                 </li>
                                 <li class="spacing-normal pb-3">
-                                    <span class="font-weight-bolder">Customizable and secure</span> routing options that keep your data safe in a production environment
+                                    <span class="font-weight-bolder">Customizable and secure</span> routing options to keep your data safe in a production environment
                                 </li>
                                 <li class="spacing-normal pb-3">
                                     <span class="font-weight-bolder">Light and dark</span> modes that offer unique color palettes, making publishing content easy on the eyes
