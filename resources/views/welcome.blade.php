@@ -46,7 +46,7 @@
                                                       and added a couple new ones.</p>
                         </div>
                         <div class="col-lg-6 my-auto">
-                            <img loading="lazy" src="{{ asset('img/rVcZaX5KTmLiDxX6vcK5cgvSVbwtprUxEB1PMfOi.png') }}"
+                            <img src="{{ asset('img/rVcZaX5KTmLiDxX6vcK5cgvSVbwtprUxEB1PMfOi.png') }}"
                                  class="img-fluid shadow p-3 rounded-lg" alt="Statistics">
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                                                       tricks up its sleeve.</p>
                         </div>
                         <div class="col-lg-6 my-auto order-lg-first">
-                            <img loading="lazy" src="{{ asset('img/5778T1Ba1mD1sxPDBkyuRqKEjhBPVVY375tgxV3R.png') }}"
+                            <img src="{{ asset('img/5778T1Ba1mD1sxPDBkyuRqKEjhBPVVY375tgxV3R.png') }}"
                                  class="img-fluid w-100 shadow px-1 py-3 rounded-lg" alt="Editor">
                         </div>
                     </div>
@@ -78,7 +78,7 @@
                             </p>
                         </div>
                         <div class="col-lg-6 my-auto">
-                            <img loading="lazy" src="{{ asset('img/J8N7RpXEbNAI4vXMx7GAvEPDfzMTtuUiStsjXUAV.png') }}"
+                            <img src="{{ asset('img/J8N7RpXEbNAI4vXMx7GAvEPDfzMTtuUiStsjXUAV.png') }}"
                                  class="img-fluid w-100 shadow p-3 rounded-lg" alt="Unsplash Integration">
                         </div>
                     </div>
@@ -96,7 +96,7 @@
                             </p>
                         </div>
                         <div class="col-lg-6 my-auto order-lg-first">
-                            <img loading="lazy" src="{{ asset('img/G2TGXLNurlCULphxC0YvLvTV4BsrKiokVOC7aFsI.png') }}"
+                            <img src="{{ asset('img/G2TGXLNurlCULphxC0YvLvTV4BsrKiokVOC7aFsI.png') }}"
                                  class="img-fluid w-100 shadow p-3 rounded-lg" alt="Social Data">
                         </div>
                     </div>
@@ -110,32 +110,32 @@
                         <div class="col-md-6">
                             <ul class="mb-0">
                                 <li class="spacing-normal pb-3">
-                                    <span class="font-weight-bolder">A writing summary</span> e-mail delivered weekly that provides quick stats on trending content <span class="badge badge-primary small">NEW</span>
+                                    <span class="font-weight-bold">A writing summary</span> e-mail delivered weekly that provides quick stats on trending content <span class="badge badge-primary small">NEW</span>
                                 </li>
                                 <li class="spacing-normal pb-3">
-                                    <span class="font-weight-bolder">Localized content</span> to provide accessibility in over 8 different languages
+                                    <span class="font-weight-bold">Localized content</span> to provide accessibility in over 8 different languages
                                 </li>
                                 <li class="spacing-normal pb-3">
-                                    <span class="font-weight-bolder">Customizable and secure</span> routing options to keep your data safe in a production environment
+                                    <span class="font-weight-bold">Customizable and secure</span> routing options to keep your data safe in a production environment
                                 </li>
                                 <li class="spacing-normal pb-3">
-                                    <span class="font-weight-bolder">Light and dark</span> modes that offer unique color palettes, making publishing content easy on the eyes
+                                    <span class="font-weight-bold">Light and dark</span> modes that offer unique color palettes, making publishing content easy on the eyes
                                 </li>
                             </ul>
                         </div>
                         <div class="col-md-6">
                             <ul class="mb-0">
                                 <li class="spacing-normal pb-3">
-                                    <span class="font-weight-bolder">An Artisan command</span> that scaffolds a beautifully designed blog template in seconds
+                                    <span class="font-weight-bold">An Artisan command</span> that scaffolds a beautifully designed blog template in seconds
                                 </li>
                                 <li class="spacing-normal pb-3">
-                                    <span class="font-weight-bolder">A simple organization</span> system of tags and topics helps you quickly find and maintain content
+                                    <span class="font-weight-bold">A simple organization</span> system of tags and topics helps you quickly find and maintain content
                                 </li>
                                 <li class="spacing-normal pb-3">
-                                    <span class="font-weight-bolder">Advanced content scheduling</span> that publishes your work exactly when you want it to
+                                    <span class="font-weight-bold">Advanced content scheduling</span> that publishes your work exactly when you want it to
                                 </li>
                                 <li class="spacing-normal pb-3">
-                                    <span class="font-weight-bolder">Regular app updates</span> by a fantastic group of contributors to keep the project current
+                                    <span class="font-weight-bold">Regular app updates</span> by a fantastic group of contributors to keep the project current
                                 </li>
                             </ul>
                         </div>
