@@ -5,44 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="description" content="Sometimes creating a blog is easier said than done. With Canvas, it's just easier.">
-
-    <!-- Facebook meta tags -->
     <meta property="og:url" content="{{ config('app.url') }}">
     <meta property="og:type" content="website">
     <meta property="og:description" content="Sometimes creating a blog is easier said than done. With Canvas, it's just easier.">
     <meta property="og:title" content="{{ sprintf('%s ― %s', config('app.name'), 'A Laravel publishing platform' ) }}">
-    <meta property="og:image" content="{{ asset('img/0R02D9s508082js9x8OBWEmxrAQyaO5F2nqVccOt.png') }}">
+    <meta property="og:image" content="{{ asset('img/opengraph.png') }}">
     <meta property="og:site_name" content="{{ config('app.name') }}">
-
-    <!-- Twitter meta tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ sprintf('%s — %s', config('app.name'), 'A Laravel publishing platform' ) }}">
-    <meta name="twitter:image" content="{{ asset('img/0R02D9s508082js9x8OBWEmxrAQyaO5F2nqVccOt.png') }}">
+    <meta name="twitter:image" content="{{ asset('img/opengraph.png') }}">
     <meta name="twitter:site" content="@cnvs_io">
     <meta name="twitter:description" content="Sometimes creating a blog is easier said than done. With Canvas, it's just easier.">
 
-    <!-- Title -->
     <title>{{ sprintf('%s — %s', config('app.name'), 'A Laravel publishing platform' ) }}</title>
 
-    <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="{{ mix('css/app.css') }}">
-
-    <!-- Icon -->
-    <link rel="icon" type="image/png" href="{{ asset('img/BgPrQ9dMfg5zLKskTSVWpHVUmMJNfgAXLhKNtZuN.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('img/icon.png') }}">
 </head>
 <body>
 <div class="mb-4 mt-2">
     <div class="container d-flex justify-content-center px-0">
         <div class="col-md-10 px-0">
             <nav class="navbar navbar-light justify-content-between flex-nowrap flex-row">
-                <a class="navbar-brand font-weight-bold py-0" href="{{ route('home') }}">
+                <a class="navbar-brand font-weight-bold py-0" href="{{ route('home') }}" aria-label="{{ sprintf('%s %s', config('app.name'), 'homepage' ) }}">
                     <i class="fas fa-align-left" style="color: rgba(0,0,0,0.8)"></i>
                 </a>
 
-                <a href="{{ url(sprintf('https://github.com/cnvs/canvas/releases/tag/%s', $latest_release)) }}" class="ml-auto mr-3" style="color: rgba(0,0,0,.8)">
+                <a href="{{ url(sprintf('https://github.com/cnvs/canvas/releases/tag/%s', $latest_release)) }}" class="ml-auto mr-3" style="color: rgba(0,0,0,.8)" aria-label="Latest release">
                     {{ $latest_release }}
                 </a>
-                <a href="{{ url('https://github.com/cnvs/canvas') }}">
+                <a href="{{ url('https://github.com/cnvs/canvas') }}" aria-label="View on GitHub">
                     <i class="fab fa-fw fa-github fa-2x" style="color: rgba(0,0,0,.8)"></i>
                 </a>
             </nav>
@@ -74,9 +66,9 @@
 
             <div class="col-md-10 mt-4">
                 <div id="slider" class="beer-slider shadow rounded-lg">
-                    <img src="{{ asset('img/C4Tdtco4KGRrV4UHKdKwo8BYRQ8Gc6rjOFqFdL5V.png') }}" alt="Light Mode">
+                    <img src="{{ asset('img/light-mode.png') }}" alt="Light Mode">
                     <div class="beer-reveal">
-                        <img src="{{ asset('img/Z3Sa2JdsXO8pFXPXHJAPzSZnYTF8uuAzFuuvXTyg.png') }}" alt="Dark Mode">
+                        <img src="{{ asset('img/dark-mode.png') }}" alt="Dark Mode">
                     </div>
                 </div>
                 <p class="text-muted text-center pt-3">
@@ -93,7 +85,7 @@
                                                   and added a couple new ones.</p>
                     </div>
                     <div class="col-lg-6 my-auto">
-                        <img src="{{ asset('img/rVcZaX5KTmLiDxX6vcK5cgvSVbwtprUxEB1PMfOi.png') }}"
+                        <img src="{{ asset('img/stats.png') }}"
                              class="img-fluid shadow p-3 rounded-lg" alt="Statistics">
                     </div>
                 </div>
@@ -108,7 +100,7 @@
                                                   tricks up its sleeve.</p>
                     </div>
                     <div class="col-lg-6 my-auto order-lg-first">
-                        <img src="{{ asset('img/5778T1Ba1mD1sxPDBkyuRqKEjhBPVVY375tgxV3R.png') }}"
+                        <img src="{{ asset('img/editor.png') }}"
                              class="img-fluid w-100 shadow px-1 py-3 rounded-lg" alt="Editor">
                     </div>
                 </div>
@@ -125,7 +117,7 @@
                         </p>
                     </div>
                     <div class="col-lg-6 my-auto">
-                        <img src="{{ asset('img/J8N7RpXEbNAI4vXMx7GAvEPDfzMTtuUiStsjXUAV.png') }}"
+                        <img src="{{ asset('img/featured-image.png') }}"
                              class="img-fluid w-100 shadow p-3 rounded-lg" alt="Unsplash Integration">
                     </div>
                 </div>
@@ -143,7 +135,7 @@
                         </p>
                     </div>
                     <div class="col-lg-6 my-auto order-lg-first">
-                        <img src="{{ asset('img/G2TGXLNurlCULphxC0YvLvTV4BsrKiokVOC7aFsI.png') }}"
+                        <img src="{{ asset('img/settings.png') }}"
                              class="img-fluid w-100 shadow p-3 rounded-lg" alt="Social Data">
                     </div>
                 </div>
@@ -204,7 +196,7 @@
 
 <div class="container text-center mt-4 mb-5">
     <p class="spacing-normal">Released under the
-        <a href="{{ url('https://opensource.org/licenses/MIT') }}" class="font-weight-bold text-decoration-none">MIT</a> license.
+        <a href="{{ url('https://opensource.org/licenses/MIT') }}" class="font-weight-bold text-decoration-none" rel="noreferrer">MIT</a> license.
         <a href="{{ url('https://github.com/cnvs/canvas') }}" class="font-weight-bold text-decoration-none">View source</a>.
     </p>
     <p class="spacing-normal">
@@ -212,10 +204,7 @@
     </p>
 </div>
 
-<!-- Application scripts -->
 <script type="text/javascript" src="{{ mix('js/app.js') }}"></script>
-
-<!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80244014-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
