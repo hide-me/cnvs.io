@@ -3,23 +3,37 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="description" content="Sometimes creating a blog is easier said than done. With Canvas, it's just easier.">
+
+    <!-- Facebook Meta -->
     <meta property="og:url" content="{{ config('app.url') }}">
     <meta property="og:type" content="website">
     <meta property="og:description" content="Sometimes creating a blog is easier said than done. With Canvas, it's just easier.">
     <meta property="og:title" content="{{ sprintf('%s ― %s', config('app.name'), 'A Laravel publishing platform' ) }}">
     <meta property="og:image" content="{{ asset('img/opengraph.png') }}">
     <meta property="og:site_name" content="{{ config('app.name') }}">
+
+    <!-- Twitter Meta -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ sprintf('%s — %s', config('app.name'), 'A Laravel publishing platform' ) }}">
     <meta name="twitter:image" content="{{ asset('img/opengraph.png') }}">
     <meta name="twitter:site" content="@cnvs_io">
     <meta name="twitter:description" content="Sometimes creating a blog is easier said than done. With Canvas, it's just easier.">
 
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
     <title>{{ sprintf('%s — %s', config('app.name'), 'A Laravel publishing platform' ) }}</title>
 
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Merriweather" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{ mix('css/app.css') }}">
+
+    <!-- Icon -->
     <link rel="icon" type="image/png" href="{{ asset('img/icon.png') }}">
 </head>
 <body>
@@ -186,8 +200,9 @@
 
 <div class="card bg-light rounded-0 w-100 border-0 my-5">
     <div class="text-center my-5">
-        <a href="{{ url('https://github.com/cnvs/canvas#installation') }}"
-           class="btn btn-secondary text-uppercase font-weight-bold text-decoration-none">Download</a>
+        <a href="{{ url('https://github.com/cnvs/canvas#installation') }}" class="btn btn-secondary text-uppercase font-weight-bold text-decoration-none" target="_blank" rel="noopener">
+            Download
+        </a>
         <p class="mt-4 mb-0 text-muted serif px-4 spacing-normal">
             Easily install into an existing Laravel app or a brand new project.
         </p>
@@ -196,8 +211,8 @@
 
 <div class="container text-center mt-4 mb-5">
     <p class="spacing-normal">Released under the
-        <a href="{{ url('https://opensource.org/licenses/MIT') }}" class="font-weight-bold text-decoration-none" rel="noreferrer">MIT</a> license.
-        <a href="{{ url('https://github.com/cnvs/canvas') }}" class="font-weight-bold text-decoration-none">View source</a>.
+        <a href="{{ url('https://opensource.org/licenses/MIT') }}" class="font-weight-bold text-decoration-none" target="_blank" rel="noopener">MIT</a> license.
+        <a href="{{ url('https://github.com/cnvs/canvas') }}" class="font-weight-bold text-decoration-none" target="_blank" rel="noopener">View source</a>.
     </p>
     <p class="spacing-normal">
         Proudly hosted and sponsored by<a href="{{ url('https://digitalocean.com/?refcode=41cb45b3c7db') }}" class="font-weight-bold text-decoration-none"> <i class="fab fa-fw fa-digital-ocean"></i>DigitalOcean</a>
