@@ -39,7 +39,7 @@
                     {{ $latest_release }}
                 </a>
                 <a href="{{ url('https://github.com/cnvs/canvas') }}" target="_blank" rel="noopener" aria-label="View on GitHub">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" viewBox="0 0 24 24"><path d="M0 12.305c0 5.435 3.438 10.047 8.207 11.674.6.113.82-.267.82-.593 0-.292-.011-1.066-.017-2.093-3.339.744-4.043-1.65-4.043-1.65-.545-1.42-1.332-1.798-1.332-1.798-1.09-.764.083-.749.083-.749 1.203.087 1.837 1.268 1.837 1.268 1.071 1.88 2.809 1.338 3.493 1.022.109-.795.42-1.337.762-1.645-2.665-.31-5.466-1.365-5.466-6.08 0-1.343.467-2.442 1.235-3.302-.123-.311-.535-1.562.117-3.256 0 0 1.008-.33 3.3 1.261a11.241 11.241 0 013.005-.414c1.019.005 2.046.141 3.004.414 2.29-1.592 3.297-1.261 3.297-1.261.654 1.694.242 2.945.119 3.256.77.86 1.234 1.959 1.234 3.302 0 4.726-2.806 5.767-5.48 6.071.431.38.815 1.13.815 2.279 0 1.645-.015 2.971-.015 3.375 0 .329.216.712.825.591 4.765-1.63 8.2-6.239 8.2-11.672C24 5.508 18.627 0 12 0S0 5.508 0 12.305z" fill="#A0AEBF" fill-rule="evenodd"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" viewBox="0 0 24 24" class="fill-secondary"><path d="M0 12.305c0 5.435 3.438 10.047 8.207 11.674.6.113.82-.267.82-.593 0-.292-.011-1.066-.017-2.093-3.339.744-4.043-1.65-4.043-1.65-.545-1.42-1.332-1.798-1.332-1.798-1.09-.764.083-.749.083-.749 1.203.087 1.837 1.268 1.837 1.268 1.071 1.88 2.809 1.338 3.493 1.022.109-.795.42-1.337.762-1.645-2.665-.31-5.466-1.365-5.466-6.08 0-1.343.467-2.442 1.235-3.302-.123-.311-.535-1.562.117-3.256 0 0 1.008-.33 3.3 1.261a11.241 11.241 0 013.005-.414c1.019.005 2.046.141 3.004.414 2.29-1.592 3.297-1.261 3.297-1.261.654 1.694.242 2.945.119 3.256.77.86 1.234 1.959 1.234 3.302 0 4.726-2.806 5.767-5.48 6.071.431.38.815 1.13.815 2.279 0 1.645-.015 2.971-.015 3.375 0 .329.216.712.825.591 4.765-1.63 8.2-6.239 8.2-11.672C24 5.508 18.627 0 12 0S0 5.508 0 12.305z" fill-rule="evenodd"/></svg>
                 </a>
             </nav>
         </div>
@@ -153,7 +153,10 @@
                     <div class="col-md-6">
                         <ul class="mb-0">
                             <li class="spacing-normal pb-3">
-                                <span class="font-weight-bold">A writing summary</span> e-mail delivered weekly that provides quick stats on trending content <span class="badge badge-success small">NEW</span>
+                                <span class="font-weight-bold">An autosaving editor</span> that makes sure you never lose your place, or your sanity  <span class="badge badge-success small">NEW</span>
+                            </li>
+                            <li class="spacing-normal pb-3">
+                                <span class="font-weight-bold">A writing summary</span> e-mail delivered weekly that provides quick stats on trending content
                             </li>
                             <li class="spacing-normal pb-3">
                                 <span class="font-weight-bold">Localized content</span> to provide accessibility in over 8 different languages
@@ -161,13 +164,13 @@
                             <li class="spacing-normal pb-3">
                                 <span class="font-weight-bold">Customizable and secure</span> routing options to keep your data safe in a production environment
                             </li>
-                            <li class="spacing-normal pb-3">
-                                <span class="font-weight-bold">Light and dark</span> modes that offer unique color palettes, making publishing content easy on the eyes
-                            </li>
                         </ul>
                     </div>
                     <div class="col-md-6">
                         <ul class="mb-0">
+                            <li class="spacing-normal pb-3">
+                                <span class="font-weight-bold">Light and dark</span> modes that offer unique color palettes, making publishing content easy on the eyes
+                            </li>
                             <li class="spacing-normal pb-3">
                                 <span class="font-weight-bold">An Artisan command</span> that scaffolds a Medium-inspired frontend in seconds
                             </li>
@@ -176,9 +179,6 @@
                             </li>
                             <li class="spacing-normal pb-3">
                                 <span class="font-weight-bold">Advanced content scheduling</span> that publishes your work exactly when you want it to
-                            </li>
-                            <li class="spacing-normal pb-3">
-                                <span class="font-weight-bold">Regular app updates</span> by a fantastic group of contributors to keep the project evolving
                             </li>
                         </ul>
                     </div>
