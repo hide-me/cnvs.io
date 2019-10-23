@@ -1,62 +1,45 @@
-// Typography
-$font-family-sans-serif: "Nunito", sans-serif;
+$white: #fff;
+$gray-100: #f7fafc;
+$gray-200: #edf2f7;
+$gray-300: #e2e8f0;
+$gray-400: #cbd5e0;
+$gray-500: #a0aec0;
+$gray-600: #718096;
+$gray-700: #4a5568;
+$gray-800: #2d3748;
+$gray-900: #1a202c;
+$black: #000;
+
+$green: #03a87c;
+$red: #cc5454;
+
+$font-family-sans-serif: "Karla", sans-serif;
 $font-family-serif: "Merriweather", serif;
-$fa-font-path: "../fonts" !default;
-$font-size-base: 0.9rem;
-$line-height-base: 1.6;
 
-// Color Palette
-$blue: #3490dc;
-$indigo: #6574cd;
-$purple: #9561e2;
-$pink: #f66D9b;
-$red: #e3342f;
-$orange: #f6993f;
-$yellow: #ffed4a;
-$green: #38c172;
-$teal: #4dc0b5;
-$cyan: #6cb2eb;
-$dark-grey: #444;
-$light-grey: #9ba3aa;
+$text-muted: $gray-500;
 
-// Bootstrap
-@import "~bootstrap/scss/bootstrap";
+$display4-size: 45px;
 
-// BeerSlider
+.text-lg {
+    font-size: 1.1rem;
+}
+
+.leading-relaxed {
+    line-height: 2;
+}
+
+.font-serif {
+    font-family: $font-family-serif;
+}
+
+.font-sans {
+    font-family: $font-family-sans-serif;
+}
+
 @import "~beerslider/dist/BeerSlider.css";
 
-body {
-  color: rgba(0, 0, 0, 0.8);
-}
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
 
-.spacing-normal {
-  letter-spacing: .25px;
-}
-
-.welcome {
-  font-family: $font-family-serif;
-  font-size: 45px;
-  span {
-    color: $light-grey;
-  }
-}
-
-.serif {
-  font-family: $font-family-serif;
-}
-
-.navbar-brand {
-  font-size: 1.75em;
-}
-
-.content-title {
-  color: $dark-grey;
-  a {
-    color: $dark-grey;
-  }
-}
-
-.content-body {
-  font-size: 1.1rem;
-  line-height: 2;
-}
+@import '~bootstrap';

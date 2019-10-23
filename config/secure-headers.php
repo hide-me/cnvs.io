@@ -398,7 +398,6 @@ return [
         'style-src' => [
             'allow' => [
                 'https://fonts.googleapis.com',
-                'https://cdnjs.cloudflare.com',
             ],
 
             'hashes' => [
@@ -447,7 +446,6 @@ return [
         'font-src' => [
             'allow' => [
                 'https://fonts.gstatic.com',
-                'https://cdnjs.cloudflare.com',
                 'data:',
             ],
 
