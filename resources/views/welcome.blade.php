@@ -32,7 +32,7 @@
         <div class="col-md-10 px-0">
             <nav class="navbar navbar-light justify-content-between flex-nowrap flex-row">
                 <a class="navbar-brand font-weight-bold py-0" href="{{ route('home') }}" aria-label="{{ sprintf('%s %s', config('app.name'), 'homepage' ) }}">
-                    <span class="text-muted">/</span>cnvs
+                    <span class="text-muted">{</span>need_a_logo<span class="text-muted">}</span>
                 </a>
 
                 <a href="{{ url(sprintf('https://github.com/cnvs/canvas/releases/tag/%s', $latest_release)) }}" class="ml-auto mr-3 text-secondary font-weight-bold" target="_blank" rel="noopener" style="color: rgba(0,0,0,.8)" aria-label="Latest release">
@@ -70,9 +70,9 @@
 
             <div class="col-md-10 mt-4">
                 <div id="slider" class="beer-slider shadow rounded-lg">
-                    <img src="{{ asset('img/light-mode.png') }}" alt="Light Mode">
+                    <img src="{{ asset('img/light-mode.png') }}" alt="Light Mode" aria-hidden="true">
                     <div class="beer-reveal">
-                        <img src="{{ asset('img/dark-mode.png') }}" alt="Dark Mode">
+                        <img src="{{ asset('img/dark-mode.png') }}" alt="Dark Mode" aria-hidden="true">
                     </div>
                 </div>
                 <p class="text-secondary text-center pt-3">
