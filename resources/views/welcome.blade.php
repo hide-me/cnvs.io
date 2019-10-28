@@ -32,7 +32,7 @@
         <div class="col-md-10 px-0">
             <nav class="navbar navbar-light justify-content-between flex-nowrap flex-row">
                 <a class="navbar-brand font-weight-bold py-0" href="{{ route('home') }}" aria-label="{{ sprintf('%s %s', config('app.name'), 'homepage' ) }}">
-                    <span class="text-muted">{</span>need_a_logo<span class="text-muted">}</span>
+                    <span class="text-muted">{ </span>logo<span class="text-muted"> }</span>
                 </a>
 
                 <a href="{{ url(sprintf('https://github.com/cnvs/canvas/releases/tag/%s', $latest_release)) }}" class="ml-auto mr-3 text-secondary font-weight-bold" target="_blank" rel="noopener" style="color: rgba(0,0,0,.8)" aria-label="Latest release">
@@ -90,7 +90,7 @@
                     </div>
                     <div class="col-lg-6 my-auto">
                         <img src="{{ asset('img/stats.png') }}"
-                             class="img-fluid shadow p-3 rounded-lg" alt="Statistics">
+                             class="img-fluid shadow p-3 rounded-lg border" alt="Statistics">
                     </div>
                 </div>
             </div>
@@ -105,7 +105,7 @@
                     </div>
                     <div class="col-lg-6 my-auto order-lg-first">
                         <img src="{{ asset('img/editor.png') }}"
-                             class="img-fluid w-100 shadow px-1 py-3 rounded-lg" alt="Editor">
+                             class="img-fluid w-100 shadow px-1 py-3 rounded-lg border" alt="Editor">
                     </div>
                 </div>
             </div>
@@ -122,7 +122,7 @@
                     </div>
                     <div class="col-lg-6 my-auto">
                         <img src="{{ asset('img/featured-image.png') }}"
-                             class="img-fluid w-100 shadow p-3 rounded-lg" alt="Unsplash Integration">
+                             class="img-fluid w-100 shadow p-3 rounded-lg border" alt="Unsplash Integration">
                     </div>
                 </div>
             </div>
@@ -140,7 +140,7 @@
                     </div>
                     <div class="col-lg-6 my-auto order-lg-first">
                         <img src="{{ asset('img/settings.png') }}"
-                             class="img-fluid w-100 shadow p-3 rounded-lg" alt="Social Data">
+                             class="img-fluid w-100 shadow p-3 rounded-lg border" alt="Social Data">
                     </div>
                 </div>
             </div>
