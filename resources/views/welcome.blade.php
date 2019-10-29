@@ -69,7 +69,7 @@
             </div>
 
             <div class="col-md-10 mt-4">
-                <div id="slider" class="beer-slider shadow rounded-lg">
+                <div id="slider" class="beer-slider shadow rounded-lg border">
                     <img src="{{ asset('img/light-mode.png') }}" alt="Light Mode" aria-hidden="true">
                     <div class="beer-reveal">
                         <img src="{{ asset('img/dark-mode.png') }}" alt="Dark Mode" aria-hidden="true">
