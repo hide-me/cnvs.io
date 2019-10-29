@@ -22,7 +22,7 @@
     <title>{{ sprintf('%s — %s', config('app.name'), 'A Laravel publishing platform' ) }}</title>
 
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla|Merriweather">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Karla|Merriweather">
 
     <link rel="stylesheet" type="text/css" href="{{ mix('css/app.css') }}">
 
