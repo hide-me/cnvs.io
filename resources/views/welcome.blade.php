@@ -34,7 +34,7 @@
         <div class="col-md-10 px-0">
             <nav class="navbar navbar-light justify-content-between flex-nowrap flex-row">
                 <a class="navbar-brand font-weight-bold py-0" href="{{ route('home') }}" aria-label="{{ sprintf('%s %s', config('app.name'), 'homepage' ) }}">
-                    <span class="text-muted">{ </span>logo<span class="text-muted"> }</span>
+                    <span class="text-muted font-serif font-italic">Canvas</span>
                 </a>
 
                 <a href="{{ sprintf('https://github.com/cnvs/canvas/releases/tag/%s', $latest_release) }}" class="ml-auto mr-3 text-secondary font-weight-bold" target="_blank" rel="noopener" style="color: rgba(0,0,0,.8)" aria-label="Latest release">
