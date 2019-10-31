@@ -203,7 +203,7 @@
 
 <div class="container text-center mt-4 mb-5">
     <p class="spacing-normal">Released under the
-        <a href="https://opensource.org/licenses/MIT" class="font-weight-bold text-secondary" target="_blank" rel="noopener">MIT</a> license.
+        <a href="https://github.com/cnvs/canvas/blob/master/license" class="font-weight-bold text-secondary" target="_blank" rel="noopener">MIT</a> license.
         <a href="https://github.com/cnvs/canvas" class="font-weight-bold text-secondary" target="_blank" rel="noopener">View source</a>.
     </p>
     <p class="spacing-normal">
