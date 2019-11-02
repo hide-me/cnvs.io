@@ -9,12 +9,12 @@
     <meta property="og:type" content="website">
     <meta property="og:description" content="Sometimes creating a blog is easier said than done. With Canvas, it's just easier.">
     <meta property="og:title" content="{{ sprintf('%s ― %s', config('app.name'), 'A Laravel publishing platform' ) }}">
-    <meta property="og:image" content="{{ asset('img/opengraph.png') }}">
+{{--    <meta property="og:image" content="{{ asset('img/opengraph.png') }}">--}}
     <meta property="og:site_name" content="{{ config('app.name') }}">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ sprintf('%s — %s', config('app.name'), 'A Laravel publishing platform' ) }}">
-    <meta name="twitter:image" content="{{ asset('img/opengraph.png') }}">
+{{--    <meta name="twitter:image" content="{{ asset('img/opengraph.png') }}">--}}
     <meta name="twitter:site" content="@cnvs_io">
     <meta name="twitter:description" content="Sometimes creating a blog is easier said than done. With Canvas, it's just easier.">
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -26,15 +26,15 @@
 
     <link rel="stylesheet" type="text/css" href="{{ mix('css/app.css') }}">
 
-    <link rel="icon" type="image/png" href="{{ asset('img/icon.png') }}">
+{{--    <link rel="icon" type="image/png" href="{{ asset('img/icon.png') }}">--}}
 </head>
 <body>
-<div class="mb-4 mt-2">
+<div class="mb-4 mt-3">
     <div class="container d-flex justify-content-center px-0">
         <div class="col-md-10 px-0">
             <nav class="navbar navbar-light justify-content-between flex-nowrap flex-row">
-                <a class="navbar-brand font-weight-bold py-0" href="{{ route('home') }}" aria-label="{{ sprintf('%s %s', config('app.name'), 'homepage' ) }}">
-                    <span class="font-serif">Canvas</span>
+                <a class="navbar-brand font-weight-bold py-0 font-serif" href="{{ route('home') }}" aria-label="{{ sprintf('%s %s', config('app.name'), 'homepage' ) }}">
+                    <span class="text-muted">{</span> logo <span class="text-muted">}</span>
                 </a>
 
                 <a href="{{ sprintf('https://github.com/cnvs/canvas/releases/tag/%s', $latest_release) }}" class="ml-auto mr-3 text-secondary font-weight-bold" target="_blank" rel="noopener" style="color: rgba(0,0,0,.8)" aria-label="Latest release">
