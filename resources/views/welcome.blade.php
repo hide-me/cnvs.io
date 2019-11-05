@@ -9,12 +9,12 @@
     <meta property="og:type" content="website">
     <meta property="og:description" content="Sometimes creating a blog is easier said than done. With Canvas, it's just easier.">
     <meta property="og:title" content="{{ sprintf('%s ― %s', config('app.name'), 'A Laravel publishing platform' ) }}">
-{{--    <meta property="og:image" content="{{ asset('img/opengraph.png') }}">--}}
+    <meta property="og:image" content="{{ asset('img/opengraph.png') }}">
     <meta property="og:site_name" content="{{ config('app.name') }}">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ sprintf('%s — %s', config('app.name'), 'A Laravel publishing platform' ) }}">
-{{--    <meta name="twitter:image" content="{{ asset('img/opengraph.png') }}">--}}
+    <meta name="twitter:image" content="{{ asset('img/opengraph.png') }}">
     <meta name="twitter:site" content="@cnvs_io">
     <meta name="twitter:description" content="Sometimes creating a blog is easier said than done. With Canvas, it's just easier.">
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -26,7 +26,7 @@
 
     <link rel="stylesheet" type="text/css" href="{{ mix('css/app.css') }}">
 
-{{--    <link rel="icon" type="image/png" href="{{ asset('img/icon.png') }}">--}}
+    <link rel="icon" type="image/png" href="{{ asset('img/favicon.ico') }}">
 </head>
 <body>
 <div class="mb-4 mt-3">
@@ -172,13 +172,11 @@
 
 <div class="card bg-light rounded-0 w-100 border-0 my-5">
     <div class="text-center my-5">
-        <a href="https://github.com/cnvs/canvas#installation" class="btn btn-secondary text-uppercase font-weight-bold text-decoration-none" target="_blank" rel="noopener">
+        <a href="https://github.com/cnvs/canvas#installation" class="btn btn-secondary text-uppercase font-weight-bold" target="_blank" rel="noopener">
             Get Started
         </a>
         <p class="mt-4 mb-0 text-secondary font-serif px-4">
-{{--            <span class="font-weight-bold">Already convinced?</span> Download and install it today!--}}
-{{--            Download and install into your Laravel app today--}}
-            Give your Laravel application the eloquent writing experience it deserves.
+            Upgrade your Laravel application with the eloquent writing experience it deserves.
         </p>
     </div>
 </div>
