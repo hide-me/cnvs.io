@@ -13,17 +13,19 @@ $black: #000;
 $green: #03a87c;
 $red: #cc5454;
 
-$font-family-sans-serif: "Karla", sans-serif;
-$font-family-serif: "Merriweather", serif;
+$font-family-sans-serif: 'Karla', sans-serif;
+$font-family-serif: 'Merriweather', serif;
 
 $box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 
 $text-muted: $gray-500;
 
+$link-color: $gray-500;
+
 $display4-size: 45px;
 
 .fill-secondary {
-    fill: $gray-600;
+    fill: $gray-500;
 }
 
 .text-lg {
