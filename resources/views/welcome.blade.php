@@ -57,11 +57,7 @@
             </div>
 
             <div class="col-md-10">
-                <p class="font-weight-lighter font-serif text-lg leading-relaxed">
-                    <span class="font-weight-bold">Sometimes creating a blog</span> is easier said than done. With
-                    <span class="font-italic">Canvas</span>, it's just easier. Simple installation, the freedom to make it look how you want, and a familiar editing environment keeps you focused on what
-                    <span class="font-italic">Canvas</span> is really good at: Publishing.
-                </p>
+                <p class="font-weight-lighter font-serif text-lg leading-relaxed"><span class="font-weight-bold">Sometimes creating a blog</span> is easier said than done. With <span class="font-italic">Canvas</span>, it's just easier. Simple installation, the freedom to make it look how you want, and a familiar editing environment keeps you focused on what <span class="font-italic">Canvas</span> is really good at: Publishing.</p>
                 <p class="font-weight-lighter font-serif text-lg leading-relaxed">Want to find out how big of an impact you're actually making?<span class="font-italic">Canvas</span> helps you visualize monthly trends, see where your readers are coming from and even what time of day they prefer to read your content. Think of it as a lightweight version of Google Analytics, straight out of the box.</p>
             </div>
 
@@ -105,7 +101,7 @@
                 <div class="row justify-content-around py-5">
                     <div class="col-lg-4 text-left my-auto">
                         <p class="text-muted text-uppercase font-weight-bold">Unsplash integration</p>
-                        <p>Enjoy high-quality photography in your posts from the world's most generous community of photographers. Add images, videos, links, or whatever media you'd like to your content. The sky is the limit here.</p>
+                        <p>Enjoy high-quality photography in your posts from the world's most generous community of photographers. Embed images, videos, links, or media to your content, the sky is the limit here.</p>
                     </div>
                     <div class="col-lg-6 my-auto">
                         <img src="{{ asset('img/featured-image.png') }}"
@@ -135,7 +131,7 @@
                     <div class="col-md-6">
                         <ul class="mb-0">
                             <li class="pb-3">
-                                <span class="font-weight-bold">An autosaving editor</span> that makes sure you never lose your place, or your sanity  <span class="badge badge-success small">NEW</span>
+                                <span class="font-weight-bold">An autosaving editor</span> that makes sure you never lose your place, or your sanity <span class="badge badge-success small">NEW</span>
                             </li>
                             <li class="pb-3">
                                 <span class="font-weight-bold">A writing summary</span> e-mail delivered weekly that provides quick stats on trending content
