@@ -176,7 +176,7 @@
             Get Started
         </a>
         <p class="mt-4 mb-0 text-secondary font-serif px-4">
-            Upgrade your Laravel application with the eloquent writing experience it deserves.
+            Upgrade your Laravel application and give it the eloquent writing experience it deserves.
         </p>
     </div>
 </div>
