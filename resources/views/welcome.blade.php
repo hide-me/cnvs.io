@@ -58,7 +58,7 @@
 
             <div class="col-md-10">
                 <p class="font-weight-lighter font-serif text-lg leading-relaxed"><span class="font-weight-bold">Sometimes creating a blog</span> is easier said than done. With <span class="font-italic">Canvas</span>, it's just easier. Simple installation, the freedom to make it look how you want, and a familiar editing environment keeps you focused on what <span class="font-italic">Canvas</span> is really good at: Publishing.</p>
-                <p class="font-weight-lighter font-serif text-lg leading-relaxed">Want to find out how big of an impact you're actually making?<span class="font-italic">Canvas</span> helps you visualize monthly trends, see where your readers are coming from and even what time of day they prefer to read your content. Think of it as a lightweight version of Google Analytics, straight out of the box.</p>
+                <p class="font-weight-lighter font-serif text-lg leading-relaxed">Want to find out how big of an impact you're actually making? <span class="font-italic">Canvas</span> helps you visualize monthly trends, see where your readers are coming from and even what time of day they prefer to read your content. Think of it as a lightweight version of Google Analytics, straight out of the box.</p>
             </div>
 
             <div class="col-md-10 mt-4">
