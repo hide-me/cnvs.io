@@ -28,6 +28,10 @@ $display4-size: 45px;
     fill: $gray-500;
 }
 
+.fill-secondary:hover {
+    fill: darken($link-color, 15%);
+}
+
 .text-lg {
     font-size: 1.1rem;
 }
