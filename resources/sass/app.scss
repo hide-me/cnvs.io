@@ -24,12 +24,16 @@ $link-color: $gray-500;
 
 $display4-size: 45px;
 
-.fill-secondary {
+.primary {
     fill: $gray-500;
 }
 
-.fill-secondary:hover {
+.primary:hover {
     fill: darken($link-color, 15%);
+}
+
+.secondary {
+    fill: $gray-700;
 }
 
 .text-lg {
