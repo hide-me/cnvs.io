@@ -66,7 +66,7 @@
             </div>
 
             <div class="col-md-10 mt-4">
-                <div id="slider" class="beer-slider shadow rounded-lg border">
+                <div id="slider" class="beer-slider shadow rounded border">
                     <img src="{{ asset('img/light-mode.png') }}" alt="Light Mode" aria-hidden="true">
                     <div class="beer-reveal">
                         <img src="{{ asset('img/dark-mode.png') }}" alt="Dark Mode" aria-hidden="true">
@@ -83,7 +83,7 @@
                     </div>
                     <div class="col-lg-6 my-auto">
                         <img src="{{ asset('img/stats.png') }}"
-                             class="img-fluid shadow p-3 rounded-lg border" alt="Statistics">
+                             class="img-fluid shadow p-3 rounded border" alt="Statistics">
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@
                     </div>
                     <div class="col-lg-6 my-auto order-lg-first">
                         <img src="{{ asset('img/editor.png') }}"
-                             class="img-fluid w-100 shadow px-1 py-3 rounded-lg border" alt="Editor">
+                             class="img-fluid w-100 shadow px-1 py-3 rounded border" alt="Editor">
                     </div>
                 </div>
             </div>
@@ -109,7 +109,7 @@
                     </div>
                     <div class="col-lg-6 my-auto">
                         <img src="{{ asset('img/featured-image.png') }}"
-                             class="img-fluid w-100 shadow p-3 rounded-lg border" alt="Unsplash Integration">
+                             class="img-fluid w-100 shadow p-3 rounded border" alt="Unsplash Integration">
                     </div>
                 </div>
             </div>
@@ -122,7 +122,7 @@
                     </div>
                     <div class="col-lg-6 my-auto order-lg-first">
                         <img src="{{ asset('img/settings.png') }}"
-                             class="img-fluid w-100 shadow p-3 rounded-lg border" alt="Social Data">
+                             class="img-fluid w-100 shadow p-3 rounded border" alt="Social Data">
                     </div>
                 </div>
             </div>
