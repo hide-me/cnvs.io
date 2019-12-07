@@ -18,10 +18,8 @@ class HomeController extends Controller
     {
         $latest_release = null;
 
-        $dir = scandir(sprintf('%s/resources/lang/', dirname(__DIR__, 3)));
-
         try {
-            if ($this->isInProduction()) {
+            if (app()->environment('production')) {
                 $client = new Client();
                 $endpoint = 'https://api.github.com/repos/cnvs/canvas/releases/latest';
 
@@ -36,16 +34,5 @@ class HomeController extends Controller
         }
 
         return view('welcome', compact('latest_release'));
-    }
-
-    /**
-     * Check if the application is in production.
-     *
-     * @param string $environment
-     * @return bool
-     */
-    private function isInProduction(string $environment = 'production'): bool
-    {
-        return app()->environment() == $environment;
     }
 }
