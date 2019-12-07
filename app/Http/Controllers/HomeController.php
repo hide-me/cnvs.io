@@ -4,35 +4,27 @@ namespace App\Http\Controllers;
 
 use Exception;
 use GuzzleHttp\Client;
-use Illuminate\View\View;
+use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
     /**
-     * View the latest published full release for the repository.
+     * Return the home page.
      *
-     * @const string
+     * @param Request $request
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    const CANVAS_RELEASES = 'https://api.github.com/repos/cnvs/canvas/releases/latest';
-
-    /**
-     * Return the landing page.
-     *
-     * @param null $latest_release
-     * @return View
-     */
-    public function __invoke($latest_release = null): View
+    public function __invoke(Request $request)
     {
+        $latest_release = null;
+
         try {
-            if ($this->isInProduction()) {
-
-                // Create a new Client instance
+            if (app()->environment('production')) {
                 $client = new Client();
+                $endpoint = 'https://api.github.com/repos/cnvs/canvas/releases/latest';
 
-                // Make a GET request to the Github API
-                $request = $client->get(self::CANVAS_RELEASES);
+                $request = $client->get($endpoint);
 
-                // Decode the response and get the contents
                 $response = json_decode($request->getBody()->getContents());
 
                 $latest_release = $response->tag_name;
@@ -42,16 +34,5 @@ class HomeController extends Controller
         }
 
         return view('welcome', compact('latest_release'));
-    }
-
-    /**
-     * Check if the application is in production.
-     *
-     * @param string $environment
-     * @return bool
-     */
-    private function isInProduction(string $environment = 'production'): bool
-    {
-        return app()->environment() == $environment;
     }
 }
