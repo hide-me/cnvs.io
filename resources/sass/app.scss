@@ -57,6 +57,17 @@ $display4-size: 45px;
     font-family: $font-family-sans-serif;
 }
 
+a, a:focus,
+input, input:focus,
+button, button:focus,
+select, select:focus,
+textarea, textarea:focus {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
 @import "~beerslider/dist/BeerSlider.css";
 
 @import '~bootstrap/scss/functions';
