@@ -36,7 +36,7 @@ return [
     'features' => [
         'subtext'            => '特征',
         'title'              => '所有合适的工具',
-        'autosaving-editor'  => '自动保存的编辑器，可确保您永远不会失去自己的位置或理智',
+        'autosaving-editor'  => '自动保存的编辑器，可确保您永远不会失去自己的位置或理智 <span class="badge badge-success text-uppercase small">新</span>',
         'email-digest'       => '每周发送一封写作摘要电子邮件，其中提供了有关趋势内容的快速统计信息',
         'translations'       => '本地化的内容可提供8种以上不同语言的可访问性',
         'secure-routing'     => '可自定义的安全路由选项，可确保数据在生产环境中的安全',

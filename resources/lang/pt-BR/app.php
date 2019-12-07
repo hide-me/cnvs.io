@@ -36,7 +36,7 @@ return [
     'features' => [
         'subtext'            => 'Recursos',
         'title'              => 'Todas as ferramentas certas',
-        'autosaving-editor'  => 'Um editor de salvamento automático que garante que você nunca perca seu lugar ou sua sanidade',
+        'autosaving-editor'  => 'Um editor de salvamento automático que garante que você nunca perca seu lugar ou sua sanidade <span class="badge badge-success text-uppercase small">Novo</span>',
         'email-digest'       => 'Um e-mail de resumo por escrito entregue semanalmente que fornece estatísticas rápidas sobre o conteúdo de tendências',
         'translations'       => 'Conteúdo localizado para fornecer acessibilidade em mais de 8 idiomas diferentes',
         'secure-routing'     => 'Opções de roteamento personalizáveis ​​e seguras para manter seus dados seguros em um ambiente de produção',

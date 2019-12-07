@@ -36,7 +36,7 @@ return [
     'features' => [
         'subtext'            => 'traits',
         'title'              => 'Tous les bons outils',
-        'autosaving-editor'  => 'Un éditeur de sauvegarde automatique qui vous assure de ne jamais perdre votre place ou votre santé mentale',
+        'autosaving-editor'  => 'Un éditeur de sauvegarde automatique qui vous assure de ne jamais perdre votre place ou votre santé mentale <span class="badge badge-success text-uppercase small">Nouveau</span>',
         'email-digest'       => 'Un e-mail récapitulatif écrit envoyé chaque semaine qui fournit des statistiques rapides sur le contenu tendance',
         'translations'       => 'Contenu localisé pour fournir l\'accessibilité dans plus de 8 langues différentes',
         'secure-routing'     => 'Options de routage personnalisables et sécurisées pour protéger vos données dans un environnement de production',
