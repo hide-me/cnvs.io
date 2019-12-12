@@ -56,7 +56,7 @@
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
                         <a class="dropdown-item" href="{{ route('home', ['locale' => 'ar']) }}">عربى</a>
                         <a class="dropdown-item" href="{{ route('home', ['locale' => 'cn']) }}">中文</a>
-                        <a class="dropdown-item" href="{{ route('home', ['locale' => 'de']) }}">Deutsche</a>
+                        <a class="dropdown-item" href="{{ route('home', ['locale' => 'de']) }}">Deutsch</a>
                         <a class="dropdown-item" href="{{ route('home', ['locale' => 'en']) }}">English</a>
                         <a class="dropdown-item" href="{{ route('home', ['locale' => 'es']) }}">Español</a>
                         <a class="dropdown-item" href="{{ route('home', ['locale' => 'fr']) }}">Français</a>
