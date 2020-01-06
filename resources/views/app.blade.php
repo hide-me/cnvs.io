@@ -97,7 +97,7 @@
                     <p class="text-muted text-uppercase font-weight-bold">@lang('app.stats.subtext')</p>
                     <p>@lang('app.stats.caption')</p>
                 </div>
-                <div class="col-md-6 col-sm-8 my-auto">
+                <div class="col-md-6 col-sm-10 my-auto">
                     <img src="{{ asset('img/stats.png') }}" class="img-fluid shadow p-3 rounded border" alt="Statistics">
                 </div>
             </div>
@@ -109,7 +109,7 @@
                     <p class="text-muted text-uppercase font-weight-bold">@lang('app.editing.subtext')</p>
                     <p>@lang('app.editing.caption')</p>
                 </div>
-                <div class="col-md-6 my-auto order-md-first">
+                <div class="col-md-6 col-sm-10 my-auto order-md-first">
                     <img src="{{ asset('img/editor.png') }}" class="img-fluid w-100 shadow px-1 py-3 rounded border" alt="Editor">
                 </div>
             </div>
@@ -121,7 +121,7 @@
                     <p class="text-muted text-uppercase font-weight-bold">@lang('app.unsplash.subtext')</p>
                     <p>@lang('app.unsplash.caption')</p>
                 </div>
-                <div class="col-md-6 my-auto">
+                <div class="col-md-6 col-sm-10 my-auto">
                     <img src="{{ asset('img/featured-image.png') }}" class="img-fluid w-100 shadow p-3 rounded border" alt="Unsplash Integration">
                 </div>
             </div>
@@ -133,7 +133,7 @@
                     <p class="text-muted text-uppercase font-weight-bold">@lang('app.social.subtext')</p>
                     <p>@lang('app.social.caption')</p>
                 </div>
-                <div class="col-md-6 my-auto order-md-first">
+                <div class="col-md-6 col-sm-10 my-auto order-md-first">
                     <img src="{{ asset('img/settings.png') }}" class="img-fluid w-100 shadow p-3 rounded border" alt="Social Data">
                 </div>
             </div>
