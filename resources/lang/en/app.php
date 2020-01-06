@@ -38,7 +38,7 @@ return [
         'title'              => 'All the right tools',
         'autosaving-editor'  => '<span class="font-weight-bold">An autosaving editor</span> that makes sure you never lose your place, or your sanity <span class="badge badge-success text-uppercase small">New</span>',
         'email-digest'       => '<span class="font-weight-bold">A writing summary</span> e-mail delivered weekly that provides quick stats on trending content',
-        'translations'       => '<span class="font-weight-bold">Localized content</span> to provide accessibility in over 8 different languages',
+        'translations'       => '<span class="font-weight-bold">Localized content</span> to provide accessibility in over 9 different languages',
         'secure-routing'     => '<span class="font-weight-bold">Customizable and secure</span> routing options to keep your data safe in a production environment',
         'dark-mode'          => '<span class="font-weight-bold">Light and dark</span> modes that offer unique color palettes, making publishing content easy on the eyes',
         'artisan-command'    => '<span class="font-weight-bold">An Artisan command</span> that scaffolds a Medium-inspired frontend in seconds',
