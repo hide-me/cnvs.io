@@ -38,7 +38,7 @@ return [
         'title'              => '所有合适的工具',
         'autosaving-editor'  => '自动保存的编辑器，可确保您永远不会失去自己的位置或理智 <span class="badge badge-success text-uppercase small">新</span>',
         'email-digest'       => '每周发送一封写作摘要电子邮件，其中提供了有关趋势内容的快速统计信息',
-        'translations'       => '本地化的内容提供9种以上不同语言的可访问性',
+        'translations'       => '本地化的内容提供10种以上不同语言的可访问性',
         'secure-routing'     => '可自定义的安全路由选项，可确保数据在生产环境中的安全',
         'dark-mode'          => '浅色和深色模式提供独特的调色板，使发布内容轻松自如',
         'artisan-command'    => '一个Artisan命令，可在几秒钟内搭建出中等风格的前端',

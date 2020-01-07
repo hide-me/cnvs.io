@@ -38,7 +38,7 @@ return [
         'title'              => 'Tüm doğru aletler',
         'autosaving-editor'  => 'Yerinizi veya akıl sağlığınızı asla kaybetmemenizi sağlayan otomatik kaydetme editörü <span class="badge badge-success text-uppercase small">Yeni</span>',
         'email-digest'       => 'Güncel materyaller hakkında hızlı istatistikler sağlayan kısa süreli haftalık bir mektup',
-        'translations'       => '9\'dan fazla dilde erişilebilirlik sağlamak için yerelleştirilmiş içerik',
+        'translations'       => '10\'dan fazla dilde erişilebilirlik sağlamak için yerelleştirilmiş içerik',
         'secure-routing'     => 'Üretim ortamında verilerinizin güvenliğini sağlamak için yapılandırılabilir ve güvenli yönlendirme seçenekleri',
         'dark-mode'          => 'İçeriği yayınlamayı kolaylaştıran, benzersiz renk paletleri sunan açık ve koyu modlar',
         'artisan-command'    => 'Saniyeler içinde Orta tarzı bir arayüz oluşturan bir Zanaatkar ekibi',

@@ -64,6 +64,7 @@
                         <a class="dropdown-item" href="{{ route('app', ['locale' => 'pt-BR']) }}">Português</a>
                         <a class="dropdown-item" href="{{ route('app', ['locale' => 'ru']) }}">Pусский</a>
                         <a class="dropdown-item" href="{{ route('app', ['locale' => 'tr']) }}">Türk</a>
+                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'nl']) }}">Nederlands</a>
                     </div>
                 </div>
             </nav>

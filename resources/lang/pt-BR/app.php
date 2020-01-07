@@ -38,7 +38,7 @@ return [
         'title'              => 'Todas as ferramentas certas',
         'autosaving-editor'  => 'Um editor de salvamento automático que garante que você nunca perca seu lugar ou sua sanidade <span class="badge badge-success text-uppercase small">Novo</span>',
         'email-digest'       => 'Um e-mail de resumo por escrito entregue semanalmente que fornece estatísticas rápidas sobre o conteúdo de tendências',
-        'translations'       => 'Conteúdo localizado para fornecer acessibilidade em mais de 9 idiomas diferentes',
+        'translations'       => 'Conteúdo localizado para fornecer acessibilidade em mais de 10 idiomas diferentes',
         'secure-routing'     => 'Opções de roteamento personalizáveis ​​e seguras para manter seus dados seguros em um ambiente de produção',
         'dark-mode'          => 'Modos claro e escuro que oferecem paletas de cores exclusivas, facilitando a publicação de conteúdo para os olhos',
         'artisan-command'    => 'Um comando artesanal que cria um frontend de inspiração média em segundos',
