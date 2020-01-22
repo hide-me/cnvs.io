@@ -30,11 +30,11 @@
 </head>
 <body>
 <div class="mb-4 mt-3">
-    <div class="container d-flex justify-content-center px-0">
-        <div class="col-md-10 px-0">
+    <div class="px-0">
+        <div class="col-xl-8 offset-xl-2 col-md-12 px-0">
             <nav class="navbar navbar-light justify-content-between flex-nowrap flex-row">
                 <a class="navbar-brand py-0 font-serif" href="/" aria-label="{{ sprintf('%s %s', config('app.name'), 'homepage' ) }}">
-                    <svg data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 110.981" width="32">
+                    <svg data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 110.981" width="30">
                         <path class="secondary" d="M4.808 100.34c4.66-3.767 11.309-2.044 16.167.307 2.856 1.382 5.563 3.046 8.399 4.468a61.637 61.637 0 008.568 3.538c11.478 3.727 23.997 3.29 34.205-3.595a51.44 51.44 0 0013.321-13.613c1.1-1.592-1.498-3.094-2.59-1.515-6.486 9.38-15.876 17.099-27.622 18.026a43.71 43.71 0 01-18.16-2.759c-5.845-2.102-10.93-5.643-16.62-8.052-5.764-2.44-12.641-3.087-17.79 1.073-1.501 1.213.633 3.324 2.122 2.121zM21.8 66.342L5.422 74.049a.768.768 0 00-.417.503A44.368 44.368 0 01.025 93.85a.768.768 0 00.933.936 42.063 42.063 0 0119.623-4.983.768.768 0 00.511-.43l7.384-16.371a.768.768 0 00-.157-.86l-5.649-5.648a.768.768 0 00-.87-.151z"/>
                         <path class="secondary" d="M96 13.467a13.424 13.424 0 01-4.76 10.271L40.434 67.334l-5.855 4.97a5.744 5.744 0 01-7.77-.324l-4.282-4.28a5.741 5.741 0 01-.282-7.813l6.282-7.24L72.363 4.643A13.466 13.466 0 0196 13.467z"/>
                         <path class="primary" d="M41.388 66.38l-6.808 5.923a5.744 5.744 0 01-7.77-.323l-4.283-4.28a5.741 5.741 0 01-.282-7.813l6.282-7.24z"/>
@@ -54,15 +54,17 @@
                     </a>
 
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="{{ route('home', ['locale' => 'ar']) }}">عربى</a>
-                        <a class="dropdown-item" href="{{ route('home', ['locale' => 'cn']) }}">中文</a>
-                        <a class="dropdown-item" href="{{ route('home', ['locale' => 'de']) }}">Deutsch</a>
-                        <a class="dropdown-item" href="{{ route('home', ['locale' => 'en']) }}">English</a>
-                        <a class="dropdown-item" href="{{ route('home', ['locale' => 'es']) }}">Español</a>
-                        <a class="dropdown-item" href="{{ route('home', ['locale' => 'fr']) }}">Français</a>
-                        <a class="dropdown-item" href="{{ route('home', ['locale' => 'hi']) }}">हिन्दी</a>
-                        <a class="dropdown-item" href="{{ route('home', ['locale' => 'pt-BR']) }}">Português</a>
-                        <a class="dropdown-item" href="{{ route('home', ['locale' => 'ru']) }}">Pусский</a>
+                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'ar']) }}">عربى</a>
+                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'cn']) }}">中文</a>
+                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'de']) }}">Deutsch</a>
+                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'en']) }}">English</a>
+                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'es']) }}">Español</a>
+                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'fr']) }}">Français</a>
+                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'hi']) }}">हिन्दी</a>
+                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'pt-BR']) }}">Português</a>
+                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'ru']) }}">Pусский</a>
+                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'tr']) }}">Türk</a>
+                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'nl']) }}">Nederlands</a>
                     </div>
                 </div>
             </nav>
@@ -71,97 +73,93 @@
 </div>
 
 <main class="py-4">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-10 mb-5 text-md-left">
-                <p class="text-muted text-uppercase mb-0 font-weight-bolder">@lang('app.header.subtext')</p>
-                <h1 class="display-4 font-serif">@lang('app.header.title')</h1>
-            </div>
+    <div class="col-xl-8 offset-xl-2 col-md-12">
+        <div class="mb-5 text-md-left">
+            <p class="text-muted text-uppercase mb-0 font-weight-bolder">@lang('app.header.subtext')</p>
+            <h1 class="display-4 font-serif">@lang('app.header.title')</h1>
+        </div>
 
-            <div class="col-md-10">
-                <p class="font-weight-lighter font-serif text-lg leading-relaxed">@lang('app.intro.section-one')</p>
-                <p class="font-weight-lighter font-serif text-lg leading-relaxed">@lang('app.intro.section-two')</p>
-            </div>
+        <p class="font-weight-lighter font-serif text-lg leading-relaxed">@lang('app.intro.section-one')</p>
+        <p class="font-weight-lighter font-serif text-lg leading-relaxed">@lang('app.intro.section-two')</p>
 
-            <div class="col-md-10 mt-4">
-                <div id="slider" class="beer-slider shadow rounded border">
-                    <img src="{{ asset('img/light-mode.png') }}" alt="Light Mode" aria-hidden="true">
-                    <div class="beer-reveal">
-                        <img src="{{ asset('img/dark-mode.png') }}" alt="Dark Mode" aria-hidden="true">
-                    </div>
-                </div>
-                <p class="text-secondary text-center pt-3">@lang('app.slider.caption')</p>
-            </div>
-
-            <div class="col-lg-10 text-center">
-                <div class="row justify-content-around py-5">
-                    <div class="col-lg-4 text-left my-auto">
-                        <p class="text-muted text-uppercase font-weight-bold">@lang('app.stats.subtext')</p>
-                        <p>@lang('app.stats.caption')</p>
-                    </div>
-                    <div class="col-lg-6 my-auto">
-                        <img src="{{ asset('img/stats.png') }}" class="img-fluid shadow p-3 rounded border" alt="Statistics">
-                    </div>
+        <div class="mt-4">
+            <div id="slider" class="beer-slider shadow rounded border">
+                <img src="{{ asset('img/light-mode.png') }}" alt="Light Mode" aria-hidden="true">
+                <div class="beer-reveal">
+                    <img src="{{ asset('img/dark-mode.png') }}" alt="Dark Mode" aria-hidden="true">
                 </div>
             </div>
+            <p class="text-secondary text-center pt-3">@lang('app.slider.caption')</p>
+        </div>
 
-            <div class="col-lg-10 text-center">
-                <div class="row justify-content-around py-5">
-                    <div class="col-lg-4 text-left my-auto">
-                        <p class="text-muted text-uppercase font-weight-bold">@lang('app.editing.subtext')</p>
-                        <p>@lang('app.editing.caption')</p>
-                    </div>
-                    <div class="col-lg-6 my-auto order-lg-first">
-                        <img src="{{ asset('img/editor.png') }}" class="img-fluid w-100 shadow px-1 py-3 rounded border" alt="Editor">
-                    </div>
+        <div class="text-center">
+            <div class="row justify-content-around py-5">
+                <div class="col-md-4 text-left my-auto">
+                    <p class="text-muted text-uppercase font-weight-bold">@lang('app.stats.subtext')</p>
+                    <p>@lang('app.stats.caption')</p>
+                </div>
+                <div class="col-md-6 col-sm-10 my-auto">
+                    <img src="{{ asset('img/stats.png') }}" class="img-fluid shadow p-3 rounded border" alt="Statistics">
                 </div>
             </div>
+        </div>
 
-            <div class="col-lg-10 text-center">
-                <div class="row justify-content-around py-5">
-                    <div class="col-lg-4 text-left my-auto">
-                        <p class="text-muted text-uppercase font-weight-bold">@lang('app.unsplash.subtext')</p>
-                        <p>@lang('app.unsplash.caption')</p>
-                    </div>
-                    <div class="col-lg-6 my-auto">
-                        <img src="{{ asset('img/featured-image.png') }}" class="img-fluid w-100 shadow p-3 rounded border" alt="Unsplash Integration">
-                    </div>
+        <div class="text-center">
+            <div class="row justify-content-around py-5">
+                <div class="col-md-4 text-left my-auto">
+                    <p class="text-muted text-uppercase font-weight-bold">@lang('app.editing.subtext')</p>
+                    <p>@lang('app.editing.caption')</p>
+                </div>
+                <div class="col-md-6 col-sm-10 my-auto order-md-first">
+                    <img src="{{ asset('img/editor.png') }}" class="img-fluid w-100 shadow px-1 py-3 rounded border" alt="Editor">
                 </div>
             </div>
+        </div>
 
-            <div class="col-lg-10 text-center">
-                <div class="row justify-content-around py-5">
-                    <div class="col-lg-4 text-left my-auto">
-                        <p class="text-muted text-uppercase font-weight-bold">@lang('app.social.subtext')</p>
-                        <p>@lang('app.social.caption')</p>
-                    </div>
-                    <div class="col-lg-6 my-auto order-lg-first">
-                        <img src="{{ asset('img/settings.png') }}" class="img-fluid w-100 shadow p-3 rounded border" alt="Social Data">
-                    </div>
+        <div class="text-center">
+            <div class="row justify-content-around py-5">
+                <div class="col-md-4 text-left my-auto">
+                    <p class="text-muted text-uppercase font-weight-bold">@lang('app.unsplash.subtext')</p>
+                    <p>@lang('app.unsplash.caption')</p>
+                </div>
+                <div class="col-md-6 col-sm-10 my-auto">
+                    <img src="{{ asset('img/featured-image.png') }}" class="img-fluid w-100 shadow p-3 rounded border" alt="Unsplash Integration">
                 </div>
             </div>
+        </div>
 
-            <div class="col-xl-10 pt-5">
-                <p class="text-muted text-center text-uppercase font-weight-bold">@lang('app.features.subtext')</p>
-                <h2 class="font-weight-bold text-center font-serif pb-5">@lang('app.features.title')</h2>
+        <div class="text-center">
+            <div class="row justify-content-around py-5">
+                <div class="col-md-4 text-left my-auto">
+                    <p class="text-muted text-uppercase font-weight-bold">@lang('app.social.subtext')</p>
+                    <p>@lang('app.social.caption')</p>
+                </div>
+                <div class="col-md-6 col-sm-10 my-auto order-md-first">
+                    <img src="{{ asset('img/settings.png') }}" class="img-fluid w-100 shadow p-3 rounded border" alt="Social Data">
+                </div>
+            </div>
+        </div>
 
-                <div class="row justify-content-end">
-                    <div class="col-md-6">
-                        <ul class="mb-0">
-                            <li class="pb-3">@lang('app.features.autosaving-editor')</li>
-                            <li class="pb-3">@lang('app.features.email-digest')</li>
-                            <li class="pb-3">@lang('app.features.translations')</li>
-                            <li class="pb-3">@lang('app.features.secure-routing')</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <ul class="mb-0">
-                            <li class="pb-3">@lang('app.features.dark-mode')</li>
-                            <li class="pb-3">@lang('app.features.artisan-command')</li>
-                            <li class="pb-3">@lang('app.features.tags-topics')</li>
-                            <li class="pb-3">@lang('app.features.content-scheduling')</li>
-                        </ul>
-                    </div>
+        <div class="pt-5">
+            <p class="text-muted text-center text-uppercase font-weight-bold">@lang('app.features.subtext')</p>
+            <h2 class="font-weight-bold text-center font-serif pb-5">@lang('app.features.title')</h2>
+
+            <div class="row justify-content-end">
+                <div class="col-md-6">
+                    <ul class="mb-0">
+                        <li class="pb-3">@lang('app.features.autosaving-editor')</li>
+                        <li class="pb-3">@lang('app.features.email-digest')</li>
+                        <li class="pb-3">@lang('app.features.translations')</li>
+                        <li class="pb-3">@lang('app.features.secure-routing')</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="mb-0">
+                        <li class="pb-3">@lang('app.features.dark-mode')</li>
+                        <li class="pb-3">@lang('app.features.artisan-command')</li>
+                        <li class="pb-3">@lang('app.features.tags-topics')</li>
+                        <li class="pb-3">@lang('app.features.content-scheduling')</li>
+                    </ul>
                 </div>
             </div>
         </div>

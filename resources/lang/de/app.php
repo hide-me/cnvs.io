@@ -38,7 +38,7 @@ return [
         'title'              => 'Mit den richtigen Werkzeugen',
         'autosaving-editor'  => 'Ein automatisch sparender Editor, der sicherstellt, dass Sie niemals Ihren Platz oder Ihre geistige Gesundheit verlieren <span class="badge badge-success text-uppercase small">Neu</span>',
         'email-digest'       => 'Eine wöchentlich zugestellte E-Mail mit einer schriftlichen Zusammenfassung, die schnelle Statistiken zu aktuellen Inhalten enthält',
-        'translations'       => 'Lokalisierter Inhalt für die Barrierefreiheit in über 8 verschiedenen Sprachen',
+        'translations'       => 'Lokalisierter Inhalt für die Barrierefreiheit in über 10 verschiedenen Sprachen',
         'secure-routing'     => 'Anpassbare und sichere Routing-Optionen, um Ihre Daten in einer Produktionsumgebung zu schützen',
         'dark-mode'          => 'Helle und dunkle Modi, die einzigartige Farbpaletten bieten und das Veröffentlichen von Inhalten für die Augen einfacher machen',
         'artisan-command'    => 'Ein Artisan-Befehl, der ein von Medium inspiriertes Frontend in Sekundenschnelle aufbaut',

@@ -6,7 +6,7 @@ use Exception;
 use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class AppController extends Controller
 {
     /**
      * Return the home page.
@@ -33,6 +33,6 @@ class HomeController extends Controller
             logger()->error($e->getMessage());
         }
 
-        return view('welcome', compact('latest_release'));
+        return view('app', compact('latest_release'));
     }
 }
