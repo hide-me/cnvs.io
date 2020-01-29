@@ -19,7 +19,7 @@ return [
     ],
     'stats'    => [
         'subtext' => 'Publicatiestatistieken',
-        'caption' => 'Meet de impact van uw berichten met realtime gegevens. Niet iedereen heeft de hoofdpijn van het opzetten van Google Analytics nodig, dus hebben we alleen de beste onderdelen ingebouwd en een paar nieuwe toegevoegd.',
+        'caption' => 'Meet de impact van uw berichten met realtime gegevens. Niet iedereen heeft de hoofdpijn van het opzetten van Google Analytics nodig, dus we hebben alleen de beste onderdelen ingebouwd en een paar nieuwe toegevoegd.',
     ],
     'editing'  => [
         'subtext' => 'Een nieuwe bewerkingservaring',
@@ -27,11 +27,11 @@ return [
     ],
     'unsplash' => [
         'subtext' => 'Unsplash-integratie',
-        'caption' => 'Geniet van hoogwaardige fotografie in uw berichten van \'s werelds meest genereuze gemeenschap van fotografen. Sluit afbeeldingen, video\'s, links of media in bij uw inhoud, de hemel is hier de limiet.',
+        'caption' => 'Canvas integreert de Unsplash API direct in de editor, waardoor prachtige afbeeldingen eenvoudig kunnen worden ingevoegd in impactvol schrijven.',
     ],
     'social'   => [
-        'subtext' => 'Aangepaste sociale gegevens',
-        'caption' => 'Zorg ervoor dat uw inhoud is geoptimaliseerd met volledig aanpasbare metagegevens voor kaarten voor het delen van Facebook en Twitter, evenals tags en onderwerpen om uw berichten op te groeperen.',
+        'subtext' => 'Zoek machine optimalisatie',
+        'caption' => 'Eén keer publiceren, overal verspreiden. Voeg metatags, beschrijvingen en canonieke links toe zodat uw inhoud op zoveel mogelijk manieren kan worden ontdekt.',
     ],
     'features' => [
         'subtext'            => 'Kenmerken',

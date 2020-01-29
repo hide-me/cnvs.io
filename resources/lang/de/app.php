@@ -27,11 +27,11 @@ return [
     ],
     'unsplash' => [
         'subtext' => 'Unplash-Integration',
-        'caption' => 'Genießen Sie hochwertige Fotografie in Ihren Posts von der weltweit großzügigsten Community von Fotografen. Betten Sie Bilder, Videos, Links oder Medien in Ihre Inhalte ein. Der Himmel ist hier die Grenze.',
+        'caption' => 'Canvas integriert die Unsplash-API direkt im Editor und ermöglicht so das einfache Einfügen wunderschöner Bilder in eindrucksvolles Schreiben.',
     ],
     'social'   => [
-        'subtext' => 'Kundenspezifische soziale Daten',
-        'caption' => 'Stellen Sie sicher, dass Ihre Inhalte mit vollständig anpassbaren Metadaten für Facebook- und Twitter-Freigabekarten sowie Tags und Themen zum Gruppieren Ihrer Beiträge nach optimiert sind.',
+        'subtext' => 'Suchmaschinenoptimierung',
+        'caption' => 'Einmal veröffentlichen, überall verteilen. Fügen Sie Meta-Tags, Beschreibungen und Canonical Links hinzu, damit Ihre Inhalte auf möglichst viele Arten entdeckt werden können.',
     ],
     'features' => [
         'subtext'            => 'Eigenschaften',

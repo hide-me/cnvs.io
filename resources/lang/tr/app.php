@@ -19,7 +19,7 @@ return [
     ],
     'stats'    => [
         'subtext' => 'Yayın İstatistikleri',
-        'caption' => 'Gerçek zamanlı veri mesajlarınızın etkisini ölçün. Google Analytics\'i kurarken herkesin baş ağrısına ihtiyacı yoktur, bu nedenle yalnızca en iyi parçaları oluşturduk ve birkaç yeni parça ekledik.',
+        'caption' => 'Gerçek zamanlı verilerle yayınlarınızın etkisini ölçün. Herkesin Google Analytics\'i kurma zahmetine ihtiyacı yoktur, bu yüzden sadece en iyi parçaları oluşturduk ve birkaç yeni parça ekledik.',
     ],
     'editing'  => [
         'subtext' => 'Yeni düzenleme deneyimi',
@@ -27,11 +27,11 @@ return [
     ],
     'unsplash' => [
         'subtext' => 'Entegrasyonu devre dışı bırak',
-        'caption' => 'Dünyanın en cömert fotoğrafçı topluluğundan yayınlarınızda yüksek kaliteli fotoğrafların keyfini çıkarın. İçeriğinize resim, video, bağlantı veya multimedya gömün, sınır yoktur.',
+        'caption' => 'Canvas, Unsplash API\'sını doğrudan düzenleyicinin içine entegre ederek, güzel görüntülerin etkili yazmanın içine kolayca eklenmesini sağlar.',
     ],
     'social'   => [
-        'subtext' => 'Kullanıcı Sosyal Verileri',
-        'caption' => 'İçeriğinizin, Facebook ve Twitter paylaşım kartları için tamamen özelleştirilebilir meta veriler, ayrıca yayınlarınızı gruplandıracak etiketler ve konular ile optimize edildiğinden emin olun.',
+        'subtext' => 'Arama motoru optimizasyonu',
+        'caption' => 'Bir kez yayınlayın, her yere dağıtın. İçeriğinizin mümkün olduğunca çok şekilde keşfedilmesini sağlamak için meta etiketler, açıklamalar ve standart bağlantılar ekleyin.',
     ],
     'features' => [
         'subtext'            => 'özellikleri',
