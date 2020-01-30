@@ -441,6 +441,8 @@ return [
             'allow' => [
                 'https://www.google-analytics.com',
             ],
+
+            'self' => true,
         ],
 
         'font-src' => [
