@@ -167,12 +167,16 @@
 </main>
 
 <div class="card bg-light rounded-0 w-100 border-0 my-5">
-    <div class="text-center my-5">
-        <a href="https://github.com/cnvs/canvas#installation" class="btn btn-secondary text-uppercase font-weight-bold" target="_blank" rel="noopener">
-            @lang('app.cta.button')
-        </a>
-        <p class="mt-4 mb-0 text-secondary font-serif px-4">
+    <div class="text-center py-4">
+        <img src="{{ asset('img/logo.png') }}" class="rounded-circle mb-3" style="width: 50px" alt="">
+        <p class="font-serif h2">Canvas</p>
+        <p class="text-secondary small px-4">
             @lang('app.cta.subtext')
+        </p>
+        <p class="mb-0">
+            <a href="https://github.com/cnvs/canvas#installation" class="btn btn-sm btn-secondary text-uppercase font-weight-bold" target="_blank" rel="noopener">
+                @lang('app.cta.button')
+            </a>
         </p>
     </div>
 </div>
