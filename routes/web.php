@@ -13,4 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'AppController')->name('app');
+Route::get('/', 'Controller')->name('app');

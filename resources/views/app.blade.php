@@ -123,7 +123,7 @@
                     <p>@lang('app.unsplash.caption')</p>
                 </div>
                 <div class="col-md-6 col-sm-10 my-auto">
-                    <img src="{{ asset('img/featured-image.png') }}" class="img-fluid w-100 shadow p-3 rounded border" alt="Unsplash Integration">
+                    <img src="{{ asset('img/unsplash.png') }}" class="img-fluid w-100 shadow rounded border" alt="Unsplash Integration">
                 </div>
             </div>
         </div>
@@ -135,7 +135,7 @@
                     <p>@lang('app.social.caption')</p>
                 </div>
                 <div class="col-md-6 col-sm-10 my-auto order-md-first">
-                    <img src="{{ asset('img/settings.png') }}" class="img-fluid w-100 shadow p-3 rounded border" alt="Social Data">
+                    <img src="{{ asset('img/seo.png') }}" class="img-fluid w-100 shadow p-3 rounded border" alt="Social Data">
                 </div>
             </div>
         </div>

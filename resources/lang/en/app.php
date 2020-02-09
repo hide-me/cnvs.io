@@ -19,7 +19,7 @@ return [
     ],
     'stats'    => [
         'subtext' => 'Publication statistics',
-        'caption' => 'Measure the impact of your posts with realtime data. Not everyone needs the headache of setting up Google Analytics, so we built-in just the best parts, and added a couple new ones.',
+        'caption' => 'Measure the impact of your posts with realtime data. Not everyone needs the headache of setting up Google Analytics, so we built in just the best parts, and added a couple new ones.',
     ],
     'editing'  => [
         'subtext' => 'A new editing experience',
@@ -27,11 +27,11 @@ return [
     ],
     'unsplash' => [
         'subtext' => 'Unsplash integration',
-        'caption' => 'Enjoy high-quality photography in your posts from the world\'s most generous community of photographers. Embed images, videos, links, or media to your content, the sky is the limit here.',
+        'caption' => 'Canvas integrates the Unsplash API directly inside of the editor, allowing beautiful imagery to be easily inserted inside of impactful writing.',
     ],
     'social'   => [
-        'subtext' => 'Custom social data',
-        'caption' => 'Ensure your content is optimized with fully customizable meta data for Facebook and Twitter sharing cards, as well as tags and topics to group your posts by.',
+        'subtext' => 'Search engine optimization',
+        'caption' => 'Publish once, distribute everywhere. Attach meta tags, descriptions, and canonical links to allow your content up to be discovered in as many ways as possible.',
     ],
     'features' => [
         'subtext'            => 'Features',

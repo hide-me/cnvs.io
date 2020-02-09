@@ -19,7 +19,7 @@ return [
     ],
     'stats'    => [
         'subtext' => 'Statistiques de publication',
-        'caption' => 'Mesurez l\'impact de vos publications avec des données en temps réel. Tout le monde n\'a pas besoin du mal de tête de la configuration de Google Analytics, nous avons donc intégré uniquement les meilleures parties et ajouté quelques nouvelles.',
+        'caption' => 'Mesurez l\'impact de vos publications avec des données en temps réel. Tout le monde n\'a pas besoin du casse-tête de la configuration de Google Analytics, nous avons donc intégré uniquement les meilleures parties et ajouté quelques nouvelles.',
     ],
     'editing'  => [
         'subtext' => 'A new editing experience',
@@ -27,11 +27,11 @@ return [
     ],
     'unsplash' => [
         'subtext' => 'Intégration sans éclat',
-        'caption' => 'Profitez de la photographie de haute qualité dans vos publications de la communauté de photographes la plus généreuse du monde. Intégrez des images, des vidéos, des liens ou des médias à votre contenu, le ciel est la limite ici.',
+        'caption' => 'Canvas intègre l\'API Unsplash directement à l\'intérieur de l\'éditeur, ce qui permet d\'insérer facilement de belles images dans une écriture percutante.',
     ],
     'social'   => [
-        'subtext' => 'Données sociales personnalisées',
-        'caption' => 'Assurez-vous que votre contenu est optimisé avec des métadonnées entièrement personnalisables pour les cartes de partage Facebook et Twitter, ainsi que des balises et des sujets pour regrouper vos publications.',
+        'subtext' => 'Optimisation du moteur de recherche',
+        'caption' => 'Publiez une fois, distribuez partout. Attachez des balises META, des descriptions et des liens canoniques pour permettre à votre contenu d\'être découvert de autant de façons que possible.',
     ],
     'features' => [
         'subtext'            => 'traits',
