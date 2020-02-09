@@ -146,7 +146,7 @@
 
             <div class="row justify-content-end">
                 <div class="col-md-6">
-                    <ul class="mb-0">
+                    <ul class="mb-0 list-unstyled">
                         <li class="pb-3">@lang('app.features.autosaving-editor')</li>
                         <li class="pb-3">@lang('app.features.email-digest')</li>
                         <li class="pb-3">@lang('app.features.translations')</li>
