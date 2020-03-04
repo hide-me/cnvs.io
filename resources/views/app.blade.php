@@ -72,7 +72,7 @@
 <main class="py-4">
     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12">
         <div class="mb-5 text-md-left">
-            <p class="text-muted text-uppercase mb-0 font-weight-bolder">@lang('app.header.subtext')</p>
+            <p class="small text-muted text-uppercase mb-0 font-weight-bold">@lang('app.header.subtext')</p>
             <h1 class="display-4 font-serif">@lang('app.header.title')</h1>
         </div>
 
@@ -92,7 +92,7 @@
         <div class="text-center">
             <div class="row justify-content-around py-5">
                 <div class="col-md-4 text-left my-auto">
-                    <p class="text-muted text-uppercase font-weight-bold">@lang('app.stats.subtext')</p>
+                    <p class="small text-muted text-uppercase font-weight-bold">@lang('app.stats.subtext')</p>
                     <p>@lang('app.stats.caption')</p>
                 </div>
                 <div class="col-md-6 col-sm-10 my-auto">
@@ -104,7 +104,7 @@
         <div class="text-center">
             <div class="row justify-content-around py-5">
                 <div class="col-md-4 text-left my-auto">
-                    <p class="text-muted text-uppercase font-weight-bold">@lang('app.editing.subtext')</p>
+                    <p class="small text-muted text-uppercase font-weight-bold">@lang('app.editing.subtext')</p>
                     <p>@lang('app.editing.caption')</p>
                 </div>
                 <div class="col-md-6 col-sm-10 my-auto order-md-first">
@@ -116,7 +116,7 @@
         <div class="text-center">
             <div class="row justify-content-around py-5">
                 <div class="col-md-4 text-left my-auto">
-                    <p class="text-muted text-uppercase font-weight-bold">@lang('app.unsplash.subtext')</p>
+                    <p class="small text-muted text-uppercase font-weight-bold">@lang('app.unsplash.subtext')</p>
                     <p>@lang('app.unsplash.caption')</p>
                 </div>
                 <div class="col-md-6 col-sm-10 my-auto">
@@ -128,7 +128,7 @@
         <div class="text-center">
             <div class="row justify-content-around py-5">
                 <div class="col-md-4 text-left my-auto">
-                    <p class="text-muted text-uppercase font-weight-bold">@lang('app.social.subtext')</p>
+                    <p class="small text-muted text-uppercase font-weight-bold">@lang('app.social.subtext')</p>
                     <p>@lang('app.social.caption')</p>
                 </div>
                 <div class="col-md-6 col-sm-10 my-auto order-md-first">
@@ -138,8 +138,8 @@
         </div>
 
         <div class="pt-5">
-            <p class="text-muted text-center text-uppercase font-weight-bold">@lang('app.features.subtext')</p>
-            <h2 class="font-weight-bold text-center font-serif pb-5">@lang('app.features.title')</h2>
+            <p class="small text-muted text-center text-uppercase font-weight-bold">@lang('app.features.subtext')</p>
+            <h2 class=" text-center font-serif pb-5">@lang('app.features.title')</h2>
 
             <div class="row justify-content-end">
                 <div class="col-md-6">
