@@ -30,38 +30,45 @@
     <div class="px-0">
         <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 px-0">
             <nav class="navbar navbar-light justify-content-between flex-nowrap flex-row">
-                <a class="navbar-brand py-0 font-serif" href="/" aria-label="{{ sprintf('%s %s', config('app.name'), 'homepage' ) }}">
-                    <svg data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 110.981" width="30">
-                        <path class="fill-body-color" d="M4.808 100.34c4.66-3.767 11.309-2.044 16.167.307 2.856 1.382 5.563 3.046 8.399 4.468a61.637 61.637 0 008.568 3.538c11.478 3.727 23.997 3.29 34.205-3.595a51.44 51.44 0 0013.321-13.613c1.1-1.592-1.498-3.094-2.59-1.515-6.486 9.38-15.876 17.099-27.622 18.026a43.71 43.71 0 01-18.16-2.759c-5.845-2.102-10.93-5.643-16.62-8.052-5.764-2.44-12.641-3.087-17.79 1.073-1.501 1.213.633 3.324 2.122 2.121zM21.8 66.342L5.422 74.049a.768.768 0 00-.417.503A44.368 44.368 0 01.025 93.85a.768.768 0 00.933.936 42.063 42.063 0 0119.623-4.983.768.768 0 00.511-.43l7.384-16.371a.768.768 0 00-.157-.86l-5.649-5.648a.768.768 0 00-.87-.151z"/>
-                        <path class="fill-body-color" d="M96 13.467a13.424 13.424 0 01-4.76 10.271L40.434 67.334l-5.855 4.97a5.744 5.744 0 01-7.77-.324l-4.282-4.28a5.741 5.741 0 01-.282-7.813l6.282-7.24L72.363 4.643A13.466 13.466 0 0196 13.467z"/>
-                        <path class="primary" d="M41.388 66.38l-6.808 5.923a5.744 5.744 0 01-7.77-.323l-4.283-4.28a5.741 5.741 0 01-.282-7.813l6.282-7.24z"/>
-                    </svg>
-                </a>
-
-                <a href="{{ sprintf('https://github.com/cnvs/canvas/releases/tag/%s', $latest_release) }}" class="ml-auto" target="_blank" rel="noopener" aria-label="Latest release">
-                    {{ $latest_release }}
-                </a>
-
-                <a href="https://github.com/cnvs/canvas" class="mx-3" target="_blank" rel="noopener" aria-label="View on GitHub">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" viewBox="0 0 24 24" class="primary"><path d="M0 12.305c0 5.435 3.438 10.047 8.207 11.674.6.113.82-.267.82-.593 0-.292-.011-1.066-.017-2.093-3.339.744-4.043-1.65-4.043-1.65-.545-1.42-1.332-1.798-1.332-1.798-1.09-.764.083-.749.083-.749 1.203.087 1.837 1.268 1.837 1.268 1.071 1.88 2.809 1.338 3.493 1.022.109-.795.42-1.337.762-1.645-2.665-.31-5.466-1.365-5.466-6.08 0-1.343.467-2.442 1.235-3.302-.123-.311-.535-1.562.117-3.256 0 0 1.008-.33 3.3 1.261a11.241 11.241 0 013.005-.414c1.019.005 2.046.141 3.004.414 2.29-1.592 3.297-1.261 3.297-1.261.654 1.694.242 2.945.119 3.256.77.86 1.234 1.959 1.234 3.302 0 4.726-2.806 5.767-5.48 6.071.431.38.815 1.13.815 2.279 0 1.645-.015 2.971-.015 3.375 0 .329.216.712.825.591 4.765-1.63 8.2-6.239 8.2-11.672C24 5.508 18.627 0 12 0S0 5.508 0 12.305z" fill-rule="evenodd"/></svg>
-                </a>
-                <div class="dropdown">
-                    <a class="dropdown-toggle text-decoration-none" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" viewBox="0 0 24 24" class="primary"><path d="M10.41 10l1.3 1.3a1 1 0 0 1-1.42 1.4L9 11.42l-3.3 3.3a1 1 0 1 1-1.4-1.42L7.58 10l-1.3-1.3a1 1 0 0 1 1.42-1.4L9 8.58l.54-.54A5 5 0 0 0 10.98 5H3a1 1 0 1 1 0-2h5V2a1 1 0 1 1 2 0v1h5a1 1 0 0 1 0 2h-2.02a7 7 0 0 1-2.03 4.46l-.54.54z"/><path d="M13.33 18l-1.4 3.38a1 1 0 0 1-1.85-.76l5-12a1 1 0 0 1 1.84 0l5 12a1 1 0 0 1-1.84.76L18.67 18h-5.34zm.84-2h3.66L16 11.6 14.17 16z"/></svg>
+                <div class="d-flex justify-content-start">
+                    <a class="navbar-brand py-0 font-serif" href="/" aria-label="{{ sprintf('%s %s', config('app.name'), 'homepage' ) }}">
+                        <svg data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 110.981" width="30">
+                            <path class="fill-body-color" d="M4.808 100.34c4.66-3.767 11.309-2.044 16.167.307 2.856 1.382 5.563 3.046 8.399 4.468a61.637 61.637 0 008.568 3.538c11.478 3.727 23.997 3.29 34.205-3.595a51.44 51.44 0 0013.321-13.613c1.1-1.592-1.498-3.094-2.59-1.515-6.486 9.38-15.876 17.099-27.622 18.026a43.71 43.71 0 01-18.16-2.759c-5.845-2.102-10.93-5.643-16.62-8.052-5.764-2.44-12.641-3.087-17.79 1.073-1.501 1.213.633 3.324 2.122 2.121zM21.8 66.342L5.422 74.049a.768.768 0 00-.417.503A44.368 44.368 0 01.025 93.85a.768.768 0 00.933.936 42.063 42.063 0 0119.623-4.983.768.768 0 00.511-.43l7.384-16.371a.768.768 0 00-.157-.86l-5.649-5.648a.768.768 0 00-.87-.151z"/>
+                            <path class="fill-body-color" d="M96 13.467a13.424 13.424 0 01-4.76 10.271L40.434 67.334l-5.855 4.97a5.744 5.744 0 01-7.77-.324l-4.282-4.28a5.741 5.741 0 01-.282-7.813l6.282-7.24L72.363 4.643A13.466 13.466 0 0196 13.467z"/>
+                            <path class="primary" d="M41.388 66.38l-6.808 5.923a5.744 5.744 0 01-7.77-.323l-4.283-4.28a5.741 5.741 0 01-.282-7.813l6.282-7.24z"/>
+                        </svg>
                     </a>
+                </div>
 
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'ar']) }}">عربى</a>
-                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'cn']) }}">中文</a>
-                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'de']) }}">Deutsch</a>
-                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'en']) }}">English</a>
-                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'es']) }}">Español</a>
-                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'fr']) }}">Français</a>
-                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'hi']) }}">हिन्दी</a>
-                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'pt-BR']) }}">Português</a>
-                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'ru']) }}">Pусский</a>
-                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'tr']) }}">Türk</a>
-                        <a class="dropdown-item" href="{{ route('app', ['locale' => 'nl']) }}">Nederlands</a>
+                <div class="d-flex justify-content-end">
+                    @isset($release)
+                        <a href="{{ sprintf('https://github.com/cnvs/canvas/releases/tag/%s', $release) }}" class="ml-auto" target="_blank" rel="noopener" aria-label="Latest release">
+                            {{ $release }}
+                        </a>
+                    @endisset
+
+                    <a href="https://github.com/cnvs/canvas" class="mx-3" target="_blank" rel="noopener" aria-label="View on GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" viewBox="0 0 24 24" class="primary"><path d="M0 12.305c0 5.435 3.438 10.047 8.207 11.674.6.113.82-.267.82-.593 0-.292-.011-1.066-.017-2.093-3.339.744-4.043-1.65-4.043-1.65-.545-1.42-1.332-1.798-1.332-1.798-1.09-.764.083-.749.083-.749 1.203.087 1.837 1.268 1.837 1.268 1.071 1.88 2.809 1.338 3.493 1.022.109-.795.42-1.337.762-1.645-2.665-.31-5.466-1.365-5.466-6.08 0-1.343.467-2.442 1.235-3.302-.123-.311-.535-1.562.117-3.256 0 0 1.008-.33 3.3 1.261a11.241 11.241 0 013.005-.414c1.019.005 2.046.141 3.004.414 2.29-1.592 3.297-1.261 3.297-1.261.654 1.694.242 2.945.119 3.256.77.86 1.234 1.959 1.234 3.302 0 4.726-2.806 5.767-5.48 6.071.431.38.815 1.13.815 2.279 0 1.645-.015 2.971-.015 3.375 0 .329.216.712.825.591 4.765-1.63 8.2-6.239 8.2-11.672C24 5.508 18.627 0 12 0S0 5.508 0 12.305z" fill-rule="evenodd"/></svg>
+                    </a>
+                    <div class="dropdown">
+                        <a class="dropdown-toggle text-decoration-none" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" viewBox="0 0 24 24" class="primary"><path d="M10.41 10l1.3 1.3a1 1 0 0 1-1.42 1.4L9 11.42l-3.3 3.3a1 1 0 1 1-1.4-1.42L7.58 10l-1.3-1.3a1 1 0 0 1 1.42-1.4L9 8.58l.54-.54A5 5 0 0 0 10.98 5H3a1 1 0 1 1 0-2h5V2a1 1 0 1 1 2 0v1h5a1 1 0 0 1 0 2h-2.02a7 7 0 0 1-2.03 4.46l-.54.54z"/><path d="M13.33 18l-1.4 3.38a1 1 0 0 1-1.85-.76l5-12a1 1 0 0 1 1.84 0l5 12a1 1 0 0 1-1.84.76L18.67 18h-5.34zm.84-2h3.66L16 11.6 14.17 16z"/></svg>
+                        </a>
+
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="{{ route('app', ['locale' => 'ar']) }}">عربى</a>
+                            <a class="dropdown-item" href="{{ route('app', ['locale' => 'cn']) }}">中文</a>
+                            <a class="dropdown-item" href="{{ route('app', ['locale' => 'ca']) }}">Català</a>
+                            <a class="dropdown-item" href="{{ route('app', ['locale' => 'de']) }}">Deutsch</a>
+                            <a class="dropdown-item" href="{{ route('app', ['locale' => 'en']) }}">English</a>
+                            <a class="dropdown-item" href="{{ route('app', ['locale' => 'es']) }}">Español</a>
+                            <a class="dropdown-item" href="{{ route('app', ['locale' => 'fr']) }}">Français</a>
+                            <a class="dropdown-item" href="{{ route('app', ['locale' => 'hi']) }}">हिन्दी</a>
+                            <a class="dropdown-item" href="{{ route('app', ['locale' => 'pt-BR']) }}">Português</a>
+                            <a class="dropdown-item" href="{{ route('app', ['locale' => 'ru']) }}">Pусский</a>
+                            <a class="dropdown-item" href="{{ route('app', ['locale' => 'tr']) }}">Türk</a>
+                            <a class="dropdown-item" href="{{ route('app', ['locale' => 'nl']) }}">Nederlands</a>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -144,16 +151,16 @@
             <div class="row justify-content-end">
                 <div class="col-md-6">
                     <ul class="mb-0">
+                        <li class="pb-3">@lang('app.features.studio')</li>
                         <li class="pb-3">@lang('app.features.autosaving-editor')</li>
                         <li class="pb-3">@lang('app.features.email-digest')</li>
                         <li class="pb-3">@lang('app.features.translations')</li>
-                        <li class="pb-3">@lang('app.features.secure-routing')</li>
                     </ul>
                 </div>
                 <div class="col-md-6">
                     <ul class="mb-0">
+                        <li class="pb-3">@lang('app.features.secure-routing')</li>
                         <li class="pb-3">@lang('app.features.dark-mode')</li>
-                        <li class="pb-3">@lang('app.features.artisan-command')</li>
                         <li class="pb-3">@lang('app.features.tags-topics')</li>
                         <li class="pb-3">@lang('app.features.content-scheduling')</li>
                     </ul>
