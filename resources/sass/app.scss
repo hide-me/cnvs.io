@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap|Merriweather&display=swap');
+
 $white: #fff;
 $gray-100: #f7fafc;
 $gray-200: #edf2f7;
@@ -10,13 +12,29 @@ $gray-800: #2d3748;
 $gray-900: #1a202c;
 $black: #000;
 
-$green: #03a87c;
-$red: #cc5454;
+$red: rgba(204,84,84, 1);
+$red-500: rgba(204,84,84, .2);
 
-$font-family-sans-serif: 'Karla', sans-serif;
-$font-family-serif: 'Merriweather', serif;
+$green: rgba(3, 168, 124, 1);
+$green-500: rgba(3, 168, 124, .6);
+
+$blue: rgb(84, 175, 204);
+$blue-500: rgba(158, 213, 237, 0.6);
+
+$font-family-sans-serif: "Karla", sans-serif;
+$font-family-serif: "Merriweather", serif;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+$body-color: $gray-900;
 
 $box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+$box-shadow-sm: 0 1px 2px 0 rgba($black, 0.05);
+$box-shadow: 0 1px 3px 0 rgba($black, 0.1), 0 1px 2px 0 rgba($black, 0.06);;
+$box-shadow-lg: 0 10px 15px -3px rgba($black, 0.1), 0 4px 6px -2px rgba($black, 0.05);
 
 $border-radius: .5rem;
 $border-radius-sm: .4rem;
@@ -39,6 +57,10 @@ $display4-size: 45px;
 
 .secondary {
     fill: $gray-700;
+}
+
+.fill-body-color {
+    fill: $body-color;
 }
 
 .text-lg {

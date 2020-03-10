@@ -3,12 +3,12 @@
 namespace App\Http\Controllers;
 
 use Exception;
-use GuzzleHttp\Client;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller as BaseController;
+use Illuminate\Support\Facades\Http;
 
 class Controller extends BaseController
 {
@@ -22,23 +22,14 @@ class Controller extends BaseController
      */
     public function __invoke(Request $request)
     {
-        $latest_release = null;
-
         try {
             if (app()->environment('production')) {
-                $client = new Client();
-                $endpoint = 'https://api.github.com/repos/cnvs/canvas/releases/latest';
-
-                $request = $client->get($endpoint);
-
-                $response = json_decode($request->getBody()->getContents());
-
-                $latest_release = $response->tag_name;
+                $tagName = Http::get('https://api.github.com/repos/cnvs/canvas/releases/latest')['tag_name'];
             }
         } catch (Exception $e) {
             logger()->error($e->getMessage());
         }
 
-        return view('app', compact('latest_release'));
+        return view('app')->with(['release' => $tagName ?? null]);
     }
 }
