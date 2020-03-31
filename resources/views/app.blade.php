@@ -8,12 +8,12 @@
     <meta property="og:url" content="{{ config('app.url') }}">
     <meta property="og:type" content="website">
     <meta property="og:description" content="@lang('app.sometimes_creating_a_blog_short')">
-    <meta property="og:title" content="{{ sprintf('%s ― %s', config('app.name'), trans('app.meta.title') ) }}">
+    <meta property="og:title" content="{{ sprintf('%s ― %s', config('app.name'), trans('app.a_laravel_publishing_platform') ) }}">
     <meta property="og:image" content="{{ asset('img/opengraph.png') }}">
     <meta property="og:site_name" content="{{ config('app.name') }}">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ sprintf('%s — %s', config('app.name'), trans('app.meta.title') ) }}">
+    <meta name="twitter:title" content="{{ sprintf('%s — %s', config('app.name'), trans('app.a_laravel_publishing_platform') ) }}">
     <meta name="twitter:image" content="{{ asset('img/opengraph.png') }}">
     <meta name="twitter:site" content="@cnvs_io">
     <meta name="twitter:description" content="@lang('app.sometimes_creating_a_blog_short')">
