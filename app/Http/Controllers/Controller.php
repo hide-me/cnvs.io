@@ -9,6 +9,8 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Str;
+use Locale;
 
 class Controller extends BaseController
 {
@@ -30,6 +32,26 @@ class Controller extends BaseController
             logger()->error($e->getMessage());
         }
 
-        return view('app')->with(['release' => $tagName ?? null]);
+        return view('app')->with([
+            'languageCodes' => $this->getAvailableLanguageCodes(),
+            'release' => $tagName ?? null,
+        ]);
+    }
+
+    /**
+     * Return the available locales.
+     *
+     * @return array
+     */
+    private function getAvailableLanguageCodes()
+    {
+        $locales = preg_grep('/^([^.])/', scandir(dirname(__DIR__, 3).'/resources/lang'));
+        $translations = collect();
+
+        foreach ($locales as $locale) {
+            $translations->put($locale, Str::ucfirst(Locale::getDisplayName($locale, $locale)));
+        }
+
+        return $translations->toArray();
     }
 }
