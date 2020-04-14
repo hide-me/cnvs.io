@@ -6,10 +6,21 @@ This repository contains the source code for the official Canvas website at [cnv
 
 If you want to get the site up and running locally, use the following steps:
 
+Clone the repository:
+
 ```bash
 git clone https://github.com/cnvs/cnvs.io
-cd cnvs.io
+```
+
+Install the dependencies:
+
+```bash
 composer install
+```
+
+Finish the configuration:
+
+```bash
 cp .env.example .env
 php artisan key:generate
 ```
