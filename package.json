@@ -14,11 +14,11 @@
         "beerslider": "^1.0.3",
         "bootstrap": "^4.4.0",
         "cross-env": "^7.0",
-        "jquery": "^3.4",
+        "jquery": "^3.5",
         "laravel-mix": "^5.0.1",
         "popper.js": "^1.16",
         "resolve-url-loader": "^3.1.0",
-        "sass": "^1.24",
+        "sass": "^1.26",
         "sass-loader": "^8.0.0",
         "vue-template-compiler": "^2.6.11"
     }
